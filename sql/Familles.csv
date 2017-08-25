@@ -1,0 +1,38 @@
+ID_famille;Nom de famille;R�gles
+ACC;Accueil, logistique et patrimoine;
+ADM;Administration systemes et reseaux ;
+ANISCI;Animation de communautes scientifiques;4X2
+ASSUTI;Assistance utilisateurs ;4X2
+BIB;Bibliometrie ;
+BURINF;Bureautique et infrastructure;
+CHAUF;Chauffage;
+COM;Communication ;
+DEVRH;Developpement RH ;
+EDNUM;Edition numerique;
+ELECT;Electricite;
+GESA;Gestion administrative;
+GESACH;Gestion des archives;
+GESFDD;Gestion des demandes FDD;
+GESR;Gestion de ressources documentaires;
+HAL;Moderation HAL;
+INGDI;Ingenierie de developpement informatique;
+INGDOC;Ingenierie documentaire;
+INGPED;Ingenierie pedagogique;
+INTWEB;Integration web;
+JUR;Juridique;
+MAN;Management;3X3
+NEG;Negociations;
+NUM;Numerisation;
+PILDI;Pilotage en developpement informatique;
+PRODI;Production et deploiement informatique;
+PROSP;Prospective;3X3
+SECRED;Secretariat de redaction;
+SONTEL;Son et telephonie;
+STAT;'Statistiques d''usage en IST';
+TERM;Terminologie;
+TDM;TDM;
+TRAD;Traduction;
+VAL;Valorisation des donnees de la recherche;
+VEIDOC;Veille documentaire;
+VEIL;Veille;
+WEB;Web de donnees;

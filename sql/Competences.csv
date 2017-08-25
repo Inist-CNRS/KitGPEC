@@ -1,0 +1,321 @@
+Code;Type;Domaine;Compétences;Referens
+c-s-comm-01;savoir;Communication;Connaissance de la mise en forme de documents iconographiques, typographiques, infographie;105
+c-s-comm-02;savoir;Communication;Connaissance des différentes formes de communication (écrite, orale, web...);
+c-s-comm-03;savoir;Communication;Connaissance des techniques de reprographie;
+c-s-comm-04;savoir;Communication;Connaissance du tissu économique et politique local;
+c-se-gene-01;savoir être;Général;Autonomie;112
+c-se-gene-02;savoir être;Général;'Capacité d''adaptation';115
+c-se-gene-03;savoir être;Général;'Capacité d''écoute';116
+c-se-gene-04;savoir être;Général;Créativité;122
+c-se-gene-05;savoir être;Général;Curiosité intellectuelle;123
+c-se-gene-06;savoir être;Général;Disponibilité;
+c-se-gene-07;savoir être;Général;Etre force de proposition;
+c-se-gene-08;savoir être;Général;Maîtrise de soi;126
+c-se-gene-09;savoir être;Général;Polyvalence;
+c-se-gene-10;savoir être;Général;Rigueur;128
+c-se-gene-11;savoir être;Général;Sens critique;
+c-se-gene-12;savoir être;Général;'Sens de l''esthétique';
+c-se-gene-13;savoir être;Général;'Sens de l''initiative';130
+c-se-gene-14;savoir être;Général;'Sens de l''innovation';
+c-se-gene-15;savoir être;Général;Sens de la confidentialité;132
+c-se-gene-16;savoir être;Général;Sens de la diplomatie;124
+c-se-gene-17;savoir être;Général;Sens relationnel;133
+c-se-gene-18;savoir être;Général;Travailler en équipe;186
+c-se-gene-19;savoir être;Général;Réactivité (imprévus, urgences…);127
+c-sf-comm-01;savoir faire;Communication;Aisance orale;175
+c-sf-comm-02;savoir faire;Communication;'Capacité à promouvoir l''image et l''identité de l''institut';
+c-sf-comm-03;savoir faire;Communication;Concevoir et mettre en place une communication stratégique;
+c-sf-comm-04;savoir faire;Communication;Créer ou modifier des éléments visuels numérisés;108
+c-sf-comm-05;savoir faire;Communication;Elaborer un plan de communication;
+c-sf-comm-06;savoir faire;Communication;Elaborer une stratégie globale de communication;
+c-sf-comm-07;savoir faire;Communication;Mettre en œuvre des techniques de communication (supports, cibles, messages …);93
+c-sf-comm-08;savoir faire;Communication;Mettre en œuvre différents modes de diffusion et techniques journalistiques multimédia ;
+c-sf-comm-09;savoir faire;Communication;Mettre en pratique et respecter la charte graphique et éditoriale ;
+c-sf-comm-10;savoir faire;Communication;Pratiquer les nouveaux médias de communication (réseaux sociaux, ...);
+c-sf-comm-11;savoir faire;Communication;'Réaliser des maquettes à l''aide de logiciels de mise en page';
+c-sf-form-01;savoir faire;Formation;Adapter des supports pédagogiques;468
+c-sf-form-02;savoir faire;Formation;Animer une formation;468
+c-sf-form-03;savoir faire;Formation;Concevoir des supports pédagogiques;
+c-sf-form-04;savoir faire;Formation;Réaliser des évaluations et des bilans de formation;171
+c-sf-form-05;savoir faire;Formation;Concevoir et animer des modules de formation à distance;
+c-sf-gene-01;savoir faire;Général;Aisance rédactionnelle;159
+c-sf-gene-02;savoir faire;Général;Alerter;
+c-sf-gene-03;savoir faire;Général;Analyser et synthétiser un besoin, une problématique;
+c-sf-gene-04;savoir faire;Général;Appliquer des normes, procédures, règles et bonnes pratiques;137
+c-sf-gene-05;savoir faire;Général;Assurer un suivi qualité;
+c-sf-gene-06;savoir faire;Général;Assurer une assistance technique;
+c-sf-gene-07;savoir faire;Général;Assurer une veille sur son domaine;143
+c-sf-gene-08;savoir faire;Général;Capacité à analyser une information;
+c-sf-gene-09;savoir faire;Général;'Capacité à diffuser de l''information';185
+c-sf-gene-10;savoir faire;Général;Capacité à la neutralité;
+c-sf-gene-11;savoir faire;Général;Capacité à mener des expérimentations;
+c-sf-gene-12;savoir faire;Général;Capacité à prendre des décisions;
+c-sf-gene-13;savoir faire;Général;Capacité à prioriser;158
+c-sf-gene-14;savoir faire;Général;Capacité à réaliser des statistiques;320
+c-sf-gene-15;savoir faire;Général;Capacité à trouver une information;183
+c-sf-gene-16;savoir faire;Général;'Capacité d''analyse';120
+c-sf-gene-17;savoir faire;Général;'Capacité d''organisation';
+c-sf-gene-18;savoir faire;Général;Capacité de prospective (anticipation);121
+c-sf-gene-19;savoir faire;Général;Capacité de synthèse;172
+c-sf-gene-20;savoir faire;Général;Capacité pédagogique;145
+c-sf-gene-21;savoir faire;Général;Conseiller dans son domaine;
+c-sf-gene-22;savoir faire;Général;Élaborer un cahier des charges;152
+c-sf-gene-23;savoir faire;Général;Elaborer une documentation (guide,…);173
+c-sf-gene-24;savoir faire;Général;'Établir des bilans d''actions, des tableaux de bord, des indicateurs de gestion';288
+c-sf-gene-25;savoir faire;Général;'Etablir un plan d''actions';
+c-sf-gene-26;savoir faire;Général;'Gérer les relations avec l''écosystème (interne et externe), partenariats, coopérations';163
+c-sf-gene-27;savoir faire;Général;Gérer les situations de crise;164
+c-sf-gene-28;savoir faire;Général;Interpréter un cahier des charges/une demande;
+c-sf-gene-29;savoir faire;Général;Mettre en œuvre des gestes de secourisme;856
+c-sf-gene-30;savoir faire;Général;'Mettre en oeuvre des méthodes d''Ux (Expérience utilisateur)';
+c-sf-gene-31;savoir faire;Général;Planifier et respecter des délais;179
+c-sf-gene-32;savoir faire;Général;'Prendre en compte les attentes d''un commanditaire';150
+c-sf-gene-33;savoir faire;Général;Réaliser des enquêtes, des questionnaires de satisfaction;
+c-sf-gene-34;savoir faire;Général;Rédiger et structurer des procédures, des méthodes et des processus;149
+c-sf-gene-35;savoir faire;Général;Rédiger un compte-rendu;
+c-sf-gene-36;savoir faire;Général;'Savoir représenter l''établissement';429
+c-sf-gene-37;savoir faire;Général;Sélectionner des prestataires;
+c-sf-gene-38;savoir faire;Général;Tester des outils liés à son activité;
+c-sf-gene-39;savoir faire;Général;Transmettre ses compétences;184
+c-sf-gene-40;savoir faire;Général;Valoriser/présenter des travaux/résultats;
+c-sf-gene-41;savoir faire;Général;Savoir rendre compte;180
+c-sf-gene-42;savoir faire;Général;Etablir un plan marketing;
+c-sf-gesa-01;savoir faire;Gestion administrative;Elaborer et suivre un budget;329
+c-sf-gesa-02;savoir faire;Gestion administrative;Faire appliquer les dispositions réglementaires;193
+c-sf-gesa-03;savoir faire;Gestion administrative;Rédiger et structurer des documents administratifs;
+c-s-fin-01;savoir;Finances, comptabilité;Connaissance de la règlementation financière;
+c-s-fin-02;savoir;Finances, comptabilité;Connaissance des règles de la comptabilité analytique;
+c-s-fin-03;savoir;Finances, comptabilité;Connaissance des règles et techniques de la comptabilité publique;
+c-sf-info-01;savoir faire;Informatique;Accompagner les changements techniques;
+c-sf-info-02;savoir faire;Informatique;'Administrer le système d''exploitation Mac OS';
+c-sf-info-03;savoir faire;Informatique;'Administrer le système d''exploitation Unix/Linux';
+c-sf-info-04;savoir faire;Informatique;'Administrer le système d''exploitation Windows';
+c-sf-info-05;savoir faire;Informatique;'Administrer un annuaire d''entreprise (ex: Active Directory ou LDAP)';
+c-sf-info-06;savoir faire;Informatique;Administrer un serveur de messagerie Exchange;
+c-sf-info-07;savoir faire;Informatique;Administrer un serveur de messagerie Linux;
+c-sf-info-08;savoir faire;Informatique;Administrer un SGBD;
+c-sf-info-09;savoir faire;Informatique;Administrer un système de haute disponibilité / répartition de charge;
+c-sf-info-10;savoir faire;Informatique;Administrer un système de sauvegarde (paramétrage, restauration, crash test);894
+c-sf-info-11;savoir faire;Informatique;'Analyser et modéliser le système d''information';
+c-sf-info-12;savoir faire;Informatique;Déployer une application (mise en prod, exploitation ...);868
+c-sf-info-13;savoir faire;Informatique;Développer des applications et composants applicatifs;
+c-sf-info-14;savoir faire;Informatique;Diagnostiquer et résoudre des problèmes informatiques;910
+c-sf-info-15;savoir faire;Informatique;Elaborer des scénarios de test et les implémenter (ex: scénario vagrant);
+c-sf-info-16;savoir faire;Informatique;'Elaborer la politique de sécurité du système d''information (PSSI)';
+c-sf-info-17;savoir faire;Informatique;Elaborer le schéma directeur du SI;
+c-sf-info-18;savoir faire;Informatique;Elaborer une modélisation conceptuelle des données;
+c-sf-info-19;savoir faire;Informatique;Escalader des problèmes techniques (ex: vers le niveau N+1);
+c-sf-info-20;savoir faire;Informatique;Intégrer des composants logiciels;
+c-sf-info-21;savoir faire;Informatique;Lire, examiner et interpéter des journaux systèmes ou applicatifs;
+c-sf-info-22;savoir faire;Informatique;Maintenir des applications et composants applicatifs;944
+c-sf-info-23;savoir faire;Informatique;Manipuler la ligne de commande et écrire des scripts Shell;
+c-sf-info-24;savoir faire;Informatique;Mettre en œuvre des méthodes de conception et développement;
+c-sf-info-25;savoir faire;Informatique;Mettre en œuvre des règles de sécurité informatique;
+c-sf-info-26;savoir faire;Informatique;Mettre en oeuvre un moteur de recherche (ex: ElasticSearch, Solr ...);
+c-sf-info-27;savoir faire;Informatique;Modéliser et concevoir des architectures techniques;
+c-sf-info-28;savoir faire;Informatique;Packager un composant et orchestrer une application (docker, puppet);
+c-sf-info-29;savoir faire;Informatique;'Proposer des scenarii d''évolution du SI';
+c-sf-info-30;savoir faire;Informatique;Réaliser un recettage;
+c-sf-info-31;savoir faire;Informatique;Recenser et faire appliquer les normes, procédures, règles et bonnes pratiques informatiques;
+c-sf-info-32;savoir faire;Informatique;Rédiger des spécifications;
+c-sf-info-33;savoir faire;Informatique;Suivi des contrats de maintenance informatique;
+c-sf-info-34;savoir faire;Informatique;Utiliser le langage de programmation Java;
+c-sf-info-35;savoir faire;Informatique;Utiliser le langage de programmation Javascript Frontend;
+c-sf-info-36;savoir faire;Informatique;Utiliser le langage de programmation NodeJS;
+c-sf-info-37;savoir faire;Informatique;Utiliser le langage de programmation Perl;
+c-sf-info-38;savoir faire;Informatique;Utiliser le langage de programmation PHP;
+c-sf-info-39;savoir faire;Informatique;Utiliser le langage de programmation Ruby;
+c-sf-info-40;savoir faire;Informatique;Utiliser les outils et/ou des techniques de gestion de parc informatique;
+c-sf-info-41;savoir faire;Informatique;Utiliser un ou plusieurs langages de traitement et de transformation de données;
+c-sf-info-42;savoir faire;Informatique;Utiliser un SGBD NoSQL (ex: MongoDb, Redis...);
+c-sf-info-43;savoir faire;Informatique;Utiliser un SGBD relationnel (ex: ORACLE, Posgresql...);
+c-sf-info-44;savoir faire;Informatique;Utiliser un système de gestion de version, de code (ex: GIT(hub/bucket), SVN ...);
+c-sf-info-45;savoir faire;Informatique;Assurer la promotion et la valorisation du développement;
+c-sf-ist-01;savoir faire;IST;Administrer le portail Bibcnrs;
+c-sf-ist-02;savoir faire;IST;'Appliquer les règles, normes et usages en cours dans le domaine de l''édition scientifique';
+c-sf-ist-03;savoir faire;IST;Gérer des terminologies ;
+c-sf-ist-04;savoir faire;IST;Intégrer des ressources terminologiques dans une plateforme;
+c-sf-ist-05;savoir faire;IST;Mettre en œuvre des technologies web;
+c-sf-ist-06;savoir faire;IST;Comprendre et se représenter les besoins linguistiques inhérents à la communication scientifique;
+c-sf-ist-07;savoir faire;IST;Comprendre et utiliser le portail Bibcnrs;
+c-sf-ist-08;savoir faire;IST;Définir et mettre en œuvre un plan de veille;
+c-sf-ist-09;savoir faire;IST;Gérer des référentiels;
+c-sf-ist-10;savoir faire;IST;Intégrer des applicatifs TAL;
+c-sf-ist-11;savoir faire;IST;Maintenir des applicatifs TAL;
+c-sf-ist-12;savoir faire;IST;Mener une recherche documentaire;
+c-sf-ist-13;savoir faire;IST;Mettre en œuvre des règles de catalogage;
+c-sf-ist-14;savoir faire;IST;Mettre en œuvre des techniques de curation de données;
+c-sf-ist-15;savoir faire;IST;Négocier (éditeurs, fournisseurs);
+c-sf-ist-16;savoir faire;IST;Réaliser des études bibliométriques;
+c-sf-ist-17;savoir faire;IST;Réaliser des maquettes de revues;
+c-sf-ist-18;savoir faire;IST;Réaliser une cartographie et une visualisation de données;
+c-sf-ist-19;savoir faire;IST;Recueillir, analyser et traiter des données;300
+c-sf-ist-20;savoir faire;IST;Reformater, convertir des métadonnées;
+c-sf-ist-21;savoir faire;IST;'Structurer des documents pour l''édition numérique';
+c-sf-ist-22;savoir faire;IST;Suivre et signaler les ressources électroniques;
+c-sf-ist-23;savoir faire;IST;Utiliser des méthodes et ressources terminologiques et documentaires appropriées à la traduction;
+c-sf-ist-24;savoir faire;IST;Gérer la chaîne éditoriale;33
+c-sf-juri-01;savoir faire;Juridique;Capacité à mener des négociations dans le cadre des marchés publics;
+c-sf-juri-02;savoir faire;Juridique;Capacité à mettre en œuvre le droit des contrats;
+c-sf-lang-01;savoir faire;Langue;Aisance rédactionnelle dans une langue étrangère ;
+c-sf-logi-01;savoir faire;Logistique;Appliquer les règles de sécurité;
+c-sf-logi-02;savoir faire;Logistique;Capacité à pourvoir au maintien des équipements;
+c-sf-logi-03;savoir faire;Logistique;'Mettre en oeuvre les techniques d''électricité';
+c-sf-logi-04;savoir faire;Logistique;Mettre en oeuvre les techniques de régie;
+c-sf-logi-05;savoir faire;Logistique;Mettre en oeuvre les techniques de téléphonie;
+c-sf-logi-06;savoir faire;Logistique;Mettre en œuvre les techniques de thermique, climatisation et hydraulique;
+c-sf-logi-07;savoir faire;Logistique;Mettre en œuvre un EPI (Equipement de Protection Individuelle);
+c-sf-mana-01;savoir faire;Management;Accompagner le changement;
+c-sf-mana-02;savoir faire;Management;Accompagner les agents dans le développement de leurs compétences;
+c-sf-mana-03;savoir faire;Management;Animer un réseau;134
+c-sf-mana-04;savoir faire;Management;Animer une équipe;423
+c-sf-mana-05;savoir faire;Management;Animer une réunion;135
+c-sf-mana-06;savoir faire;Management;Capacité à gérer un projet;170
+c-sf-mana-07;savoir faire;Management;Capacité à motiver;423
+c-sf-mana-08;savoir faire;Management;Conduire un entretien;419
+c-sf-mana-09;savoir faire;Management;'Constituer un réseau (carnet d''adresses ...)';
+c-sf-mana-10;savoir faire;Management;Créer une dynamique de groupe;
+c-sf-mana-11;savoir faire;Management;Décliner la stratégie au sein de son département;
+c-sf-mana-12;savoir faire;Management;Déléguer;422
+c-sf-mana-13;savoir faire;Management;Elaborer une stratégie;
+c-sf-mana-14;savoir faire;Management;Encadrer un stagiaire;
+c-sf-mana-15;savoir faire;Management;Evaluer les compétences des agents;
+c-sf-mana-16;savoir faire;Management;Gérer les conflits;428
+c-sf-mana-17;savoir faire;Management;Mener un recrutement;
+c-sf-mana-18;savoir faire;Management;Mettre en œuvre la transversalité;
+c-sf-mana-19;savoir faire;Management;Négocier, trouver des compromis;420
+c-s-form-01;savoir;Formation;'Connaissance de l''offre de formation de l''Inist-CNRS';
+c-s-form-02;savoir;Formation;'Connaissance des techniques d''ingénierie de formation';
+c-s-form-03;savoir;Formation;'Méthodologie d''évaluation et d''enquêtes';207
+c-s-form-04;savoir;Formation;Connaissance des techniques de la formation à distance;
+c-sf-outi-01;savoir faire;Outils;Administrer des outils de monitoring/supervision informatique;
+c-sf-outi-02;savoir faire;Outils;Outil de gestion des abonnements et résolveur de lien dans outil de découverte ;
+c-sf-outi-03;savoir faire;Outils;Logiciels de correction automatique;
+c-sf-outi-04;savoir faire;Outils;Logiciels de publication (Dspace, Lodel, Wordpress, Spip, CMS, Omeka);
+c-sf-outi-05;savoir faire;Outils;Outils de gestion de bibliothèque (SIGB, ex : Millennium);
+c-sf-outi-06;savoir faire;Outils;Sharepoint;
+c-sf-outi-07;savoir faire;Outils;Utiliser des applications et logiciels documentaires;
+c-sf-outi-08;savoir faire;Outils;'Utiliser des logiciels d''enquête (Sphinx, Survey monkey,...)';
+c-sf-outi-09;savoir faire;Outils;Utiliser des logiciels de bibliographie (Endnote, Zotero,...);
+c-sf-outi-10;savoir faire;Outils;Utiliser des logiciels de gestion administrative;
+c-sf-outi-11;savoir faire;Outils;Utiliser des logiciels de graphisme (Photoshop, Illustrator, Fireworks, suite Adobe);
+c-sf-outi-12;savoir faire;Outils;Utiliser des logiciels de GTC (Gestion Technique Centralisée);
+c-sf-outi-13;savoir faire;Outils;Utiliser des logiciels de numérisation;
+c-sf-outi-14;savoir faire;Outils;Utiliser des logiciels de PAO;
+c-sf-outi-15;savoir faire;Outils;Utiliser des logiciels de veille;
+c-sf-outi-16;savoir faire;Outils;Utiliser des logiciels de visualisation et de cartographie;
+c-sf-outi-17;savoir faire;Outils;Utiliser des logiciels et outils audiovisuels;
+c-sf-outi-18;savoir faire;Outils;Utiliser des moteurs de recherche documentaires (Google Scholar, Pubmed);
+c-sf-outi-19;savoir faire;Outils;Utiliser des outils de constitution et gestion de ressources terminologiques;
+c-sf-outi-20;savoir faire;Outils;Utiliser des outils de formation;269
+c-sf-outi-21;savoir faire;Outils;Utiliser des outils de monitoring/supervision informatique;
+c-sf-outi-22;savoir faire;Outils;Utiliser des outils de reliure;
+c-sf-outi-23;savoir faire;Outils;Utiliser des outils de reprographie;
+c-sf-outi-24;savoir faire;Outils;Utiliser des outils de traitement de données massives (Omniscope,...);
+c-sf-outi-25;savoir faire;Outils;Utiliser des outils de visioconférence, communication multimédia;
+c-sf-outi-26;savoir faire;Outils;Utiliser Dspace;
+c-sf-outi-27;savoir faire;Outils;Utiliser EXCEL;190
+c-sf-outi-28;savoir faire;Outils;'Utiliser l''application FDP';
+c-sf-outi-29;savoir faire;Outils;Utiliser la GESCOM;
+c-sf-outi-30;savoir faire;Outils;Utiliser la P18 (spécifique FDD);
+c-sf-outi-31;savoir faire;Outils;Utiliser le logiciel ezPAARSE;
+c-sf-outi-32;savoir faire;Outils;'Utiliser le module d''administration EBSCO';
+c-sf-outi-33;savoir faire;Outils;Utiliser Lodel;
+c-sf-outi-34;savoir faire;Outils;Utiliser RefDoc;
+c-sf-outi-35;savoir faire;Outils;Utiliser un ENT (Espace Numérique de Travail) ;
+c-sf-outi-36;savoir faire;Outils;Utiliser un logiciel de logistique (suivi des stocks, svp, …);
+c-sf-outi-37;savoir faire;Outils;Utiliser WORD;190
+c-sf-outi-38;savoir faire;Outils;WiniBW (SUDOC);
+c-sf-outi-39;savoir faire;Outils;Utiliser des logiciels de bureautique;190
+c-sf-outi-40;savoir faire;Outils;Utiliser la plateforme ISTEX;
+c-sf-outi-41;savoir faire;Outils;Utiliser un éditeur XML;
+c-sf-rh-01;savoir faire;RH;Capacité à élaborer un plan de formation;
+c-sf-trad-01;savoir faire;Traduction;Assurer une frappe dactylographique rapide;
+c-sf-trad-02;savoir faire;Traduction;Mettre en pratique les techniques de traduction spécialisée;
+c-sf-web-01;savoir faire;Web;Capacité à développer des applications et composants web;
+c-sf-web-02;savoir faire;Web;Capacité à maintenir des composants web;
+c-sf-web-03;savoir faire;Web;Capacité à réintégrer et utiliser des développements existants;
+c-sf-web-04;savoir faire;Web;Ecrire sur le web (règles éditoriales,...);
+c-sf-web-05;savoir faire;Web;Utiliser le langage HTML et CSS;
+c-sf-web-06;savoir faire;Web;'Mettre en oeuvre l''accessibilité des sites';
+c-s-gene-01;savoir;Général;'Connaissance de l''écosystème CNRS';
+c-s-gene-02;savoir;Général;Connaissance des politiques internationales du CNRS (structures et outils);
+c-s-gene-03;savoir;Général;Culture scientifique (connaissance dans un ou plusieurs domaines scientifiques);197
+c-s-gene-04;savoir ;Général;Connaissance des méthodes agiles (ex: Scrum, XP, Kanban ...);
+c-s-gene-05;savoir ;Général;Connaissance des méthodes de gestion de projet;206
+c-s-gene-06;savoir ;Général;Connaissance des méthodes de recueil de données;
+c-s-gene-07;savoir;Général;Connaissance des techniques de marketing;
+c-s-gesa-01;savoir;Gestion administrative;Connaissance des dispositions règlementaires;
+c-s-gesa-02;savoir;Gestion administrative;Connaissance des techniques de gestion administrative;
+c-s-info-01;savoir;Informatique;'Connaissance d''un ou plusieurs langages de programmation';917
+c-s-info-02;savoir;Informatique;'Connaissance d''un ou plusieurs systèmes d''exploitation';939
+c-s-info-03;savoir;Informatique;'Connaissance d''un ou plusieurs systèmes de gestion de base de données';938
+c-s-info-04;savoir;Informatique;'Connaissance de l''approche DevOps';
+c-s-info-05;savoir;Informatique;'Connaissance de l''environnement informatique  : système, réseau, bureautique, développement';
+c-s-info-06;savoir;Informatique;'Connaissance des algorithmes et technologies d''exploration et de traitement des données';
+c-s-info-07;savoir;Informatique;Connaissance des méthodes, normes et outils en matière de sécurité informatique;
+c-s-info-08;savoir;Informatique;Connaissance des protocoles de publication et de diffusion (API, OpenURL, OAI-PMH,...);
+c-s-info-09;savoir;Informatique;Connaissance des réseaux TCP/IP;
+c-s-info-10;savoir;Informatique;'Connaissance des techniques d''installation et de maintenance des matériels et logiciels';944
+c-s-info-11;savoir;Informatique;Connaissance des techniques de virtualisation (VMWare, Vagrant, Virtualbox, ...);943
+c-s-info-12;savoir;Informatique;Connaissance en qualité logicielle;
+c-s-info-13;savoir;Informatique;'Connaissance en urbanisation du système d''information';
+c-s-info-14;savoir;Informatique;'Connaissances des procédures et normes d''exploitation';
+c-s-inist-01;savoir;INIST;'Connaissance de l''offre de service INIST d''accès aux documents';
+c-s-inist-02;savoir;INIST;Connaissance de la chaîne documentaire INIST;
+c-s-inist-03;savoir;INIST;'Connaissance de la politique et de la stratégie de l''INIST';
+c-s-inist-04;savoir;INIST;Connaissance des différentes chaînes de traitement INIST;
+c-s-inist-05;savoir;INIST;Connaissance des différents référentiels nécessaires aux activités INIST;
+c-s-inist-06;savoir;INIST;'Connaissance des produits, services et missions de l''INIST';
+c-s-inist-07;savoir;INIST;'Connaissance du système d''information de l''INIST';
+c-s-juri-01;savoir;Juridique;'Connaissance de la législation sur le droit d''auteur , le droit à l''image et la propriété intellectuelle';
+c-s-ist-01;savoir;IST;'Connaissance de l'' environnement TAL';
+c-s-ist-02;savoir;IST;'Connaissance de l''écosystème IST et de son évolution';
+c-s-juri-02;savoir;Juridique;Marchés publics;
+c-s-ist-03;savoir;IST;'Connaissance de l''écosystème recherche et de son évolution';
+c-s-juri-03;savoir ;Juridique;'Connaissance de la réglementation et de l''environnement juridique de son activité';
+c-s-ist-04;savoir;IST;'Connaissance de l''environnement des bibliothèques (usages, logiciels et matériels, format d''échanges des données...)';
+c-s-ist-05;savoir;IST;'Connaissance de l''image (numérisation)';
+c-s-ist-06;savoir;IST;'Connaissance de l''offre éditoriale commerciale';
+c-s-ist-07;savoir;IST;'Connaissance de l''orthotypographie et des normes bibliographiques';
+c-s-ist-08;savoir;IST;'Connaissance des méthodes d''analyse et d''extraction des données';
+c-s-ist-09;savoir;IST;Connaissance des méthodes et techniques de gestion des fonds documentaires;
+c-s-ist-10;savoir;IST;Connaissance des normes et formats;
+c-s-ist-11;savoir;IST;Connaissance des normes et standards du web sémantique;891
+c-s-ist-12;savoir;IST;Connaissance des normes et standards en TAL;
+c-s-ist-13;savoir;IST;Connaissance des normes et standards en terminologie;
+c-s-ist-14;savoir;IST;Connaissance des principes déontologiques et éthiques liés aux données de la recherche;
+c-s-ist-15;savoir;IST;Connaissance des principes déontologiques liés aux archives;
+c-s-ist-16;savoir;IST;Connaissance des règles de gestion archivistique ;
+c-s-ist-17;savoir;IST;'Connaissance des sources d''information de production scientifique';
+c-s-ist-18;savoir;IST;Connaissance des systèmes de numérisation;
+c-s-ist-19;savoir;IST;Connaissance des techniques de bulletinage;
+c-s-ist-20;savoir;IST;Connaissance des techniques de catalogage;
+c-s-ist-21;savoir;IST;Connaissance du SUDOC;
+c-s-ist-22;savoir;IST;Connaissance en bibliothéconomie;
+c-s-ist-23;savoir;IST;Connaissance en TAL;
+c-s-ist-24;savoir;IST;Normes et formats images;
+c-s-ist-25;savoir ;IST;Connaissance des normes de description archivistique;
+c-s-ist-26;savoir ;IST;Connaissance des techniques de négociation;
+c-s-ist-27;savoir ;IST;Connaissance générale de la chaîne éditoriale;
+c-s-lang-01;savoir;Langue;Anglais;
+c-s-lang-02;savoir;Langue;'Connaissance d''une autre langue étrangère que l''anglais';
+c-s-lang-03;savoir;Langue;Langue française;
+c-s-logi-01;savoir;Logistique;'Connaissance de l''électricité basse tension';
+c-s-logi-02;savoir;Logistique;'Connaissance de l''électricité haute tension';
+c-s-logi-03;savoir;Logistique;Connaissance de la logistique;
+c-s-logi-04;savoir;Logistique;Connaissance de la régie (son, lumière, image, vidéo);
+c-s-logi-05;savoir;Logistique;Connaissance de la téléphonie;
+c-s-logi-06;savoir;Logistique;Connaissance de la thermique, climatisation et hydraulique;
+c-s-logi-07;savoir;Logistique;Connaissance des bâtiments INIST;
+c-s-logi-08;savoir;Logistique;'Connaissance des techniques d''accueil';
+c-s-logi-09;savoir;Logistique;Connaissance des techniques de mise en œuvre des composants et équipements;
+c-s-logi-10;savoir;Logistique;Connaissance des techniques de protection contre les courants électriques directs et indirects;
+c-s-mana-01;savoir ;Management;Connaissance des techniques de management;434
+c-s-rh-01;savoir;RH;Connaissance des concepts et méthodes de gestion RH;
+c-s-trad-01;savoir;Traduction;'Connaissance de l''anglais';
+c-s-trad-02;savoir;Traduction;Connaissance du français;
+c-s-web-01;savoir;Web;Conaissance des besoins en accessibilité web;
+c-s-web-02;savoir;Web;Connaissance des normes et formats du web;
+c-s-web-03;savoir;Web;Connaissance des techniques du référencement naturel;
+c-s-web-04;savoir;Web;Connaissance des technologies de développement web et multimédia;

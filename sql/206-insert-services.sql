@@ -1,0 +1,1 @@
+COPY services FROM '/docker-entrypoint-initdb.d/Services.csv' DELIMITER ';' CSV HEADER encoding 'windows-1251';

@@ -1,0 +1,1 @@
+COPY organigramme FROM '/docker-entrypoint-initdb.d/Departements.csv' DELIMITER ';' CSV HEADER encoding 'windows-1251';

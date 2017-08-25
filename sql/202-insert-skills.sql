@@ -1,0 +1,1 @@
+COPY skills FROM '/docker-entrypoint-initdb.d/Competences.csv' DELIMITER ';' CSV HEADER encoding 'windows-1251';
