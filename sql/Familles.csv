@@ -1,4 +1,4 @@
-ID_famille;Nom de famille;Rï¿½gles
+ID_famille;Nom de famille;Régles
 ACC;Accueil, logistique et patrimoine;
 ADM;Administration systemes et reseaux ;
 ANISCI;Animation de communautes scientifiques;4X2
@@ -20,7 +20,7 @@ INGDOC;Ingenierie documentaire;
 INGPED;Ingenierie pedagogique;
 INTWEB;Integration web;
 JUR;Juridique;
-MAN;Management;3X3
+MAN;Management;4X2
 NEG;Negociations;
 NUM;Numerisation;
 PILDI;Pilotage en developpement informatique;

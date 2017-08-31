@@ -2,31 +2,31 @@ Id_agent;Service
 1;FDD
 2;Publier
 3;FDD
-4;Analyser
+4;FDD
 5;FDD
-7;Documenter
+7;SIB
 8;DORE
 9;Publier
 10;SRH
-11;Documenter
-13;Analyser
+11;SIB
+13;FDD
 14;Communication
 15;DORE
 16;I Prod
 17;FDD
 18;Publier
 19;R et D
-20;NÃ©go
+20;Négo
 21;Termino
 22;Formation
 23;SPP
 24;Direction
-25;Documenter
+25;SIB
 26;VBDD
 27;Traduction
 28;SFJ
 29;FDD
-31;Documenter
+31;SIB
 31;I Dev
 32;DORE
 33;Direction
@@ -41,20 +41,20 @@ Id_agent;Service
 37;I Dev
 37;Termino
 38;SIB
-38;Analyser
-39;Documenter
+38;FDD
+39;SIB
 40;APIL
-41;Analyser
+41;FDD
 42;DORE
 43;Edition numerique
 44;SFJ
 44;Edition numerique
-45;Documenter
+45;SIB
 45;R et D
-46;NÃ©go
+46;Négo
 46;Traduction
-47;Analyser
-47;Documenter
+47;FDD
+47;SIB
 48;STL
 48;I Dev
 49;Publier
@@ -63,13 +63,13 @@ Id_agent;Service
 51;VBDD
 51;SPP
 52;APIL
-53;Documenter
-54;Analyser
-54;Documenter
+53;SIB
+54;FDD
+54;SIB
 55;VBDD
-55;Analyser
-56;Analyser
-57;Analyser
+55;FDD
+56;FDD
+57;FDD
 58;SPP
 58;SFJ
 59;Coordination
@@ -84,13 +84,13 @@ Id_agent;Service
 67;R et D
 68;Formation
 68;Traduction
-69;Documenter
+69;SIB
 69;Publier
 70;DORE
 70;Portails
 71;APIL
 71;Edition numerique
-72;NÃ©go
+72;Négo
 72;APIL
 73;DORE
 73;VBDD
@@ -109,26 +109,25 @@ Id_agent;Service
 80;STL
 81;Formation
 81;R et D
-82;Analyser
-82;Documenter
+82;FDD
+82;SIB
 83;Termino
 83;APIL
 84;SPP
 84;Termino
 85;FDD
-85;Analyser
 86;Direction
 86;SRH
-87;Documenter
+87;SIB
 87;I Dev
 88;Edition numerique
 88;SFJ
 89;I Dev
-89;NÃ©go
+89;Négo
 90;SPP
 90;I Dev
 91;Publier
-91;Analyser
+91;FDD
 92;Publier
 93;Publier
 93;SFJ
@@ -139,13 +138,13 @@ Id_agent;Service
 97;Termino
 97;Web
 98;Publier
-100;Documenter
+100;SIB
 100;I Prod
 101;R et D
 101;I Prod
 102;VBDD
-102;Documenter
-103;NÃ©go
+102;SIB
+103;Négo
 103;Portails
 104;Communication
 105;Formation
@@ -155,24 +154,24 @@ Id_agent;Service
 107;Publier
 107;DORE
 108;Publier
-108;Analyser
-109;Documenter
+108;FDD
+109;SIB
 109;Publier
-110;Analyser
+110;FDD
 110;Publier
 112;SIB
 112;Portails
 113;I Dev
 113;Publier
-114;Documenter
+114;SIB
 114;Publier
-115;NÃ©go
+115;Négo
 115;STL
 116;VBDD
 116;Publier
 117;I Dev
 117;Formation
-118;NÃ©go
+118;Négo
 118;Formation
 119;Communication
 119;Edition numerique
@@ -181,29 +180,29 @@ Id_agent;Service
 121;Publier
 121;SIB
 122;FDD
-122;Documenter
-123;Analyser
+122;SIB
+123;FDD
 123;Termino
 124;SRH
 124;DORE
 125;Edition numerique
-125;Documenter
+125;SIB
 126;Web
 126;Formation
 127;Termino
 127;Formation
-128;Analyser
+128;FDD
 128;I Prod
-129;Documenter
+129;SIB
 130;Portails
 130;SFJ
 131;I Dev
-131;Documenter
+131;SIB
 132;I Dev
 132;I Prod
 133;Publier
 133;FDD
-134;Documenter
+134;SIB
 134;Coordination
 135;Publier
 136;Portails
@@ -212,68 +211,68 @@ Id_agent;Service
 137;SFJ
 138;Publier
 138;Portails
-139;Analyser
-139;Documenter
+139;FDD
+139;SIB
 140;APIL
-141;NÃ©go
+141;Négo
 141;I Dev
 142;Portails
 142;Formation
 144;Communication
 145;VBDD
-146;NÃ©go
+146;Négo
 147;STL
-148;NÃ©go
+148;Négo
 149;DORE
-150;Analyser
-151;Analyser
+150;FDD
+151;FDD
 152;Edition numerique
 153;Direction
-154;Analyser
-155;Documenter
-156;Analyser
-157;Analyser
+154;FDD
+155;SIB
+156;FDD
+157;FDD
 158;I Dev
-161;Analyser
-162;Documenter
+161;FDD
+162;SIB
 163;Web
-164;Analyser
+164;FDD
 165;Publier
 166;SPP
 167;Direction
-168;Analyser
+168;FDD
 169;SIB
 170;Edition numerique
 171;Formation
 172;Publier
-173;NÃ©go
-174;Analyser
+173;Négo
+174;FDD
 175;Web
-176;Documenter
+176;SIB
 177;VBDD
 178;SPP
 179;SRH
-180;Analyser
+180;FDD
 181;Edition numerique
 182;Portails
 183;I Prod
-184;Analyser
+184;FDD
 185;SRH
 186;I Prod
 187;Publier
-188;Documenter
+188;SIB
 189;DORE
 190;Communication
-191;Documenter
+191;SIB
 192;Coordination
 193;R et D
 194;STL
 195;Publier
-196;Documenter
+196;SIB
 197;DORE
-198;Documenter
-199;Analyser
+198;SIB
+199;FDD
 200;I Prod
 201;SPP
-202;Analyser
+202;FDD
 203;APIL

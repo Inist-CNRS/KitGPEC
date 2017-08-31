@@ -1,5 +1,5 @@
 competence;id_agent;modulation
-c-s-comm-01;1;0
+c-s-comm-01;1 ;0
 c-s-comm-01;2;0
 c-s-comm-01;3;0
 c-s-comm-01;4;0
@@ -202,7 +202,7 @@ c-s-comm-01;200;0
 c-s-comm-01;201;0
 c-s-comm-01;202;0
 c-s-comm-01;203;0
-c-s-comm-02;1;0
+c-s-comm-02;1 ;0
 c-s-comm-02;2;0
 c-s-comm-02;3;0
 c-s-comm-02;4;0
@@ -405,7 +405,7 @@ c-s-comm-02;200;0
 c-s-comm-02;201;0
 c-s-comm-02;202;0
 c-s-comm-02;203;3
-c-s-comm-03;1;0
+c-s-comm-03;1 ;0
 c-s-comm-03;2;0
 c-s-comm-03;3;0
 c-s-comm-03;4;0
@@ -608,7 +608,7 @@ c-s-comm-03;200;0
 c-s-comm-03;201;0
 c-s-comm-03;202;0
 c-s-comm-03;203;0
-c-s-comm-04;1;0
+c-s-comm-04;1 ;0
 c-s-comm-04;2;0
 c-s-comm-04;3;0
 c-s-comm-04;4;0
@@ -811,7 +811,7 @@ c-s-comm-04;200;0
 c-s-comm-04;201;0
 c-s-comm-04;202;0
 c-s-comm-04;203;0
-c-se-gene-01;1;4
+c-se-gene-01;1 ;4
 c-se-gene-01;2;4
 c-se-gene-01;3;4
 c-se-gene-01;4;4
@@ -1014,7 +1014,7 @@ c-se-gene-01;200;3,5
 c-se-gene-01;201;3
 c-se-gene-01;202;3
 c-se-gene-01;203;3
-c-se-gene-02;1;3
+c-se-gene-02;1 ;3
 c-se-gene-02;2;3
 c-se-gene-02;3;4
 c-se-gene-02;4;4
@@ -1217,7 +1217,7 @@ c-se-gene-02;200;3
 c-se-gene-02;201;3
 c-se-gene-02;202;3
 c-se-gene-02;203;3
-c-se-gene-03;1;3
+c-se-gene-03;1 ;3
 c-se-gene-03;2;4
 c-se-gene-03;3;4
 c-se-gene-03;4;4
@@ -1420,7 +1420,7 @@ c-se-gene-03;200;0
 c-se-gene-03;201;3,5
 c-se-gene-03;202;2,5
 c-se-gene-03;203;3
-c-se-gene-04;1;0
+c-se-gene-04;1 ;0
 c-se-gene-04;2;0
 c-se-gene-04;3;0
 c-se-gene-04;4;0
@@ -1623,7 +1623,7 @@ c-se-gene-04;200;0
 c-se-gene-04;201;2,5
 c-se-gene-04;202;2,5
 c-se-gene-04;203;2
-c-se-gene-05;1;4
+c-se-gene-05;1 ;4
 c-se-gene-05;2;3
 c-se-gene-05;3;3
 c-se-gene-05;4;3
@@ -1826,7 +1826,7 @@ c-se-gene-05;200;4
 c-se-gene-05;201;2,5
 c-se-gene-05;202;2,5
 c-se-gene-05;203;3
-c-se-gene-06;1;4
+c-se-gene-06;1 ;4
 c-se-gene-06;2;4
 c-se-gene-06;3;4
 c-se-gene-06;4;4
@@ -2029,7 +2029,7 @@ c-se-gene-06;200;0
 c-se-gene-06;201;3
 c-se-gene-06;202;3
 c-se-gene-06;203;3
-c-se-gene-07;1;4
+c-se-gene-07;1 ;4
 c-se-gene-07;2;3
 c-se-gene-07;3;4
 c-se-gene-07;4;3
@@ -2232,7 +2232,7 @@ c-se-gene-07;200;3
 c-se-gene-07;201;2,5
 c-se-gene-07;202;2,5
 c-se-gene-07;203;3
-c-se-gene-08;1;2
+c-se-gene-08;1 ;2
 c-se-gene-08;2;3
 c-se-gene-08;3;3
 c-se-gene-08;4;3
@@ -2435,7 +2435,7 @@ c-se-gene-08;200;0
 c-se-gene-08;201;2,5
 c-se-gene-08;202;3
 c-se-gene-08;203;2,5
-c-se-gene-09;1;0
+c-se-gene-09;1 ;0
 c-se-gene-09;2;0
 c-se-gene-09;3;0
 c-se-gene-09;4;0
@@ -2638,7 +2638,7 @@ c-se-gene-09;200;0
 c-se-gene-09;201;3
 c-se-gene-09;202;3,5
 c-se-gene-09;203;3,5
-c-se-gene-10;1;0
+c-se-gene-10;1 ;0
 c-se-gene-10;2;0
 c-se-gene-10;3;0
 c-se-gene-10;4;0
@@ -2841,7 +2841,7 @@ c-se-gene-10;200;0
 c-se-gene-10;201;3
 c-se-gene-10;202;3
 c-se-gene-10;203;3
-c-se-gene-11;1;3
+c-se-gene-11;1 ;3
 c-se-gene-11;2;3
 c-se-gene-11;3;3
 c-se-gene-11;4;3
@@ -3044,7 +3044,7 @@ c-se-gene-11;200;0
 c-se-gene-11;201;2,5
 c-se-gene-11;202;0
 c-se-gene-11;203;3,5
-c-se-gene-12;1;0
+c-se-gene-12;1 ;0
 c-se-gene-12;2;0
 c-se-gene-12;3;0
 c-se-gene-12;4;0
@@ -3247,7 +3247,7 @@ c-se-gene-12;200;0
 c-se-gene-12;201;0
 c-se-gene-12;202;2,5
 c-se-gene-12;203;0
-c-se-gene-13;1;3
+c-se-gene-13;1 ;3
 c-se-gene-13;2;3
 c-se-gene-13;3;4
 c-se-gene-13;4;3
@@ -3450,7 +3450,7 @@ c-se-gene-13;200;3
 c-se-gene-13;201;3
 c-se-gene-13;202;3,5
 c-se-gene-13;203;3
-c-se-gene-14;1;0
+c-se-gene-14;1 ;0
 c-se-gene-14;2;0
 c-se-gene-14;3;0
 c-se-gene-14;4;0
@@ -3653,7 +3653,7 @@ c-se-gene-14;200;3
 c-se-gene-14;201;0
 c-se-gene-14;202;2,5
 c-se-gene-14;203;0
-c-se-gene-15;1;3
+c-se-gene-15;1 ;3
 c-se-gene-15;2;3
 c-se-gene-15;3;4
 c-se-gene-15;4;3
@@ -3856,7 +3856,7 @@ c-se-gene-15;200;0
 c-se-gene-15;201;0
 c-se-gene-15;202;3
 c-se-gene-15;203;3,5
-c-se-gene-16;1;2
+c-se-gene-16;1 ;2
 c-se-gene-16;2;3
 c-se-gene-16;3;3
 c-se-gene-16;4;3
@@ -4059,7 +4059,7 @@ c-se-gene-16;200;0
 c-se-gene-16;201;0
 c-se-gene-16;202;2,5
 c-se-gene-16;203;2,5
-c-se-gene-17;1;3
+c-se-gene-17;1 ;3
 c-se-gene-17;2;4
 c-se-gene-17;3;3
 c-se-gene-17;4;3
@@ -4262,7 +4262,7 @@ c-se-gene-17;200;3
 c-se-gene-17;201;3
 c-se-gene-17;202;3
 c-se-gene-17;203;3
-c-se-gene-18;1;4
+c-se-gene-18;1 ;4
 c-se-gene-18;2;4
 c-se-gene-18;3;4
 c-se-gene-18;4;4
@@ -4465,7 +4465,7 @@ c-se-gene-18;200;3
 c-se-gene-18;201;3
 c-se-gene-18;202;3
 c-se-gene-18;203;3
-c-se-gene-19;1;3
+c-se-gene-19;1 ;3
 c-se-gene-19;2;3
 c-se-gene-19;3;3
 c-se-gene-19;4;3
@@ -4668,7 +4668,7 @@ c-se-gene-19;200;0
 c-se-gene-19;201;3
 c-se-gene-19;202;3
 c-se-gene-19;203;3
-c-sf-comm-01;1;3
+c-sf-comm-01;1 ;3
 c-sf-comm-01;2;3
 c-sf-comm-01;3;3
 c-sf-comm-01;4;3
@@ -4871,7 +4871,7 @@ c-sf-comm-01;200;3
 c-sf-comm-01;201;0
 c-sf-comm-01;202;3
 c-sf-comm-01;203;3
-c-sf-comm-02;1;0
+c-sf-comm-02;1 ;0
 c-sf-comm-02;2;0
 c-sf-comm-02;3;0
 c-sf-comm-02;4;0
@@ -5074,7 +5074,7 @@ c-sf-comm-02;200;0
 c-sf-comm-02;201;0
 c-sf-comm-02;202;0
 c-sf-comm-02;203;2,5
-c-sf-comm-03;1;0
+c-sf-comm-03;1 ;0
 c-sf-comm-03;2;0
 c-sf-comm-03;3;0
 c-sf-comm-03;4;0
@@ -5277,7 +5277,7 @@ c-sf-comm-03;200;0
 c-sf-comm-03;201;0
 c-sf-comm-03;202;0
 c-sf-comm-03;203;0
-c-sf-comm-04;1;0
+c-sf-comm-04;1 ;0
 c-sf-comm-04;2;0
 c-sf-comm-04;3;0
 c-sf-comm-04;4;0
@@ -5480,7 +5480,7 @@ c-sf-comm-04;200;0
 c-sf-comm-04;201;0
 c-sf-comm-04;202;0
 c-sf-comm-04;203;0
-c-sf-comm-05;1;0
+c-sf-comm-05;1 ;0
 c-sf-comm-05;2;0
 c-sf-comm-05;3;0
 c-sf-comm-05;4;0
@@ -5683,7 +5683,7 @@ c-sf-comm-05;200;0
 c-sf-comm-05;201;0
 c-sf-comm-05;202;0
 c-sf-comm-05;203;0
-c-sf-comm-06;1;0
+c-sf-comm-06;1 ;0
 c-sf-comm-06;2;0
 c-sf-comm-06;3;0
 c-sf-comm-06;4;0
@@ -5886,7 +5886,7 @@ c-sf-comm-06;200;0
 c-sf-comm-06;201;0
 c-sf-comm-06;202;0
 c-sf-comm-06;203;0
-c-sf-comm-07;1;0
+c-sf-comm-07;1 ;0
 c-sf-comm-07;2;0
 c-sf-comm-07;3;0
 c-sf-comm-07;4;0
@@ -6089,7 +6089,7 @@ c-sf-comm-07;200;2
 c-sf-comm-07;201;0
 c-sf-comm-07;202;0
 c-sf-comm-07;203;3
-c-sf-comm-08;1;0
+c-sf-comm-08;1 ;0
 c-sf-comm-08;2;0
 c-sf-comm-08;3;0
 c-sf-comm-08;4;0
@@ -6292,7 +6292,7 @@ c-sf-comm-08;200;0
 c-sf-comm-08;201;0
 c-sf-comm-08;202;0
 c-sf-comm-08;203;0
-c-sf-comm-09;1;0
+c-sf-comm-09;1 ;0
 c-sf-comm-09;2;0
 c-sf-comm-09;3;0
 c-sf-comm-09;4;0
@@ -6495,7 +6495,7 @@ c-sf-comm-09;200;0
 c-sf-comm-09;201;0
 c-sf-comm-09;202;0
 c-sf-comm-09;203;2,5
-c-sf-comm-10;1;0
+c-sf-comm-10;1 ;0
 c-sf-comm-10;2;0
 c-sf-comm-10;3;0
 c-sf-comm-10;4;0
@@ -6698,7 +6698,7 @@ c-sf-comm-10;200;0
 c-sf-comm-10;201;0
 c-sf-comm-10;202;0
 c-sf-comm-10;203;0
-c-sf-comm-11;1;0
+c-sf-comm-11;1 ;0
 c-sf-comm-11;2;0
 c-sf-comm-11;3;0
 c-sf-comm-11;4;0
@@ -6901,7 +6901,7 @@ c-sf-comm-11;200;0
 c-sf-comm-11;201;0
 c-sf-comm-11;202;0
 c-sf-comm-11;203;0
-c-sf-form-01;1;0
+c-sf-form-01;1 ;0
 c-sf-form-01;2;0
 c-sf-form-01;3;0
 c-sf-form-01;4;0
@@ -7104,7 +7104,7 @@ c-sf-form-01;200;0
 c-sf-form-01;201;0
 c-sf-form-01;202;0
 c-sf-form-01;203;3
-c-sf-form-02;1;0
+c-sf-form-02;1 ;0
 c-sf-form-02;2;0
 c-sf-form-02;3;0
 c-sf-form-02;4;0
@@ -7307,7 +7307,7 @@ c-sf-form-02;200;0
 c-sf-form-02;201;0
 c-sf-form-02;202;0
 c-sf-form-02;203;4
-c-sf-form-03;1;0
+c-sf-form-03;1 ;0
 c-sf-form-03;2;0
 c-sf-form-03;3;0
 c-sf-form-03;4;0
@@ -7510,7 +7510,7 @@ c-sf-form-03;200;0
 c-sf-form-03;201;0
 c-sf-form-03;202;0
 c-sf-form-03;203;3
-c-sf-form-04;1;0
+c-sf-form-04;1 ;0
 c-sf-form-04;2;0
 c-sf-form-04;3;0
 c-sf-form-04;4;0
@@ -7713,7 +7713,7 @@ c-sf-form-04;200;0
 c-sf-form-04;201;0
 c-sf-form-04;202;0
 c-sf-form-04;203;2
-c-sf-form-05;1;0
+c-sf-form-05;1 ;0
 c-sf-form-05;2;0
 c-sf-form-05;3;0
 c-sf-form-05;4;0
@@ -7916,7 +7916,7 @@ c-sf-form-05;200;0
 c-sf-form-05;201;0
 c-sf-form-05;202;0
 c-sf-form-05;203;3
-c-sf-gene-01;1;2
+c-sf-gene-01;1 ;2
 c-sf-gene-01;2;3
 c-sf-gene-01;3;3
 c-sf-gene-01;4;2
@@ -8119,7 +8119,7 @@ c-sf-gene-01;200;4
 c-sf-gene-01;201;0
 c-sf-gene-01;202;2,5
 c-sf-gene-01;203;3
-c-sf-gene-02;1;0
+c-sf-gene-02;1 ;0
 c-sf-gene-02;2;0
 c-sf-gene-02;3;0
 c-sf-gene-02;4;0
@@ -8322,7 +8322,7 @@ c-sf-gene-02;200;0
 c-sf-gene-02;201;2,5
 c-sf-gene-02;202;3
 c-sf-gene-02;203;3,5
-c-sf-gene-03;1;0
+c-sf-gene-03;1 ;0
 c-sf-gene-03;2;0
 c-sf-gene-03;3;0
 c-sf-gene-03;4;0
@@ -8525,7 +8525,7 @@ c-sf-gene-03;200;0
 c-sf-gene-03;201;0
 c-sf-gene-03;202;0
 c-sf-gene-03;203;3,5
-c-sf-gene-04;1;0
+c-sf-gene-04;1 ;0
 c-sf-gene-04;2;2,5
 c-sf-gene-04;3;0
 c-sf-gene-04;4;0
@@ -8728,7 +8728,7 @@ c-sf-gene-04;200;0
 c-sf-gene-04;201;0
 c-sf-gene-04;202;2
 c-sf-gene-04;203;3
-c-sf-gene-05;1;0
+c-sf-gene-05;1 ;0
 c-sf-gene-05;2;0
 c-sf-gene-05;3;0
 c-sf-gene-05;4;0
@@ -8931,7 +8931,7 @@ c-sf-gene-05;200;0
 c-sf-gene-05;201;0
 c-sf-gene-05;202;2,5
 c-sf-gene-05;203;3
-c-sf-gene-06;1;0
+c-sf-gene-06;1 ;0
 c-sf-gene-06;2;0
 c-sf-gene-06;3;0
 c-sf-gene-06;4;0
@@ -9134,7 +9134,7 @@ c-sf-gene-06;200;0
 c-sf-gene-06;201;0
 c-sf-gene-06;202;0
 c-sf-gene-06;203;3
-c-sf-gene-07;1;3
+c-sf-gene-07;1 ;3
 c-sf-gene-07;2;1
 c-sf-gene-07;3;2
 c-sf-gene-07;4;2
@@ -9337,7 +9337,7 @@ c-sf-gene-07;200;4
 c-sf-gene-07;201;0
 c-sf-gene-07;202;0
 c-sf-gene-07;203;3
-c-sf-gene-08;1;0
+c-sf-gene-08;1 ;0
 c-sf-gene-08;2;0
 c-sf-gene-08;3;0
 c-sf-gene-08;4;0
@@ -9540,7 +9540,7 @@ c-sf-gene-08;200;0
 c-sf-gene-08;201;0
 c-sf-gene-08;202;2,5
 c-sf-gene-08;203;3
-c-sf-gene-09;1;0
+c-sf-gene-09;1 ;0
 c-sf-gene-09;2;0
 c-sf-gene-09;3;0
 c-sf-gene-09;4;0
@@ -9743,7 +9743,7 @@ c-sf-gene-09;200;0
 c-sf-gene-09;201;0
 c-sf-gene-09;202;2
 c-sf-gene-09;203;3
-c-sf-gene-10;1;0
+c-sf-gene-10;1 ;0
 c-sf-gene-10;2;0
 c-sf-gene-10;3;0
 c-sf-gene-10;4;0
@@ -9946,7 +9946,7 @@ c-sf-gene-10;200;0
 c-sf-gene-10;201;0
 c-sf-gene-10;202;2,5
 c-sf-gene-10;203;0
-c-sf-gene-11;1;3
+c-sf-gene-11;1 ;3
 c-sf-gene-11;2;3
 c-sf-gene-11;3;3
 c-sf-gene-11;4;2
@@ -10149,7 +10149,7 @@ c-sf-gene-11;200;4
 c-sf-gene-11;201;0
 c-sf-gene-11;202;0
 c-sf-gene-11;203;3
-c-sf-gene-12;1;3
+c-sf-gene-12;1 ;3
 c-sf-gene-12;2;3
 c-sf-gene-12;3;3
 c-sf-gene-12;4;2
@@ -10352,7 +10352,7 @@ c-sf-gene-12;200;0
 c-sf-gene-12;201;0
 c-sf-gene-12;202;3,5
 c-sf-gene-12;203;3,5
-c-sf-gene-13;1;3
+c-sf-gene-13;1 ;3
 c-sf-gene-13;2;3
 c-sf-gene-13;3;3
 c-sf-gene-13;4;3
@@ -10555,7 +10555,7 @@ c-sf-gene-13;200;0
 c-sf-gene-13;201;0
 c-sf-gene-13;202;3,5
 c-sf-gene-13;203;3
-c-sf-gene-14;1;0
+c-sf-gene-14;1 ;0
 c-sf-gene-14;2;0
 c-sf-gene-14;3;0
 c-sf-gene-14;4;0
@@ -10758,7 +10758,7 @@ c-sf-gene-14;200;3
 c-sf-gene-14;201;0
 c-sf-gene-14;202;0
 c-sf-gene-14;203;2
-c-sf-gene-15;1;0
+c-sf-gene-15;1 ;0
 c-sf-gene-15;2;0
 c-sf-gene-15;3;0
 c-sf-gene-15;4;0
@@ -10961,7 +10961,7 @@ c-sf-gene-15;200;0
 c-sf-gene-15;201;0
 c-sf-gene-15;202;2
 c-sf-gene-15;203;3
-c-sf-gene-16;1;3
+c-sf-gene-16;1 ;3
 c-sf-gene-16;2;3
 c-sf-gene-16;3;4
 c-sf-gene-16;4;3
@@ -11164,7 +11164,7 @@ c-sf-gene-16;200;3
 c-sf-gene-16;201;0
 c-sf-gene-16;202;2,5
 c-sf-gene-16;203;3
-c-sf-gene-17;1;3
+c-sf-gene-17;1 ;3
 c-sf-gene-17;2;3
 c-sf-gene-17;3;3
 c-sf-gene-17;4;3
@@ -11367,7 +11367,7 @@ c-sf-gene-17;200;3
 c-sf-gene-17;201;0
 c-sf-gene-17;202;3
 c-sf-gene-17;203;3
-c-sf-gene-18;1;3
+c-sf-gene-18;1 ;3
 c-sf-gene-18;2;2
 c-sf-gene-18;3;3
 c-sf-gene-18;4;2
@@ -11570,7 +11570,7 @@ c-sf-gene-18;200;3
 c-sf-gene-18;201;0
 c-sf-gene-18;202;2,5
 c-sf-gene-18;203;2,5
-c-sf-gene-19;1;4
+c-sf-gene-19;1 ;4
 c-sf-gene-19;2;3
 c-sf-gene-19;3;3
 c-sf-gene-19;4;3
@@ -11773,7 +11773,7 @@ c-sf-gene-19;200;0
 c-sf-gene-19;201;0
 c-sf-gene-19;202;2,5
 c-sf-gene-19;203;3
-c-sf-gene-20;1;0
+c-sf-gene-20;1 ;0
 c-sf-gene-20;2;0
 c-sf-gene-20;3;0
 c-sf-gene-20;4;0
@@ -11976,7 +11976,7 @@ c-sf-gene-20;200;2
 c-sf-gene-20;201;0
 c-sf-gene-20;202;3,5
 c-sf-gene-20;203;3
-c-sf-gene-21;1;0
+c-sf-gene-21;1 ;0
 c-sf-gene-21;2;0
 c-sf-gene-21;3;0
 c-sf-gene-21;4;0
@@ -12179,7 +12179,7 @@ c-sf-gene-21;200;3,5
 c-sf-gene-21;201;0
 c-sf-gene-21;202;0
 c-sf-gene-21;203;2
-c-sf-gene-22;1;0
+c-sf-gene-22;1 ;0
 c-sf-gene-22;2;0
 c-sf-gene-22;3;0
 c-sf-gene-22;4;0
@@ -12382,7 +12382,7 @@ c-sf-gene-22;200;0
 c-sf-gene-22;201;1
 c-sf-gene-22;202;0
 c-sf-gene-22;203;3
-c-sf-gene-23;1;0
+c-sf-gene-23;1 ;0
 c-sf-gene-23;2;0
 c-sf-gene-23;3;0
 c-sf-gene-23;4;0
@@ -12585,7 +12585,7 @@ c-sf-gene-23;200;2
 c-sf-gene-23;201;0
 c-sf-gene-23;202;0
 c-sf-gene-23;203;3
-c-sf-gene-24;1;0
+c-sf-gene-24;1 ;0
 c-sf-gene-24;2;0
 c-sf-gene-24;3;0
 c-sf-gene-24;4;0
@@ -12788,7 +12788,7 @@ c-sf-gene-24;200;3
 c-sf-gene-24;201;0
 c-sf-gene-24;202;0
 c-sf-gene-24;203;2
-c-sf-gene-25;1;3
+c-sf-gene-25;1 ;3
 c-sf-gene-25;2;2
 c-sf-gene-25;3;3
 c-sf-gene-25;4;3
@@ -12991,7 +12991,7 @@ c-sf-gene-25;200;0
 c-sf-gene-25;201;0
 c-sf-gene-25;202;0
 c-sf-gene-25;203;0
-c-sf-gene-26;1;4
+c-sf-gene-26;1 ;4
 c-sf-gene-26;2;3
 c-sf-gene-26;3;3
 c-sf-gene-26;4;2
@@ -13194,7 +13194,7 @@ c-sf-gene-26;200;3
 c-sf-gene-26;201;3
 c-sf-gene-26;202;3
 c-sf-gene-26;203;3
-c-sf-gene-27;1;3
+c-sf-gene-27;1 ;3
 c-sf-gene-27;2;3
 c-sf-gene-27;3;3
 c-sf-gene-27;4;2
@@ -13397,7 +13397,7 @@ c-sf-gene-27;200;0
 c-sf-gene-27;201;0
 c-sf-gene-27;202;2,5
 c-sf-gene-27;203;0
-c-sf-gene-28;1;0
+c-sf-gene-28;1 ;0
 c-sf-gene-28;2;0
 c-sf-gene-28;3;0
 c-sf-gene-28;4;0
@@ -13600,7 +13600,7 @@ c-sf-gene-28;200;0
 c-sf-gene-28;201;0
 c-sf-gene-28;202;0
 c-sf-gene-28;203;3
-c-sf-gene-29;1;0
+c-sf-gene-29;1 ;0
 c-sf-gene-29;2;0
 c-sf-gene-29;3;0
 c-sf-gene-29;4;0
@@ -13803,7 +13803,7 @@ c-sf-gene-29;200;0
 c-sf-gene-29;201;0
 c-sf-gene-29;202;2
 c-sf-gene-29;203;0
-c-sf-gene-30;1;0
+c-sf-gene-30;1 ;0
 c-sf-gene-30;2;0
 c-sf-gene-30;3;0
 c-sf-gene-30;4;0
@@ -14006,7 +14006,7 @@ c-sf-gene-30;200;0
 c-sf-gene-30;201;0
 c-sf-gene-30;202;0
 c-sf-gene-30;203;1
-c-sf-gene-31;1;3
+c-sf-gene-31;1 ;3
 c-sf-gene-31;2;3
 c-sf-gene-31;3;3
 c-sf-gene-31;4;3
@@ -14209,7 +14209,7 @@ c-sf-gene-31;200;3
 c-sf-gene-31;201;0
 c-sf-gene-31;202;2,5
 c-sf-gene-31;203;3
-c-sf-gene-32;1;3
+c-sf-gene-32;1 ;3
 c-sf-gene-32;2;3
 c-sf-gene-32;3;3
 c-sf-gene-32;4;3
@@ -14412,7 +14412,7 @@ c-sf-gene-32;200;0
 c-sf-gene-32;201;0
 c-sf-gene-32;202;2,5
 c-sf-gene-32;203;4
-c-sf-gene-33;1;0
+c-sf-gene-33;1 ;0
 c-sf-gene-33;2;0
 c-sf-gene-33;3;0
 c-sf-gene-33;4;0
@@ -14615,7 +14615,7 @@ c-sf-gene-33;200;0
 c-sf-gene-33;201;0
 c-sf-gene-33;202;0
 c-sf-gene-33;203;2,5
-c-sf-gene-34;1;0
+c-sf-gene-34;1 ;0
 c-sf-gene-34;2;0
 c-sf-gene-34;3;0
 c-sf-gene-34;4;0
@@ -14818,7 +14818,7 @@ c-sf-gene-34;200;2
 c-sf-gene-34;201;0
 c-sf-gene-34;202;0
 c-sf-gene-34;203;4
-c-sf-gene-35;1;0
+c-sf-gene-35;1 ;0
 c-sf-gene-35;2;0
 c-sf-gene-35;3;0
 c-sf-gene-35;4;0
@@ -15021,7 +15021,7 @@ c-sf-gene-35;200;0
 c-sf-gene-35;201;0
 c-sf-gene-35;202;0
 c-sf-gene-35;203;3
-c-sf-gene-36;1;4
+c-sf-gene-36;1 ;4
 c-sf-gene-36;2;4
 c-sf-gene-36;3;4
 c-sf-gene-36;4;4
@@ -15224,7 +15224,7 @@ c-sf-gene-36;200;2
 c-sf-gene-36;201;0
 c-sf-gene-36;202;3,5
 c-sf-gene-36;203;2,5
-c-sf-gene-37;1;0
+c-sf-gene-37;1 ;0
 c-sf-gene-37;2;0
 c-sf-gene-37;3;0
 c-sf-gene-37;4;0
@@ -15427,7 +15427,7 @@ c-sf-gene-37;200;2
 c-sf-gene-37;201;0
 c-sf-gene-37;202;0
 c-sf-gene-37;203;3,5
-c-sf-gene-38;1;0
+c-sf-gene-38;1 ;0
 c-sf-gene-38;2;0
 c-sf-gene-38;3;0
 c-sf-gene-38;4;0
@@ -15630,7 +15630,7 @@ c-sf-gene-38;200;4
 c-sf-gene-38;201;0
 c-sf-gene-38;202;0
 c-sf-gene-38;203;3
-c-sf-gene-39;1;0
+c-sf-gene-39;1 ;0
 c-sf-gene-39;2;0
 c-sf-gene-39;3;0
 c-sf-gene-39;4;0
@@ -15833,7 +15833,7 @@ c-sf-gene-39;200;2
 c-sf-gene-39;201;0
 c-sf-gene-39;202;3,5
 c-sf-gene-39;203;3
-c-sf-gene-40;1;0
+c-sf-gene-40;1 ;0
 c-sf-gene-40;2;0
 c-sf-gene-40;3;0
 c-sf-gene-40;4;0
@@ -16036,7 +16036,7 @@ c-sf-gene-40;200;3
 c-sf-gene-40;201;0
 c-sf-gene-40;202;0
 c-sf-gene-40;203;3,5
-c-sf-gene-41;1;0
+c-sf-gene-41;1 ;0
 c-sf-gene-41;2;0
 c-sf-gene-41;3;0
 c-sf-gene-41;4;4
@@ -16239,7 +16239,7 @@ c-sf-gene-41;200;0
 c-sf-gene-41;201;3
 c-sf-gene-41;202;2
 c-sf-gene-41;203;3
-c-sf-gene-42;1;0
+c-sf-gene-42;1 ;0
 c-sf-gene-42;2;0
 c-sf-gene-42;3;0
 c-sf-gene-42;4;0
@@ -16442,7 +16442,7 @@ c-sf-gene-42;200;0
 c-sf-gene-42;201;0
 c-sf-gene-42;202;0
 c-sf-gene-42;203;0
-c-sf-gesa-01;1;3
+c-sf-gesa-01;1 ;3
 c-sf-gesa-01;2;2
 c-sf-gesa-01;3;3
 c-sf-gesa-01;4;3
@@ -16645,7 +16645,7 @@ c-sf-gesa-01;200;0
 c-sf-gesa-01;201;0
 c-sf-gesa-01;202;0
 c-sf-gesa-01;203;3
-c-sf-gesa-02;1;0
+c-sf-gesa-02;1 ;0
 c-sf-gesa-02;2;3,5
 c-sf-gesa-02;3;0
 c-sf-gesa-02;4;0
@@ -16848,7 +16848,7 @@ c-sf-gesa-02;200;0
 c-sf-gesa-02;201;0
 c-sf-gesa-02;202;0
 c-sf-gesa-02;203;0
-c-sf-gesa-03;1;0
+c-sf-gesa-03;1 ;0
 c-sf-gesa-03;2;0
 c-sf-gesa-03;3;0
 c-sf-gesa-03;4;0
@@ -17051,7 +17051,7 @@ c-sf-gesa-03;200;0
 c-sf-gesa-03;201;0
 c-sf-gesa-03;202;0
 c-sf-gesa-03;203;0
-c-s-fin-01;1;0
+c-s-fin-01;1 ;0
 c-s-fin-01;2;0
 c-s-fin-01;3;0
 c-s-fin-01;4;0
@@ -17254,7 +17254,7 @@ c-s-fin-01;200;0
 c-s-fin-01;201;0
 c-s-fin-01;202;0
 c-s-fin-01;203;2,5
-c-s-fin-02;1;0
+c-s-fin-02;1 ;0
 c-s-fin-02;2;0
 c-s-fin-02;3;0
 c-s-fin-02;4;0
@@ -17457,7 +17457,7 @@ c-s-fin-02;200;0
 c-s-fin-02;201;0
 c-s-fin-02;202;0
 c-s-fin-02;203;0
-c-s-fin-03;1;0
+c-s-fin-03;1 ;0
 c-s-fin-03;2;0
 c-s-fin-03;3;0
 c-s-fin-03;4;0
@@ -17660,7 +17660,7 @@ c-s-fin-03;200;0
 c-s-fin-03;201;0
 c-s-fin-03;202;0
 c-s-fin-03;203;0
-c-sf-info-01;1;0
+c-sf-info-01;1 ;0
 c-sf-info-01;2;0
 c-sf-info-01;3;0
 c-sf-info-01;4;0
@@ -17863,7 +17863,7 @@ c-sf-info-01;200;2
 c-sf-info-01;201;0
 c-sf-info-01;202;0
 c-sf-info-01;203;0
-c-sf-info-02;1;0
+c-sf-info-02;1 ;0
 c-sf-info-02;2;0
 c-sf-info-02;3;0
 c-sf-info-02;4;0
@@ -18066,7 +18066,7 @@ c-sf-info-02;200;0
 c-sf-info-02;201;0
 c-sf-info-02;202;0
 c-sf-info-02;203;0
-c-sf-info-03;1;0
+c-sf-info-03;1 ;0
 c-sf-info-03;2;0
 c-sf-info-03;3;0
 c-sf-info-03;4;0
@@ -18269,7 +18269,7 @@ c-sf-info-03;200;1
 c-sf-info-03;201;0
 c-sf-info-03;202;0
 c-sf-info-03;203;0
-c-sf-info-04;1;0
+c-sf-info-04;1 ;0
 c-sf-info-04;2;0
 c-sf-info-04;3;0
 c-sf-info-04;4;0
@@ -18472,7 +18472,7 @@ c-sf-info-04;200;0
 c-sf-info-04;201;0
 c-sf-info-04;202;0
 c-sf-info-04;203;0
-c-sf-info-05;1;0
+c-sf-info-05;1 ;0
 c-sf-info-05;2;0
 c-sf-info-05;3;0
 c-sf-info-05;4;0
@@ -18675,7 +18675,7 @@ c-sf-info-05;200;0
 c-sf-info-05;201;0
 c-sf-info-05;202;0
 c-sf-info-05;203;0
-c-sf-info-06;1;0
+c-sf-info-06;1 ;0
 c-sf-info-06;2;0
 c-sf-info-06;3;0
 c-sf-info-06;4;0
@@ -18878,7 +18878,7 @@ c-sf-info-06;200;0
 c-sf-info-06;201;0
 c-sf-info-06;202;0
 c-sf-info-06;203;0
-c-sf-info-07;1;0
+c-sf-info-07;1 ;0
 c-sf-info-07;2;0
 c-sf-info-07;3;0
 c-sf-info-07;4;0
@@ -19081,7 +19081,7 @@ c-sf-info-07;200;0
 c-sf-info-07;201;0
 c-sf-info-07;202;0
 c-sf-info-07;203;0
-c-sf-info-08;1;0
+c-sf-info-08;1 ;0
 c-sf-info-08;2;0
 c-sf-info-08;3;0
 c-sf-info-08;4;0
@@ -19284,7 +19284,7 @@ c-sf-info-08;200;0
 c-sf-info-08;201;0
 c-sf-info-08;202;0
 c-sf-info-08;203;0
-c-sf-info-09;1;0
+c-sf-info-09;1 ;0
 c-sf-info-09;2;0
 c-sf-info-09;3;0
 c-sf-info-09;4;0
@@ -19487,7 +19487,7 @@ c-sf-info-09;200;0
 c-sf-info-09;201;0
 c-sf-info-09;202;0
 c-sf-info-09;203;0
-c-sf-info-10;1;0
+c-sf-info-10;1 ;0
 c-sf-info-10;2;0
 c-sf-info-10;3;0
 c-sf-info-10;4;0
@@ -19690,7 +19690,7 @@ c-sf-info-10;200;0
 c-sf-info-10;201;0
 c-sf-info-10;202;0
 c-sf-info-10;203;0
-c-sf-info-11;1;0
+c-sf-info-11;1 ;0
 c-sf-info-11;2;0
 c-sf-info-11;3;0
 c-sf-info-11;4;0
@@ -19893,7 +19893,7 @@ c-sf-info-11;200;0
 c-sf-info-11;201;0
 c-sf-info-11;202;0
 c-sf-info-11;203;0
-c-sf-info-12;1;0
+c-sf-info-12;1 ;0
 c-sf-info-12;2;0
 c-sf-info-12;3;0
 c-sf-info-12;4;0
@@ -20096,7 +20096,7 @@ c-sf-info-12;200;0
 c-sf-info-12;201;0
 c-sf-info-12;202;0
 c-sf-info-12;203;0
-c-sf-info-13;1;3,5
+c-sf-info-13;1 ;3,5
 c-sf-info-13;2;0
 c-sf-info-13;3;0
 c-sf-info-13;4;0
@@ -20299,7 +20299,7 @@ c-sf-info-13;200;2
 c-sf-info-13;201;0
 c-sf-info-13;202;0
 c-sf-info-13;203;0
-c-sf-info-14;1;0
+c-sf-info-14;1 ;0
 c-sf-info-14;2;0
 c-sf-info-14;3;0
 c-sf-info-14;4;0
@@ -20502,7 +20502,7 @@ c-sf-info-14;200;0
 c-sf-info-14;201;0
 c-sf-info-14;202;0
 c-sf-info-14;203;0
-c-sf-info-15;1;0
+c-sf-info-15;1 ;0
 c-sf-info-15;2;0
 c-sf-info-15;3;0
 c-sf-info-15;4;0
@@ -20705,7 +20705,7 @@ c-sf-info-15;200;0
 c-sf-info-15;201;0
 c-sf-info-15;202;0
 c-sf-info-15;203;0
-c-sf-info-16;1;0
+c-sf-info-16;1 ;0
 c-sf-info-16;2;0
 c-sf-info-16;3;0
 c-sf-info-16;4;0
@@ -20908,7 +20908,7 @@ c-sf-info-16;200;0
 c-sf-info-16;201;0
 c-sf-info-16;202;0
 c-sf-info-16;203;0
-c-sf-info-17;1;0
+c-sf-info-17;1 ;0
 c-sf-info-17;2;0
 c-sf-info-17;3;0
 c-sf-info-17;4;3,5
@@ -21111,7 +21111,7 @@ c-sf-info-17;200;0
 c-sf-info-17;201;0
 c-sf-info-17;202;0
 c-sf-info-17;203;0
-c-sf-info-18;1;0
+c-sf-info-18;1 ;0
 c-sf-info-18;2;0
 c-sf-info-18;3;0
 c-sf-info-18;4;3,5
@@ -21314,7 +21314,7 @@ c-sf-info-18;200;2
 c-sf-info-18;201;0
 c-sf-info-18;202;0
 c-sf-info-18;203;0
-c-sf-info-19;1;0
+c-sf-info-19;1 ;0
 c-sf-info-19;2;0
 c-sf-info-19;3;0
 c-sf-info-19;4;0
@@ -21517,7 +21517,7 @@ c-sf-info-19;200;0
 c-sf-info-19;201;0
 c-sf-info-19;202;0
 c-sf-info-19;203;0
-c-sf-info-20;1;0
+c-sf-info-20;1 ;0
 c-sf-info-20;2;0
 c-sf-info-20;3;0
 c-sf-info-20;4;0
@@ -21720,7 +21720,7 @@ c-sf-info-20;200;0
 c-sf-info-20;201;0
 c-sf-info-20;202;0
 c-sf-info-20;203;0
-c-sf-info-21;1;0
+c-sf-info-21;1 ;0
 c-sf-info-21;2;0
 c-sf-info-21;3;0
 c-sf-info-21;4;0
@@ -21923,7 +21923,7 @@ c-sf-info-21;200;0
 c-sf-info-21;201;0
 c-sf-info-21;202;0
 c-sf-info-21;203;0
-c-sf-info-22;1;0
+c-sf-info-22;1 ;0
 c-sf-info-22;2;0
 c-sf-info-22;3;0
 c-sf-info-22;4;0
@@ -22126,7 +22126,7 @@ c-sf-info-22;200;2
 c-sf-info-22;201;0
 c-sf-info-22;202;0
 c-sf-info-22;203;0
-c-sf-info-23;1;0
+c-sf-info-23;1 ;0
 c-sf-info-23;2;0
 c-sf-info-23;3;0
 c-sf-info-23;4;0
@@ -22329,7 +22329,7 @@ c-sf-info-23;200;0
 c-sf-info-23;201;0
 c-sf-info-23;202;0
 c-sf-info-23;203;0
-c-sf-info-24;1;0
+c-sf-info-24;1 ;0
 c-sf-info-24;2;0
 c-sf-info-24;3;0
 c-sf-info-24;4;0
@@ -22532,7 +22532,7 @@ c-sf-info-24;200;0
 c-sf-info-24;201;0
 c-sf-info-24;202;0
 c-sf-info-24;203;0
-c-sf-info-25;1;0
+c-sf-info-25;1 ;0
 c-sf-info-25;2;0
 c-sf-info-25;3;0
 c-sf-info-25;4;0
@@ -22735,7 +22735,7 @@ c-sf-info-25;200;0
 c-sf-info-25;201;0
 c-sf-info-25;202;0
 c-sf-info-25;203;0
-c-sf-info-26;1;0
+c-sf-info-26;1 ;0
 c-sf-info-26;2;0
 c-sf-info-26;3;0
 c-sf-info-26;4;0
@@ -22938,7 +22938,7 @@ c-sf-info-26;200;0
 c-sf-info-26;201;0
 c-sf-info-26;202;0
 c-sf-info-26;203;0
-c-sf-info-27;1;0
+c-sf-info-27;1 ;0
 c-sf-info-27;2;0
 c-sf-info-27;3;0
 c-sf-info-27;4;0
@@ -23141,7 +23141,7 @@ c-sf-info-27;200;2
 c-sf-info-27;201;0
 c-sf-info-27;202;0
 c-sf-info-27;203;0
-c-sf-info-28;1;0
+c-sf-info-28;1 ;0
 c-sf-info-28;2;0
 c-sf-info-28;3;0
 c-sf-info-28;4;0
@@ -23344,7 +23344,7 @@ c-sf-info-28;200;2
 c-sf-info-28;201;0
 c-sf-info-28;202;0
 c-sf-info-28;203;0
-c-sf-info-29;1;0
+c-sf-info-29;1 ;0
 c-sf-info-29;2;0
 c-sf-info-29;3;0
 c-sf-info-29;4;0
@@ -23547,7 +23547,7 @@ c-sf-info-29;200;0
 c-sf-info-29;201;0
 c-sf-info-29;202;0
 c-sf-info-29;203;0
-c-sf-info-30;1;0
+c-sf-info-30;1 ;0
 c-sf-info-30;2;0
 c-sf-info-30;3;0
 c-sf-info-30;4;0
@@ -23750,7 +23750,7 @@ c-sf-info-30;200;0
 c-sf-info-30;201;0
 c-sf-info-30;202;0
 c-sf-info-30;203;0
-c-sf-info-31;1;0
+c-sf-info-31;1 ;0
 c-sf-info-31;2;0
 c-sf-info-31;3;0
 c-sf-info-31;4;0
@@ -23953,7 +23953,7 @@ c-sf-info-31;200;0
 c-sf-info-31;201;0
 c-sf-info-31;202;0
 c-sf-info-31;203;0
-c-sf-info-32;1;0
+c-sf-info-32;1 ;0
 c-sf-info-32;2;0
 c-sf-info-32;3;0
 c-sf-info-32;4;0
@@ -24156,7 +24156,7 @@ c-sf-info-32;200;0
 c-sf-info-32;201;0
 c-sf-info-32;202;0
 c-sf-info-32;203;0
-c-sf-info-33;1;0
+c-sf-info-33;1 ;0
 c-sf-info-33;2;0
 c-sf-info-33;3;0
 c-sf-info-33;4;0
@@ -24359,7 +24359,7 @@ c-sf-info-33;200;0
 c-sf-info-33;201;0
 c-sf-info-33;202;0
 c-sf-info-33;203;0
-c-sf-info-34;1;0
+c-sf-info-34;1 ;0
 c-sf-info-34;2;0
 c-sf-info-34;3;0
 c-sf-info-34;4;0
@@ -24562,7 +24562,7 @@ c-sf-info-34;200;0
 c-sf-info-34;201;0
 c-sf-info-34;202;0
 c-sf-info-34;203;0
-c-sf-info-35;1;0
+c-sf-info-35;1 ;0
 c-sf-info-35;2;0
 c-sf-info-35;3;0
 c-sf-info-35;4;0
@@ -24765,7 +24765,7 @@ c-sf-info-35;200;0
 c-sf-info-35;201;0
 c-sf-info-35;202;0
 c-sf-info-35;203;0
-c-sf-info-36;1;0
+c-sf-info-36;1 ;0
 c-sf-info-36;2;0
 c-sf-info-36;3;0
 c-sf-info-36;4;0
@@ -24968,7 +24968,7 @@ c-sf-info-36;200;0
 c-sf-info-36;201;0
 c-sf-info-36;202;0
 c-sf-info-36;203;0
-c-sf-info-37;1;0
+c-sf-info-37;1 ;0
 c-sf-info-37;2;0
 c-sf-info-37;3;0
 c-sf-info-37;4;0
@@ -25171,7 +25171,7 @@ c-sf-info-37;200;0
 c-sf-info-37;201;0
 c-sf-info-37;202;0
 c-sf-info-37;203;0
-c-sf-info-38;1;0
+c-sf-info-38;1 ;0
 c-sf-info-38;2;0
 c-sf-info-38;3;0
 c-sf-info-38;4;0
@@ -25374,7 +25374,7 @@ c-sf-info-38;200;0
 c-sf-info-38;201;0
 c-sf-info-38;202;0
 c-sf-info-38;203;0
-c-sf-info-39;1;0
+c-sf-info-39;1 ;0
 c-sf-info-39;2;0
 c-sf-info-39;3;0
 c-sf-info-39;4;0
@@ -25577,7 +25577,7 @@ c-sf-info-39;200;0
 c-sf-info-39;201;0
 c-sf-info-39;202;0
 c-sf-info-39;203;0
-c-sf-info-40;1;0
+c-sf-info-40;1 ;0
 c-sf-info-40;2;0
 c-sf-info-40;3;0
 c-sf-info-40;4;0
@@ -25780,7 +25780,7 @@ c-sf-info-40;200;0
 c-sf-info-40;201;0
 c-sf-info-40;202;0
 c-sf-info-40;203;0
-c-sf-info-41;1;3,5
+c-sf-info-41;1 ;3,5
 c-sf-info-41;2;0
 c-sf-info-41;3;0
 c-sf-info-41;4;2
@@ -25983,7 +25983,7 @@ c-sf-info-41;200;4
 c-sf-info-41;201;0
 c-sf-info-41;202;0
 c-sf-info-41;203;0
-c-sf-info-42;1;0
+c-sf-info-42;1 ;0
 c-sf-info-42;2;0
 c-sf-info-42;3;0
 c-sf-info-42;4;2
@@ -26186,7 +26186,7 @@ c-sf-info-42;200;0
 c-sf-info-42;201;0
 c-sf-info-42;202;0
 c-sf-info-42;203;0
-c-sf-info-43;1;0
+c-sf-info-43;1 ;0
 c-sf-info-43;2;0
 c-sf-info-43;3;0
 c-sf-info-43;4;2
@@ -26389,7 +26389,7 @@ c-sf-info-43;200;0
 c-sf-info-43;201;0
 c-sf-info-43;202;0
 c-sf-info-43;203;0
-c-sf-info-44;1;0
+c-sf-info-44;1 ;0
 c-sf-info-44;2;0
 c-sf-info-44;3;0
 c-sf-info-44;4;2
@@ -26592,7 +26592,7 @@ c-sf-info-44;200;2
 c-sf-info-44;201;0
 c-sf-info-44;202;0
 c-sf-info-44;203;0
-c-sf-info-45;1;0
+c-sf-info-45;1 ;0
 c-sf-info-45;2;0
 c-sf-info-45;3;0
 c-sf-info-45;4;0
@@ -26795,7 +26795,7 @@ c-sf-info-45;200;0
 c-sf-info-45;201;0
 c-sf-info-45;202;0
 c-sf-info-45;203;0
-c-sf-ist-01;1;0
+c-sf-ist-01;1 ;0
 c-sf-ist-01;2;0
 c-sf-ist-01;3;0
 c-sf-ist-01;4;0
@@ -26998,7 +26998,7 @@ c-sf-ist-01;200;0
 c-sf-ist-01;201;0
 c-sf-ist-01;202;0
 c-sf-ist-01;203;0
-c-sf-ist-02;1;0
+c-sf-ist-02;1 ;0
 c-sf-ist-02;2;0
 c-sf-ist-02;3;0
 c-sf-ist-02;4;0
@@ -27201,7 +27201,7 @@ c-sf-ist-02;200;0
 c-sf-ist-02;201;0
 c-sf-ist-02;202;0
 c-sf-ist-02;203;0
-c-sf-ist-03;1;0
+c-sf-ist-03;1 ;0
 c-sf-ist-03;2;0
 c-sf-ist-03;3;0
 c-sf-ist-03;4;0
@@ -27404,7 +27404,7 @@ c-sf-ist-03;200;0
 c-sf-ist-03;201;0
 c-sf-ist-03;202;0
 c-sf-ist-03;203;0
-c-sf-ist-04;1;0
+c-sf-ist-04;1 ;0
 c-sf-ist-04;2;0
 c-sf-ist-04;3;0
 c-sf-ist-04;4;0
@@ -27607,7 +27607,7 @@ c-sf-ist-04;200;0
 c-sf-ist-04;201;0
 c-sf-ist-04;202;0
 c-sf-ist-04;203;0
-c-sf-ist-05;1;0
+c-sf-ist-05;1 ;0
 c-sf-ist-05;2;0
 c-sf-ist-05;3;0
 c-sf-ist-05;4;0
@@ -27810,7 +27810,7 @@ c-sf-ist-05;200;0
 c-sf-ist-05;201;0
 c-sf-ist-05;202;0
 c-sf-ist-05;203;3
-c-sf-ist-06;1;0
+c-sf-ist-06;1 ;0
 c-sf-ist-06;2;0
 c-sf-ist-06;3;0
 c-sf-ist-06;4;0
@@ -28013,7 +28013,7 @@ c-sf-ist-06;200;0
 c-sf-ist-06;201;0
 c-sf-ist-06;202;0
 c-sf-ist-06;203;0
-c-sf-ist-07;1;0
+c-sf-ist-07;1 ;0
 c-sf-ist-07;2;0
 c-sf-ist-07;3;0
 c-sf-ist-07;4;0
@@ -28216,7 +28216,7 @@ c-sf-ist-07;200;0
 c-sf-ist-07;201;0
 c-sf-ist-07;202;0
 c-sf-ist-07;203;0
-c-sf-ist-08;1;0
+c-sf-ist-08;1 ;0
 c-sf-ist-08;2;0
 c-sf-ist-08;3;0
 c-sf-ist-08;4;0
@@ -28419,7 +28419,7 @@ c-sf-ist-08;200;0
 c-sf-ist-08;201;0
 c-sf-ist-08;202;0
 c-sf-ist-08;203;0
-c-sf-ist-09;1;0
+c-sf-ist-09;1 ;0
 c-sf-ist-09;2;0
 c-sf-ist-09;3;0
 c-sf-ist-09;4;0
@@ -28622,7 +28622,7 @@ c-sf-ist-09;200;0
 c-sf-ist-09;201;0
 c-sf-ist-09;202;0
 c-sf-ist-09;203;0
-c-sf-ist-10;1;0
+c-sf-ist-10;1 ;0
 c-sf-ist-10;2;0
 c-sf-ist-10;3;0
 c-sf-ist-10;4;0
@@ -28825,7 +28825,7 @@ c-sf-ist-10;200;0
 c-sf-ist-10;201;0
 c-sf-ist-10;202;0
 c-sf-ist-10;203;0
-c-sf-ist-11;1;0
+c-sf-ist-11;1 ;0
 c-sf-ist-11;2;0
 c-sf-ist-11;3;3,5
 c-sf-ist-11;4;0
@@ -29028,7 +29028,7 @@ c-sf-ist-11;200;0
 c-sf-ist-11;201;0
 c-sf-ist-11;202;0
 c-sf-ist-11;203;0
-c-sf-ist-12;1;0
+c-sf-ist-12;1 ;0
 c-sf-ist-12;2;0
 c-sf-ist-12;3;0
 c-sf-ist-12;4;0
@@ -29231,7 +29231,7 @@ c-sf-ist-12;200;0
 c-sf-ist-12;201;0
 c-sf-ist-12;202;0
 c-sf-ist-12;203;2,5
-c-sf-ist-13;1;0
+c-sf-ist-13;1 ;0
 c-sf-ist-13;2;0
 c-sf-ist-13;3;0
 c-sf-ist-13;4;0
@@ -29434,7 +29434,7 @@ c-sf-ist-13;200;0
 c-sf-ist-13;201;0
 c-sf-ist-13;202;0
 c-sf-ist-13;203;0
-c-sf-ist-14;1;0
+c-sf-ist-14;1 ;0
 c-sf-ist-14;2;0
 c-sf-ist-14;3;0
 c-sf-ist-14;4;0
@@ -29637,7 +29637,7 @@ c-sf-ist-14;200;0
 c-sf-ist-14;201;0
 c-sf-ist-14;202;0
 c-sf-ist-14;203;0
-c-sf-ist-15;1;0
+c-sf-ist-15;1 ;0
 c-sf-ist-15;2;0
 c-sf-ist-15;3;0
 c-sf-ist-15;4;0
@@ -29840,7 +29840,7 @@ c-sf-ist-15;200;0
 c-sf-ist-15;201;0
 c-sf-ist-15;202;0
 c-sf-ist-15;203;0
-c-sf-ist-16;1;0
+c-sf-ist-16;1 ;0
 c-sf-ist-16;2;0
 c-sf-ist-16;3;0
 c-sf-ist-16;4;0
@@ -30043,7 +30043,7 @@ c-sf-ist-16;200;3,5
 c-sf-ist-16;201;0
 c-sf-ist-16;202;0
 c-sf-ist-16;203;0
-c-sf-ist-17;1;0
+c-sf-ist-17;1 ;0
 c-sf-ist-17;2;0
 c-sf-ist-17;3;0
 c-sf-ist-17;4;0
@@ -30246,7 +30246,7 @@ c-sf-ist-17;200;0
 c-sf-ist-17;201;0
 c-sf-ist-17;202;0
 c-sf-ist-17;203;0
-c-sf-ist-18;1;0
+c-sf-ist-18;1 ;0
 c-sf-ist-18;2;0
 c-sf-ist-18;3;3,5
 c-sf-ist-18;4;0
@@ -30449,7 +30449,7 @@ c-sf-ist-18;200;3
 c-sf-ist-18;201;0
 c-sf-ist-18;202;0
 c-sf-ist-18;203;0
-c-sf-ist-19;1;0
+c-sf-ist-19;1 ;0
 c-sf-ist-19;2;0
 c-sf-ist-19;3;0
 c-sf-ist-19;4;0
@@ -30652,7 +30652,7 @@ c-sf-ist-19;200;3,5
 c-sf-ist-19;201;0
 c-sf-ist-19;202;0
 c-sf-ist-19;203;0
-c-sf-ist-20;1;0
+c-sf-ist-20;1 ;0
 c-sf-ist-20;2;0
 c-sf-ist-20;3;0
 c-sf-ist-20;4;0
@@ -30855,7 +30855,7 @@ c-sf-ist-20;200;2
 c-sf-ist-20;201;0
 c-sf-ist-20;202;0
 c-sf-ist-20;203;0
-c-sf-ist-21;1;0
+c-sf-ist-21;1 ;0
 c-sf-ist-21;2;0
 c-sf-ist-21;3;0
 c-sf-ist-21;4;0
@@ -31058,7 +31058,7 @@ c-sf-ist-21;200;0
 c-sf-ist-21;201;0
 c-sf-ist-21;202;0
 c-sf-ist-21;203;0
-c-sf-ist-22;1;0
+c-sf-ist-22;1 ;0
 c-sf-ist-22;2;0
 c-sf-ist-22;3;0
 c-sf-ist-22;4;0
@@ -31261,7 +31261,7 @@ c-sf-ist-22;200;0
 c-sf-ist-22;201;0
 c-sf-ist-22;202;0
 c-sf-ist-22;203;0
-c-sf-ist-23;1;0
+c-sf-ist-23;1 ;0
 c-sf-ist-23;2;0
 c-sf-ist-23;3;0
 c-sf-ist-23;4;0
@@ -31464,7 +31464,7 @@ c-sf-ist-23;200;0
 c-sf-ist-23;201;0
 c-sf-ist-23;202;0
 c-sf-ist-23;203;0
-c-sf-ist-24;1;0
+c-sf-ist-24;1 ;0
 c-sf-ist-24;2;0
 c-sf-ist-24;3;0
 c-sf-ist-24;4;0
@@ -31667,7 +31667,7 @@ c-sf-ist-24;200;0
 c-sf-ist-24;201;0
 c-sf-ist-24;202;0
 c-sf-ist-24;203;0
-c-sf-juri-01;1;0
+c-sf-juri-01;1 ;0
 c-sf-juri-01;2;0
 c-sf-juri-01;3;0
 c-sf-juri-01;4;0
@@ -31870,7 +31870,7 @@ c-sf-juri-01;200;0
 c-sf-juri-01;201;0
 c-sf-juri-01;202;0
 c-sf-juri-01;203;3
-c-sf-juri-02;1;0
+c-sf-juri-02;1 ;0
 c-sf-juri-02;2;0
 c-sf-juri-02;3;0
 c-sf-juri-02;4;0
@@ -32073,7 +32073,7 @@ c-sf-juri-02;200;0
 c-sf-juri-02;201;0
 c-sf-juri-02;202;0
 c-sf-juri-02;203;0
-c-sf-lang-01;1;0
+c-sf-lang-01;1 ;0
 c-sf-lang-01;2;0
 c-sf-lang-01;3;0
 c-sf-lang-01;4;0
@@ -32276,7 +32276,7 @@ c-sf-lang-01;200;0
 c-sf-lang-01;201;0
 c-sf-lang-01;202;0
 c-sf-lang-01;203;0
-c-sf-logi-01;1;0
+c-sf-logi-01;1 ;0
 c-sf-logi-01;2;0
 c-sf-logi-01;3;0
 c-sf-logi-01;4;0
@@ -32479,7 +32479,7 @@ c-sf-logi-01;200;0
 c-sf-logi-01;201;2
 c-sf-logi-01;202;1
 c-sf-logi-01;203;0
-c-sf-logi-02;1;0
+c-sf-logi-02;1 ;0
 c-sf-logi-02;2;0
 c-sf-logi-02;3;0
 c-sf-logi-02;4;0
@@ -32682,7 +32682,7 @@ c-sf-logi-02;200;0
 c-sf-logi-02;201;3,5
 c-sf-logi-02;202;0
 c-sf-logi-02;203;0
-c-sf-logi-03;1;0
+c-sf-logi-03;1 ;0
 c-sf-logi-03;2;0
 c-sf-logi-03;3;0
 c-sf-logi-03;4;0
@@ -32885,7 +32885,7 @@ c-sf-logi-03;200;0
 c-sf-logi-03;201;2,5
 c-sf-logi-03;202;0
 c-sf-logi-03;203;0
-c-sf-logi-04;1;0
+c-sf-logi-04;1 ;0
 c-sf-logi-04;2;0
 c-sf-logi-04;3;0
 c-sf-logi-04;4;0
@@ -33088,7 +33088,7 @@ c-sf-logi-04;200;0
 c-sf-logi-04;201;3
 c-sf-logi-04;202;0
 c-sf-logi-04;203;0
-c-sf-logi-05;1;0
+c-sf-logi-05;1 ;0
 c-sf-logi-05;2;0
 c-sf-logi-05;3;0
 c-sf-logi-05;4;0
@@ -33291,7 +33291,7 @@ c-sf-logi-05;200;0
 c-sf-logi-05;201;3
 c-sf-logi-05;202;0
 c-sf-logi-05;203;0
-c-sf-logi-06;1;0
+c-sf-logi-06;1 ;0
 c-sf-logi-06;2;0
 c-sf-logi-06;3;0
 c-sf-logi-06;4;0
@@ -33494,7 +33494,7 @@ c-sf-logi-06;200;0
 c-sf-logi-06;201;2,5
 c-sf-logi-06;202;0
 c-sf-logi-06;203;0
-c-sf-logi-07;1;0
+c-sf-logi-07;1 ;0
 c-sf-logi-07;2;0
 c-sf-logi-07;3;0
 c-sf-logi-07;4;0
@@ -33697,7 +33697,7 @@ c-sf-logi-07;200;0
 c-sf-logi-07;201;3,5
 c-sf-logi-07;202;2
 c-sf-logi-07;203;0
-c-sf-mana-01;1;0
+c-sf-mana-01;1 ;0
 c-sf-mana-01;2;0
 c-sf-mana-01;3;0
 c-sf-mana-01;4;3
@@ -33900,7 +33900,7 @@ c-sf-mana-01;200;0
 c-sf-mana-01;201;0
 c-sf-mana-01;202;0
 c-sf-mana-01;203;0
-c-sf-mana-02;1;3
+c-sf-mana-02;1 ;3
 c-sf-mana-02;2;3
 c-sf-mana-02;3;3
 c-sf-mana-02;4;2
@@ -34103,7 +34103,7 @@ c-sf-mana-02;200;0
 c-sf-mana-02;201;0
 c-sf-mana-02;202;0
 c-sf-mana-02;203;3,5
-c-sf-mana-03;1;0
+c-sf-mana-03;1 ;0
 c-sf-mana-03;2;0
 c-sf-mana-03;3;0
 c-sf-mana-03;4;0
@@ -34306,7 +34306,7 @@ c-sf-mana-03;200;0
 c-sf-mana-03;201;0
 c-sf-mana-03;202;0
 c-sf-mana-03;203;0
-c-sf-mana-04;1;3
+c-sf-mana-04;1 ;3
 c-sf-mana-04;2;3
 c-sf-mana-04;3;3
 c-sf-mana-04;4;3
@@ -34509,7 +34509,7 @@ c-sf-mana-04;200;0
 c-sf-mana-04;201;0
 c-sf-mana-04;202;0
 c-sf-mana-04;203;3
-c-sf-mana-05;1;3
+c-sf-mana-05;1 ;3
 c-sf-mana-05;2;3
 c-sf-mana-05;3;3
 c-sf-mana-05;4;3
@@ -34712,7 +34712,7 @@ c-sf-mana-05;200;0
 c-sf-mana-05;201;0
 c-sf-mana-05;202;0
 c-sf-mana-05;203;3
-c-sf-mana-06;1;3
+c-sf-mana-06;1 ;3
 c-sf-mana-06;2;3
 c-sf-mana-06;3;3
 c-sf-mana-06;4;3
@@ -34915,7 +34915,7 @@ c-sf-mana-06;200;3
 c-sf-mana-06;201;0
 c-sf-mana-06;202;0
 c-sf-mana-06;203;3
-c-sf-mana-07;1;3
+c-sf-mana-07;1 ;3
 c-sf-mana-07;2;3
 c-sf-mana-07;3;4
 c-sf-mana-07;4;3
@@ -35118,7 +35118,7 @@ c-sf-mana-07;200;0
 c-sf-mana-07;201;0
 c-sf-mana-07;202;0
 c-sf-mana-07;203;0
-c-sf-mana-08;1;4
+c-sf-mana-08;1 ;4
 c-sf-mana-08;2;3
 c-sf-mana-08;3;3
 c-sf-mana-08;4;3
@@ -35321,7 +35321,7 @@ c-sf-mana-08;200;0
 c-sf-mana-08;201;0
 c-sf-mana-08;202;0
 c-sf-mana-08;203;3,5
-c-sf-mana-09;1;2
+c-sf-mana-09;1 ;2
 c-sf-mana-09;2;2
 c-sf-mana-09;3;2
 c-sf-mana-09;4;2
@@ -35524,7 +35524,7 @@ c-sf-mana-09;200;4,5
 c-sf-mana-09;201;0
 c-sf-mana-09;202;0
 c-sf-mana-09;203;3,5
-c-sf-mana-10;1;3
+c-sf-mana-10;1 ;3
 c-sf-mana-10;2;3
 c-sf-mana-10;3;3
 c-sf-mana-10;4;3
@@ -35727,7 +35727,7 @@ c-sf-mana-10;200;0
 c-sf-mana-10;201;0
 c-sf-mana-10;202;0
 c-sf-mana-10;203;3
-c-sf-mana-11;1;3
+c-sf-mana-11;1 ;3
 c-sf-mana-11;2;3
 c-sf-mana-11;3;4
 c-sf-mana-11;4;2
@@ -35930,7 +35930,7 @@ c-sf-mana-11;200;0
 c-sf-mana-11;201;0
 c-sf-mana-11;202;0
 c-sf-mana-11;203;0
-c-sf-mana-12;1;3
+c-sf-mana-12;1 ;3
 c-sf-mana-12;2;3
 c-sf-mana-12;3;3
 c-sf-mana-12;4;3
@@ -36133,7 +36133,7 @@ c-sf-mana-12;200;0
 c-sf-mana-12;201;0
 c-sf-mana-12;202;0
 c-sf-mana-12;203;3,5
-c-sf-mana-13;1;3
+c-sf-mana-13;1 ;3
 c-sf-mana-13;2;3
 c-sf-mana-13;3;3
 c-sf-mana-13;4;2
@@ -36336,7 +36336,7 @@ c-sf-mana-13;200;0
 c-sf-mana-13;201;0
 c-sf-mana-13;202;0
 c-sf-mana-13;203;0
-c-sf-mana-14;1;0
+c-sf-mana-14;1 ;0
 c-sf-mana-14;2;0
 c-sf-mana-14;3;0
 c-sf-mana-14;4;0
@@ -36539,7 +36539,7 @@ c-sf-mana-14;200;3
 c-sf-mana-14;201;0
 c-sf-mana-14;202;0
 c-sf-mana-14;203;4
-c-sf-mana-15;1;3
+c-sf-mana-15;1 ;3
 c-sf-mana-15;2;3
 c-sf-mana-15;3;3
 c-sf-mana-15;4;3
@@ -36742,7 +36742,7 @@ c-sf-mana-15;200;0
 c-sf-mana-15;201;0
 c-sf-mana-15;202;0
 c-sf-mana-15;203;3,5
-c-sf-mana-16;1;3
+c-sf-mana-16;1 ;3
 c-sf-mana-16;2;3
 c-sf-mana-16;3;3
 c-sf-mana-16;4;3
@@ -36945,7 +36945,7 @@ c-sf-mana-16;200;0
 c-sf-mana-16;201;0
 c-sf-mana-16;202;0
 c-sf-mana-16;203;2,5
-c-sf-mana-17;1;3
+c-sf-mana-17;1 ;3
 c-sf-mana-17;2;3
 c-sf-mana-17;3;2
 c-sf-mana-17;4;2
@@ -37148,7 +37148,7 @@ c-sf-mana-17;200;0
 c-sf-mana-17;201;0
 c-sf-mana-17;202;0
 c-sf-mana-17;203;3,5
-c-sf-mana-18;1;3
+c-sf-mana-18;1 ;3
 c-sf-mana-18;2;3
 c-sf-mana-18;3;3
 c-sf-mana-18;4;3
@@ -37351,7 +37351,7 @@ c-sf-mana-18;200;0
 c-sf-mana-18;201;0
 c-sf-mana-18;202;0
 c-sf-mana-18;203;2,5
-c-sf-mana-19;1;2
+c-sf-mana-19;1 ;2
 c-sf-mana-19;2;3
 c-sf-mana-19;3;3
 c-sf-mana-19;4;3
@@ -37554,7 +37554,7 @@ c-sf-mana-19;200;0
 c-sf-mana-19;201;0
 c-sf-mana-19;202;0
 c-sf-mana-19;203;0
-c-s-form-01;1;0
+c-s-form-01;1 ;0
 c-s-form-01;2;0
 c-s-form-01;3;0
 c-s-form-01;4;0
@@ -37757,7 +37757,7 @@ c-s-form-01;200;0
 c-s-form-01;201;0
 c-s-form-01;202;0
 c-s-form-01;203;3
-c-s-form-02;1;0
+c-s-form-02;1 ;0
 c-s-form-02;2;0
 c-s-form-02;3;0
 c-s-form-02;4;0
@@ -37960,7 +37960,7 @@ c-s-form-02;200;0
 c-s-form-02;201;0
 c-s-form-02;202;0
 c-s-form-02;203;3
-c-s-form-03;1;0
+c-s-form-03;1 ;0
 c-s-form-03;2;0
 c-s-form-03;3;0
 c-s-form-03;4;0
@@ -38163,7 +38163,7 @@ c-s-form-03;200;0
 c-s-form-03;201;0
 c-s-form-03;202;0
 c-s-form-03;203;2
-c-s-form-04;1;0
+c-s-form-04;1 ;0
 c-s-form-04;2;0
 c-s-form-04;3;0
 c-s-form-04;4;0
@@ -38366,7 +38366,7 @@ c-s-form-04;200;0
 c-s-form-04;201;0
 c-s-form-04;202;0
 c-s-form-04;203;3
-c-sf-outi-01;1;0
+c-sf-outi-01;1 ;0
 c-sf-outi-01;2;0
 c-sf-outi-01;3;0
 c-sf-outi-01;4;0
@@ -38569,7 +38569,7 @@ c-sf-outi-01;200;0
 c-sf-outi-01;201;0
 c-sf-outi-01;202;0
 c-sf-outi-01;203;0
-c-sf-outi-02;1;0
+c-sf-outi-02;1 ;0
 c-sf-outi-02;2;0
 c-sf-outi-02;3;0
 c-sf-outi-02;4;0
@@ -38772,7 +38772,7 @@ c-sf-outi-02;200;0
 c-sf-outi-02;201;0
 c-sf-outi-02;202;0
 c-sf-outi-02;203;0
-c-sf-outi-03;1;0
+c-sf-outi-03;1 ;0
 c-sf-outi-03;2;0
 c-sf-outi-03;3;0
 c-sf-outi-03;4;0
@@ -38975,7 +38975,7 @@ c-sf-outi-03;200;0
 c-sf-outi-03;201;0
 c-sf-outi-03;202;0
 c-sf-outi-03;203;0
-c-sf-outi-04;1;0
+c-sf-outi-04;1 ;0
 c-sf-outi-04;2;0
 c-sf-outi-04;3;0
 c-sf-outi-04;4;0
@@ -39178,7 +39178,7 @@ c-sf-outi-04;200;1
 c-sf-outi-04;201;0
 c-sf-outi-04;202;0
 c-sf-outi-04;203;2
-c-sf-outi-05;1;0
+c-sf-outi-05;1 ;0
 c-sf-outi-05;2;0
 c-sf-outi-05;3;0
 c-sf-outi-05;4;0
@@ -39381,7 +39381,7 @@ c-sf-outi-05;200;0
 c-sf-outi-05;201;0
 c-sf-outi-05;202;0
 c-sf-outi-05;203;0
-c-sf-outi-06;1;2
+c-sf-outi-06;1 ;2
 c-sf-outi-06;2;1
 c-sf-outi-06;3;2
 c-sf-outi-06;4;2
@@ -39584,7 +39584,7 @@ c-sf-outi-06;200;1
 c-sf-outi-06;201;1
 c-sf-outi-06;202;1
 c-sf-outi-06;203;3
-c-sf-outi-07;1;0
+c-sf-outi-07;1 ;0
 c-sf-outi-07;2;0
 c-sf-outi-07;3;0
 c-sf-outi-07;4;0
@@ -39787,7 +39787,7 @@ c-sf-outi-07;200;0
 c-sf-outi-07;201;0
 c-sf-outi-07;202;0
 c-sf-outi-07;203;0
-c-sf-outi-08;1;0
+c-sf-outi-08;1 ;0
 c-sf-outi-08;2;0
 c-sf-outi-08;3;0
 c-sf-outi-08;4;0
@@ -39990,7 +39990,7 @@ c-sf-outi-08;200;0
 c-sf-outi-08;201;0
 c-sf-outi-08;202;0
 c-sf-outi-08;203;2,5
-c-sf-outi-09;1;0
+c-sf-outi-09;1 ;0
 c-sf-outi-09;2;0
 c-sf-outi-09;3;0
 c-sf-outi-09;4;0
@@ -40193,7 +40193,7 @@ c-sf-outi-09;200;2,5
 c-sf-outi-09;201;0
 c-sf-outi-09;202;0
 c-sf-outi-09;203;0
-c-sf-outi-10;1;0
+c-sf-outi-10;1 ;0
 c-sf-outi-10;2;0
 c-sf-outi-10;3;0
 c-sf-outi-10;4;0
@@ -40396,7 +40396,7 @@ c-sf-outi-10;200;0
 c-sf-outi-10;201;0
 c-sf-outi-10;202;0
 c-sf-outi-10;203;3
-c-sf-outi-11;1;0
+c-sf-outi-11;1 ;0
 c-sf-outi-11;2;0
 c-sf-outi-11;3;0
 c-sf-outi-11;4;0
@@ -40599,7 +40599,7 @@ c-sf-outi-11;200;0
 c-sf-outi-11;201;0
 c-sf-outi-11;202;0
 c-sf-outi-11;203;3
-c-sf-outi-12;1;0
+c-sf-outi-12;1 ;0
 c-sf-outi-12;2;0
 c-sf-outi-12;3;0
 c-sf-outi-12;4;0
@@ -40802,7 +40802,7 @@ c-sf-outi-12;200;0
 c-sf-outi-12;201;0
 c-sf-outi-12;202;0
 c-sf-outi-12;203;0
-c-sf-outi-13;1;0
+c-sf-outi-13;1 ;0
 c-sf-outi-13;2;0
 c-sf-outi-13;3;0
 c-sf-outi-13;4;0
@@ -41005,7 +41005,7 @@ c-sf-outi-13;200;0
 c-sf-outi-13;201;0
 c-sf-outi-13;202;2,5
 c-sf-outi-13;203;0
-c-sf-outi-14;1;0
+c-sf-outi-14;1 ;0
 c-sf-outi-14;2;0
 c-sf-outi-14;3;0
 c-sf-outi-14;4;0
@@ -41208,7 +41208,7 @@ c-sf-outi-14;200;0
 c-sf-outi-14;201;0
 c-sf-outi-14;202;0
 c-sf-outi-14;203;0
-c-sf-outi-15;1;0
+c-sf-outi-15;1 ;0
 c-sf-outi-15;2;0
 c-sf-outi-15;3;0
 c-sf-outi-15;4;0
@@ -41411,7 +41411,7 @@ c-sf-outi-15;200;0
 c-sf-outi-15;201;0
 c-sf-outi-15;202;0
 c-sf-outi-15;203;0
-c-sf-outi-16;1;0
+c-sf-outi-16;1 ;0
 c-sf-outi-16;2;0
 c-sf-outi-16;3;0
 c-sf-outi-16;4;0
@@ -41614,7 +41614,7 @@ c-sf-outi-16;200;3
 c-sf-outi-16;201;0
 c-sf-outi-16;202;0
 c-sf-outi-16;203;0
-c-sf-outi-17;1;0
+c-sf-outi-17;1 ;0
 c-sf-outi-17;2;0
 c-sf-outi-17;3;0
 c-sf-outi-17;4;0
@@ -41817,7 +41817,7 @@ c-sf-outi-17;200;0
 c-sf-outi-17;201;1
 c-sf-outi-17;202;0
 c-sf-outi-17;203;3
-c-sf-outi-18;1;0
+c-sf-outi-18;1 ;0
 c-sf-outi-18;2;0
 c-sf-outi-18;3;0
 c-sf-outi-18;4;0
@@ -42020,7 +42020,7 @@ c-sf-outi-18;200;3,5
 c-sf-outi-18;201;0
 c-sf-outi-18;202;0
 c-sf-outi-18;203;0
-c-sf-outi-19;1;0
+c-sf-outi-19;1 ;0
 c-sf-outi-19;2;0
 c-sf-outi-19;3;0
 c-sf-outi-19;4;0
@@ -42223,7 +42223,7 @@ c-sf-outi-19;200;0
 c-sf-outi-19;201;0
 c-sf-outi-19;202;0
 c-sf-outi-19;203;0
-c-sf-outi-20;1;0
+c-sf-outi-20;1 ;0
 c-sf-outi-20;2;0
 c-sf-outi-20;3;0
 c-sf-outi-20;4;0
@@ -42426,7 +42426,7 @@ c-sf-outi-20;200;0
 c-sf-outi-20;201;0
 c-sf-outi-20;202;0
 c-sf-outi-20;203;3
-c-sf-outi-21;1;0
+c-sf-outi-21;1 ;0
 c-sf-outi-21;2;0
 c-sf-outi-21;3;0
 c-sf-outi-21;4;0
@@ -42629,7 +42629,7 @@ c-sf-outi-21;200;0
 c-sf-outi-21;201;0
 c-sf-outi-21;202;0
 c-sf-outi-21;203;0
-c-sf-outi-22;1;0
+c-sf-outi-22;1 ;0
 c-sf-outi-22;2;0
 c-sf-outi-22;3;0
 c-sf-outi-22;4;0
@@ -42832,7 +42832,7 @@ c-sf-outi-22;200;0
 c-sf-outi-22;201;0
 c-sf-outi-22;202;2,5
 c-sf-outi-22;203;0
-c-sf-outi-23;1;0
+c-sf-outi-23;1 ;0
 c-sf-outi-23;2;0
 c-sf-outi-23;3;0
 c-sf-outi-23;4;0
@@ -43035,7 +43035,7 @@ c-sf-outi-23;200;0
 c-sf-outi-23;201;0
 c-sf-outi-23;202;2,5
 c-sf-outi-23;203;0
-c-sf-outi-24;1;0
+c-sf-outi-24;1 ;0
 c-sf-outi-24;2;0
 c-sf-outi-24;3;0
 c-sf-outi-24;4;0
@@ -43238,7 +43238,7 @@ c-sf-outi-24;200;0
 c-sf-outi-24;201;0
 c-sf-outi-24;202;0
 c-sf-outi-24;203;0
-c-sf-outi-25;1;0
+c-sf-outi-25;1 ;0
 c-sf-outi-25;2;0
 c-sf-outi-25;3;0
 c-sf-outi-25;4;0
@@ -43441,7 +43441,7 @@ c-sf-outi-25;200;0
 c-sf-outi-25;201;0
 c-sf-outi-25;202;0
 c-sf-outi-25;203;4
-c-sf-outi-26;1;0
+c-sf-outi-26;1 ;0
 c-sf-outi-26;2;0
 c-sf-outi-26;3;0
 c-sf-outi-26;4;0
@@ -43644,7 +43644,7 @@ c-sf-outi-26;200;0
 c-sf-outi-26;201;0
 c-sf-outi-26;202;0
 c-sf-outi-26;203;0
-c-sf-outi-27;1;0
+c-sf-outi-27;1 ;0
 c-sf-outi-27;2;0
 c-sf-outi-27;3;0
 c-sf-outi-27;4;3,5
@@ -43847,7 +43847,7 @@ c-sf-outi-27;200;0
 c-sf-outi-27;201;0
 c-sf-outi-27;202;2,5
 c-sf-outi-27;203;3,5
-c-sf-outi-28;1;0
+c-sf-outi-28;1 ;0
 c-sf-outi-28;2;0
 c-sf-outi-28;3;0
 c-sf-outi-28;4;0
@@ -44050,7 +44050,7 @@ c-sf-outi-28;200;0
 c-sf-outi-28;201;0
 c-sf-outi-28;202;2,5
 c-sf-outi-28;203;0
-c-sf-outi-29;1;0
+c-sf-outi-29;1 ;0
 c-sf-outi-29;2;0
 c-sf-outi-29;3;0
 c-sf-outi-29;4;0
@@ -44253,7 +44253,7 @@ c-sf-outi-29;200;0
 c-sf-outi-29;201;0
 c-sf-outi-29;202;0
 c-sf-outi-29;203;2,5
-c-sf-outi-30;1;0
+c-sf-outi-30;1 ;0
 c-sf-outi-30;2;0
 c-sf-outi-30;3;0
 c-sf-outi-30;4;0
@@ -44456,7 +44456,7 @@ c-sf-outi-30;200;0
 c-sf-outi-30;201;0
 c-sf-outi-30;202;0
 c-sf-outi-30;203;0
-c-sf-outi-31;1;0
+c-sf-outi-31;1 ;0
 c-sf-outi-31;2;0
 c-sf-outi-31;3;0
 c-sf-outi-31;4;0
@@ -44659,7 +44659,7 @@ c-sf-outi-31;200;0
 c-sf-outi-31;201;0
 c-sf-outi-31;202;0
 c-sf-outi-31;203;2,5
-c-sf-outi-32;1;0
+c-sf-outi-32;1 ;0
 c-sf-outi-32;2;0
 c-sf-outi-32;3;0
 c-sf-outi-32;4;0
@@ -44862,7 +44862,7 @@ c-sf-outi-32;200;0
 c-sf-outi-32;201;0
 c-sf-outi-32;202;0
 c-sf-outi-32;203;0
-c-sf-outi-33;1;0
+c-sf-outi-33;1 ;0
 c-sf-outi-33;2;0
 c-sf-outi-33;3;0
 c-sf-outi-33;4;0
@@ -45065,7 +45065,7 @@ c-sf-outi-33;200;0
 c-sf-outi-33;201;0
 c-sf-outi-33;202;0
 c-sf-outi-33;203;0
-c-sf-outi-34;1;0
+c-sf-outi-34;1 ;0
 c-sf-outi-34;2;0
 c-sf-outi-34;3;0
 c-sf-outi-34;4;0
@@ -45268,7 +45268,7 @@ c-sf-outi-34;200;0
 c-sf-outi-34;201;0
 c-sf-outi-34;202;3,5
 c-sf-outi-34;203;0
-c-sf-outi-35;1;0
+c-sf-outi-35;1 ;0
 c-sf-outi-35;2;0
 c-sf-outi-35;3;0
 c-sf-outi-35;4;0
@@ -45471,7 +45471,7 @@ c-sf-outi-35;200;0
 c-sf-outi-35;201;0
 c-sf-outi-35;202;0
 c-sf-outi-35;203;3,5
-c-sf-outi-36;1;0
+c-sf-outi-36;1 ;0
 c-sf-outi-36;2;0
 c-sf-outi-36;3;0
 c-sf-outi-36;4;0
@@ -45674,7 +45674,7 @@ c-sf-outi-36;200;0
 c-sf-outi-36;201;0
 c-sf-outi-36;202;0
 c-sf-outi-36;203;4
-c-sf-outi-37;1;0
+c-sf-outi-37;1 ;0
 c-sf-outi-37;2;0
 c-sf-outi-37;3;0
 c-sf-outi-37;4;3,5
@@ -45877,7 +45877,7 @@ c-sf-outi-37;200;0
 c-sf-outi-37;201;0
 c-sf-outi-37;202;2,5
 c-sf-outi-37;203;3,5
-c-sf-outi-38;1;0
+c-sf-outi-38;1 ;0
 c-sf-outi-38;2;0
 c-sf-outi-38;3;0
 c-sf-outi-38;4;0
@@ -46080,7 +46080,7 @@ c-sf-outi-38;200;0
 c-sf-outi-38;201;0
 c-sf-outi-38;202;0
 c-sf-outi-38;203;0
-c-sf-outi-39;1;4
+c-sf-outi-39;1 ;4
 c-sf-outi-39;2;2
 c-sf-outi-39;3;3
 c-sf-outi-39;4;3
@@ -46283,7 +46283,7 @@ c-sf-outi-39;200;2
 c-sf-outi-39;201;1
 c-sf-outi-39;202;2,5
 c-sf-outi-39;203;3
-c-sf-outi-40;1;0
+c-sf-outi-40;1 ;0
 c-sf-outi-40;2;0
 c-sf-outi-40;3;0
 c-sf-outi-40;4;0
@@ -46486,7 +46486,7 @@ c-sf-outi-40;200;4,5
 c-sf-outi-40;201;0
 c-sf-outi-40;202;0
 c-sf-outi-40;203;2,5
-c-sf-outi-41;1;0
+c-sf-outi-41;1 ;0
 c-sf-outi-41;2;0
 c-sf-outi-41;3;0
 c-sf-outi-41;4;0
@@ -46689,7 +46689,7 @@ c-sf-outi-41;200;0
 c-sf-outi-41;201;0
 c-sf-outi-41;202;0
 c-sf-outi-41;203;0
-c-sf-rh-01;1;0
+c-sf-rh-01;1 ;0
 c-sf-rh-01;2;0
 c-sf-rh-01;3;0
 c-sf-rh-01;4;0
@@ -46892,7 +46892,7 @@ c-sf-rh-01;200;0
 c-sf-rh-01;201;0
 c-sf-rh-01;202;0
 c-sf-rh-01;203;0
-c-sf-trad-01;1;0
+c-sf-trad-01;1 ;0
 c-sf-trad-01;2;0
 c-sf-trad-01;3;0
 c-sf-trad-01;4;0
@@ -47095,7 +47095,7 @@ c-sf-trad-01;200;0
 c-sf-trad-01;201;0
 c-sf-trad-01;202;0
 c-sf-trad-01;203;0
-c-sf-trad-02;1;0
+c-sf-trad-02;1 ;0
 c-sf-trad-02;2;0
 c-sf-trad-02;3;0
 c-sf-trad-02;4;0
@@ -47298,7 +47298,7 @@ c-sf-trad-02;200;0
 c-sf-trad-02;201;0
 c-sf-trad-02;202;0
 c-sf-trad-02;203;0
-c-sf-web-01;1;0
+c-sf-web-01;1 ;0
 c-sf-web-01;2;0
 c-sf-web-01;3;0
 c-sf-web-01;4;0
@@ -47501,7 +47501,7 @@ c-sf-web-01;200;0
 c-sf-web-01;201;0
 c-sf-web-01;202;0
 c-sf-web-01;203;2,5
-c-sf-web-02;1;0
+c-sf-web-02;1 ;0
 c-sf-web-02;2;0
 c-sf-web-02;3;0
 c-sf-web-02;4;0
@@ -47704,7 +47704,7 @@ c-sf-web-02;200;0
 c-sf-web-02;201;0
 c-sf-web-02;202;0
 c-sf-web-02;203;0
-c-sf-web-03;1;0
+c-sf-web-03;1 ;0
 c-sf-web-03;2;0
 c-sf-web-03;3;0
 c-sf-web-03;4;0
@@ -47907,7 +47907,7 @@ c-sf-web-03;200;2
 c-sf-web-03;201;0
 c-sf-web-03;202;0
 c-sf-web-03;203;0
-c-sf-web-04;1;0
+c-sf-web-04;1 ;0
 c-sf-web-04;2;0
 c-sf-web-04;3;0
 c-sf-web-04;4;0
@@ -48110,7 +48110,7 @@ c-sf-web-04;200;0
 c-sf-web-04;201;0
 c-sf-web-04;202;0
 c-sf-web-04;203;0
-c-sf-web-05;1;0
+c-sf-web-05;1 ;0
 c-sf-web-05;2;0
 c-sf-web-05;3;0
 c-sf-web-05;4;2,5
@@ -48313,7 +48313,7 @@ c-sf-web-05;200;0
 c-sf-web-05;201;0
 c-sf-web-05;202;0
 c-sf-web-05;203;2,5
-c-sf-web-06;1;0
+c-sf-web-06;1 ;0
 c-sf-web-06;2;0
 c-sf-web-06;3;0
 c-sf-web-06;4;0
@@ -48516,7 +48516,7 @@ c-sf-web-06;200;0
 c-sf-web-06;201;0
 c-sf-web-06;202;0
 c-sf-web-06;203;0
-c-s-gene-01;1;3
+c-s-gene-01;1 ;3
 c-s-gene-01;2;3
 c-s-gene-01;3;3
 c-s-gene-01;4;2
@@ -48719,7 +48719,7 @@ c-s-gene-01;200;2
 c-s-gene-01;201;0
 c-s-gene-01;202;0
 c-s-gene-01;203;2
-c-s-gene-02;1;0
+c-s-gene-02;1 ;0
 c-s-gene-02;2;0
 c-s-gene-02;3;0
 c-s-gene-02;4;0
@@ -48922,7 +48922,7 @@ c-s-gene-02;200;0
 c-s-gene-02;201;0
 c-s-gene-02;202;0
 c-s-gene-02;203;0
-c-s-gene-03;1;0
+c-s-gene-03;1 ;0
 c-s-gene-03;2;0
 c-s-gene-03;3;0
 c-s-gene-03;4;0
@@ -49125,7 +49125,7 @@ c-s-gene-03;200;2,5
 c-s-gene-03;201;0
 c-s-gene-03;202;0
 c-s-gene-03;203;3,5
-c-s-gene-04;1;0
+c-s-gene-04;1 ;0
 c-s-gene-04;2;0
 c-s-gene-04;3;0
 c-s-gene-04;4;3,5
@@ -49328,7 +49328,7 @@ c-s-gene-04;200;3
 c-s-gene-04;201;0
 c-s-gene-04;202;0
 c-s-gene-04;203;0
-c-s-gene-05;1;0
+c-s-gene-05;1 ;0
 c-s-gene-05;2;0
 c-s-gene-05;3;0
 c-s-gene-05;4;3,5
@@ -49531,7 +49531,7 @@ c-s-gene-05;200;2
 c-s-gene-05;201;0
 c-s-gene-05;202;0
 c-s-gene-05;203;3
-c-s-gene-06;1;0
+c-s-gene-06;1 ;0
 c-s-gene-06;2;0
 c-s-gene-06;3;0
 c-s-gene-06;4;0
@@ -49734,7 +49734,7 @@ c-s-gene-06;200;0
 c-s-gene-06;201;0
 c-s-gene-06;202;0
 c-s-gene-06;203;0
-c-s-gene-07;1;0
+c-s-gene-07;1 ;0
 c-s-gene-07;2;0
 c-s-gene-07;3;0
 c-s-gene-07;4;0
@@ -49937,7 +49937,7 @@ c-s-gene-07;200;0
 c-s-gene-07;201;0
 c-s-gene-07;202;0
 c-s-gene-07;203;0
-c-s-gesa-01;1;0
+c-s-gesa-01;1 ;0
 c-s-gesa-01;2;0
 c-s-gesa-01;3;0
 c-s-gesa-01;4;0
@@ -50140,7 +50140,7 @@ c-s-gesa-01;200;0
 c-s-gesa-01;201;0
 c-s-gesa-01;202;0
 c-s-gesa-01;203;0
-c-s-gesa-02;1;0
+c-s-gesa-02;1 ;0
 c-s-gesa-02;2;0
 c-s-gesa-02;3;0
 c-s-gesa-02;4;0
@@ -50343,7 +50343,7 @@ c-s-gesa-02;200;0
 c-s-gesa-02;201;0
 c-s-gesa-02;202;0
 c-s-gesa-02;203;0
-c-s-info-01;1;0
+c-s-info-01;1 ;0
 c-s-info-01;2;0
 c-s-info-01;3;0
 c-s-info-01;4;3,5
@@ -50546,7 +50546,7 @@ c-s-info-01;200;3
 c-s-info-01;201;0
 c-s-info-01;202;0
 c-s-info-01;203;0
-c-s-info-02;1;0
+c-s-info-02;1 ;0
 c-s-info-02;2;0
 c-s-info-02;3;0
 c-s-info-02;4;2,5
@@ -50749,7 +50749,7 @@ c-s-info-02;200;2
 c-s-info-02;201;0
 c-s-info-02;202;0
 c-s-info-02;203;0
-c-s-info-03;1;0
+c-s-info-03;1 ;0
 c-s-info-03;2;0
 c-s-info-03;3;0
 c-s-info-03;4;2,5
@@ -50952,7 +50952,7 @@ c-s-info-03;200;1
 c-s-info-03;201;0
 c-s-info-03;202;0
 c-s-info-03;203;0
-c-s-info-04;1;0
+c-s-info-04;1 ;0
 c-s-info-04;2;0
 c-s-info-04;3;0
 c-s-info-04;4;3,5
@@ -51155,7 +51155,7 @@ c-s-info-04;200;0
 c-s-info-04;201;0
 c-s-info-04;202;0
 c-s-info-04;203;0
-c-s-info-05;1;0
+c-s-info-05;1 ;0
 c-s-info-05;2;0
 c-s-info-05;3;0
 c-s-info-05;4;4,5
@@ -51358,7 +51358,7 @@ c-s-info-05;200;0
 c-s-info-05;201;0
 c-s-info-05;202;0
 c-s-info-05;203;0
-c-s-info-06;1;0
+c-s-info-06;1 ;0
 c-s-info-06;2;0
 c-s-info-06;3;0
 c-s-info-06;4;0
@@ -51561,7 +51561,7 @@ c-s-info-06;200;4
 c-s-info-06;201;0
 c-s-info-06;202;0
 c-s-info-06;203;0
-c-s-info-07;1;0
+c-s-info-07;1 ;0
 c-s-info-07;2;0
 c-s-info-07;3;0
 c-s-info-07;4;2,5
@@ -51764,7 +51764,7 @@ c-s-info-07;200;0
 c-s-info-07;201;0
 c-s-info-07;202;0
 c-s-info-07;203;0
-c-s-info-08;1;0
+c-s-info-08;1 ;0
 c-s-info-08;2;0
 c-s-info-08;3;0
 c-s-info-08;4;0
@@ -51967,7 +51967,7 @@ c-s-info-08;200;2
 c-s-info-08;201;0
 c-s-info-08;202;0
 c-s-info-08;203;0
-c-s-info-09;1;0
+c-s-info-09;1 ;0
 c-s-info-09;2;0
 c-s-info-09;3;0
 c-s-info-09;4;0
@@ -52170,7 +52170,7 @@ c-s-info-09;200;0
 c-s-info-09;201;0
 c-s-info-09;202;0
 c-s-info-09;203;0
-c-s-info-10;1;0
+c-s-info-10;1 ;0
 c-s-info-10;2;0
 c-s-info-10;3;0
 c-s-info-10;4;0
@@ -52373,7 +52373,7 @@ c-s-info-10;200;0
 c-s-info-10;201;0
 c-s-info-10;202;0
 c-s-info-10;203;0
-c-s-info-11;1;0
+c-s-info-11;1 ;0
 c-s-info-11;2;0
 c-s-info-11;3;0
 c-s-info-11;4;3,5
@@ -52576,7 +52576,7 @@ c-s-info-11;200;0
 c-s-info-11;201;0
 c-s-info-11;202;0
 c-s-info-11;203;0
-c-s-info-12;1;0
+c-s-info-12;1 ;0
 c-s-info-12;2;0
 c-s-info-12;3;0
 c-s-info-12;4;0
@@ -52779,7 +52779,7 @@ c-s-info-12;200;0
 c-s-info-12;201;0
 c-s-info-12;202;0
 c-s-info-12;203;0
-c-s-info-13;1;0
+c-s-info-13;1 ;0
 c-s-info-13;2;0
 c-s-info-13;3;0
 c-s-info-13;4;0
@@ -52982,7 +52982,7 @@ c-s-info-13;200;0
 c-s-info-13;201;0
 c-s-info-13;202;0
 c-s-info-13;203;0
-c-s-info-14;1;0
+c-s-info-14;1 ;0
 c-s-info-14;2;0
 c-s-info-14;3;0
 c-s-info-14;4;0
@@ -53185,7 +53185,7 @@ c-s-info-14;200;1
 c-s-info-14;201;0
 c-s-info-14;202;0
 c-s-info-14;203;0
-c-s-inist-01;1;0
+c-s-inist-01;1 ;0
 c-s-inist-01;2;0
 c-s-inist-01;3;0
 c-s-inist-01;4;3,5
@@ -53388,7 +53388,7 @@ c-s-inist-01;200;0
 c-s-inist-01;201;2,5
 c-s-inist-01;202;2,5
 c-s-inist-01;203;0
-c-s-inist-02;1;0
+c-s-inist-02;1 ;0
 c-s-inist-02;2;0
 c-s-inist-02;3;0
 c-s-inist-02;4;4,5
@@ -53591,7 +53591,7 @@ c-s-inist-02;200;0
 c-s-inist-02;201;0
 c-s-inist-02;202;2,5
 c-s-inist-02;203;2,5
-c-s-inist-03;1;4
+c-s-inist-03;1 ;4
 c-s-inist-03;2;4
 c-s-inist-03;3;4
 c-s-inist-03;4;4
@@ -53794,7 +53794,7 @@ c-s-inist-03;200;0
 c-s-inist-03;201;2,5
 c-s-inist-03;202;0
 c-s-inist-03;203;0
-c-s-inist-04;1;0
+c-s-inist-04;1 ;0
 c-s-inist-04;2;0
 c-s-inist-04;3;0
 c-s-inist-04;4;4,5
@@ -53997,7 +53997,7 @@ c-s-inist-04;200;0
 c-s-inist-04;201;0
 c-s-inist-04;202;0
 c-s-inist-04;203;2,5
-c-s-inist-05;1;0
+c-s-inist-05;1 ;0
 c-s-inist-05;2;0
 c-s-inist-05;3;0
 c-s-inist-05;4;3,5
@@ -54200,7 +54200,7 @@ c-s-inist-05;200;0
 c-s-inist-05;201;0
 c-s-inist-05;202;0
 c-s-inist-05;203;0
-c-s-inist-06;1;4
+c-s-inist-06;1 ;4
 c-s-inist-06;2;3
 c-s-inist-06;3;4
 c-s-inist-06;4;4
@@ -54403,7 +54403,7 @@ c-s-inist-06;200;3
 c-s-inist-06;201;2,5
 c-s-inist-06;202;2,5
 c-s-inist-06;203;2
-c-s-inist-07;1;0
+c-s-inist-07;1 ;0
 c-s-inist-07;2;0
 c-s-inist-07;3;0
 c-s-inist-07;4;4,5
@@ -54606,7 +54606,7 @@ c-s-inist-07;200;2
 c-s-inist-07;201;0
 c-s-inist-07;202;0
 c-s-inist-07;203;2,5
-c-s-ist-01;1;0
+c-s-ist-01;1 ;0
 c-s-ist-01;2;0
 c-s-ist-01;3;3,5
 c-s-ist-01;4;0
@@ -54809,7 +54809,7 @@ c-s-ist-01;200;3,5
 c-s-ist-01;201;0
 c-s-ist-01;202;0
 c-s-ist-01;203;2
-c-s-ist-02;1;4
+c-s-ist-02;1 ;4
 c-s-ist-02;2;1
 c-s-ist-02;3;3
 c-s-ist-02;4;2
@@ -55012,7 +55012,7 @@ c-s-ist-02;200;2
 c-s-ist-02;201;0
 c-s-ist-02;202;0
 c-s-ist-02;203;3
-c-s-ist-03;1;3
+c-s-ist-03;1 ;3
 c-s-ist-03;2;2
 c-s-ist-03;3;3
 c-s-ist-03;4;2
@@ -55215,7 +55215,7 @@ c-s-ist-03;200;3
 c-s-ist-03;201;0
 c-s-ist-03;202;0
 c-s-ist-03;203;2
-c-s-ist-04;1;3,5
+c-s-ist-04;1 ;3,5
 c-s-ist-04;2;0
 c-s-ist-04;3;0
 c-s-ist-04;4;3,5
@@ -55418,7 +55418,7 @@ c-s-ist-04;200;0
 c-s-ist-04;201;0
 c-s-ist-04;202;0
 c-s-ist-04;203;0
-c-s-ist-05;1;0
+c-s-ist-05;1 ;0
 c-s-ist-05;2;0
 c-s-ist-05;3;0
 c-s-ist-05;4;0
@@ -55621,7 +55621,7 @@ c-s-ist-05;200;0
 c-s-ist-05;201;0
 c-s-ist-05;202;0
 c-s-ist-05;203;0
-c-s-ist-06;1;0
+c-s-ist-06;1 ;0
 c-s-ist-06;2;0
 c-s-ist-06;3;0
 c-s-ist-06;4;0
@@ -55824,7 +55824,7 @@ c-s-ist-06;200;0
 c-s-ist-06;201;0
 c-s-ist-06;202;0
 c-s-ist-06;203;0
-c-s-ist-07;1;0
+c-s-ist-07;1 ;0
 c-s-ist-07;2;0
 c-s-ist-07;3;0
 c-s-ist-07;4;0
@@ -56027,7 +56027,7 @@ c-s-ist-07;200;0
 c-s-ist-07;201;0
 c-s-ist-07;202;0
 c-s-ist-07;203;0
-c-s-ist-08;1;0
+c-s-ist-08;1 ;0
 c-s-ist-08;2;0
 c-s-ist-08;3;0
 c-s-ist-08;4;0
@@ -56230,7 +56230,7 @@ c-s-ist-08;200;4
 c-s-ist-08;201;0
 c-s-ist-08;202;0
 c-s-ist-08;203;0
-c-s-ist-09;1;0
+c-s-ist-09;1 ;0
 c-s-ist-09;2;0
 c-s-ist-09;3;0
 c-s-ist-09;4;0
@@ -56433,7 +56433,7 @@ c-s-ist-09;200;0
 c-s-ist-09;201;0
 c-s-ist-09;202;2,5
 c-s-ist-09;203;0
-c-s-ist-10;1;0
+c-s-ist-10;1 ;0
 c-s-ist-10;2;0
 c-s-ist-10;3;0
 c-s-ist-10;4;0
@@ -56636,7 +56636,7 @@ c-s-ist-10;200;3
 c-s-ist-10;201;0
 c-s-ist-10;202;0
 c-s-ist-10;203;0
-c-s-ist-11;1;0
+c-s-ist-11;1 ;0
 c-s-ist-11;2;0
 c-s-ist-11;3;0
 c-s-ist-11;4;0
@@ -56839,7 +56839,7 @@ c-s-ist-11;200;3
 c-s-ist-11;201;0
 c-s-ist-11;202;0
 c-s-ist-11;203;0
-c-s-ist-12;1;0
+c-s-ist-12;1 ;0
 c-s-ist-12;2;0
 c-s-ist-12;3;0
 c-s-ist-12;4;0
@@ -57042,7 +57042,7 @@ c-s-ist-12;200;0
 c-s-ist-12;201;0
 c-s-ist-12;202;0
 c-s-ist-12;203;0
-c-s-ist-13;1;0
+c-s-ist-13;1 ;0
 c-s-ist-13;2;0
 c-s-ist-13;3;0
 c-s-ist-13;4;0
@@ -57245,7 +57245,7 @@ c-s-ist-13;200;0
 c-s-ist-13;201;0
 c-s-ist-13;202;0
 c-s-ist-13;203;0
-c-s-ist-14;1;0
+c-s-ist-14;1 ;0
 c-s-ist-14;2;0
 c-s-ist-14;3;0
 c-s-ist-14;4;0
@@ -57448,7 +57448,7 @@ c-s-ist-14;200;0
 c-s-ist-14;201;0
 c-s-ist-14;202;0
 c-s-ist-14;203;0
-c-s-ist-15;1;0
+c-s-ist-15;1 ;0
 c-s-ist-15;2;0
 c-s-ist-15;3;0
 c-s-ist-15;4;0
@@ -57651,7 +57651,7 @@ c-s-ist-15;200;0
 c-s-ist-15;201;0
 c-s-ist-15;202;0
 c-s-ist-15;203;0
-c-s-ist-16;1;0
+c-s-ist-16;1 ;0
 c-s-ist-16;2;0
 c-s-ist-16;3;0
 c-s-ist-16;4;0
@@ -57854,7 +57854,7 @@ c-s-ist-16;200;0
 c-s-ist-16;201;0
 c-s-ist-16;202;0
 c-s-ist-16;203;0
-c-s-ist-17;1;0
+c-s-ist-17;1 ;0
 c-s-ist-17;2;0
 c-s-ist-17;3;0
 c-s-ist-17;4;0
@@ -58057,7 +58057,7 @@ c-s-ist-17;200;0
 c-s-ist-17;201;0
 c-s-ist-17;202;0
 c-s-ist-17;203;0
-c-s-ist-18;1;0
+c-s-ist-18;1 ;0
 c-s-ist-18;2;0
 c-s-ist-18;3;0
 c-s-ist-18;4;0
@@ -58260,7 +58260,7 @@ c-s-ist-18;200;0
 c-s-ist-18;201;0
 c-s-ist-18;202;2,5
 c-s-ist-18;203;0
-c-s-ist-19;1;0
+c-s-ist-19;1 ;0
 c-s-ist-19;2;0
 c-s-ist-19;3;0
 c-s-ist-19;4;0
@@ -58463,7 +58463,7 @@ c-s-ist-19;200;0
 c-s-ist-19;201;0
 c-s-ist-19;202;0
 c-s-ist-19;203;0
-c-s-ist-20;1;0
+c-s-ist-20;1 ;0
 c-s-ist-20;2;0
 c-s-ist-20;3;0
 c-s-ist-20;4;0
@@ -58666,7 +58666,7 @@ c-s-ist-20;200;0
 c-s-ist-20;201;0
 c-s-ist-20;202;0
 c-s-ist-20;203;0
-c-s-ist-21;1;0
+c-s-ist-21;1 ;0
 c-s-ist-21;2;0
 c-s-ist-21;3;0
 c-s-ist-21;4;0
@@ -58869,7 +58869,7 @@ c-s-ist-21;200;0
 c-s-ist-21;201;0
 c-s-ist-21;202;0
 c-s-ist-21;203;0
-c-s-ist-22;1;0
+c-s-ist-22;1 ;0
 c-s-ist-22;2;0
 c-s-ist-22;3;0
 c-s-ist-22;4;0
@@ -59072,7 +59072,7 @@ c-s-ist-22;200;0
 c-s-ist-22;201;0
 c-s-ist-22;202;2,5
 c-s-ist-22;203;0
-c-s-ist-23;1;0
+c-s-ist-23;1 ;0
 c-s-ist-23;2;0
 c-s-ist-23;3;0
 c-s-ist-23;4;0
@@ -59275,7 +59275,7 @@ c-s-ist-23;200;3
 c-s-ist-23;201;0
 c-s-ist-23;202;0
 c-s-ist-23;203;0
-c-s-ist-24;1;0
+c-s-ist-24;1 ;0
 c-s-ist-24;2;0
 c-s-ist-24;3;0
 c-s-ist-24;4;0
@@ -59478,7 +59478,7 @@ c-s-ist-24;200;0
 c-s-ist-24;201;0
 c-s-ist-24;202;0
 c-s-ist-24;203;0
-c-s-ist-25;1;0
+c-s-ist-25;1 ;0
 c-s-ist-25;2;0
 c-s-ist-25;3;0
 c-s-ist-25;4;0
@@ -59681,7 +59681,7 @@ c-s-ist-25;200;0
 c-s-ist-25;201;0
 c-s-ist-25;202;0
 c-s-ist-25;203;0
-c-s-ist-26;1;0
+c-s-ist-26;1 ;0
 c-s-ist-26;2;0
 c-s-ist-26;3;0
 c-s-ist-26;4;0
@@ -59884,7 +59884,7 @@ c-s-ist-26;200;0
 c-s-ist-26;201;0
 c-s-ist-26;202;0
 c-s-ist-26;203;0
-c-s-ist-27;1;0
+c-s-ist-27;1 ;0
 c-s-ist-27;2;0
 c-s-ist-27;3;0
 c-s-ist-27;4;0
@@ -60087,7 +60087,7 @@ c-s-ist-27;200;0
 c-s-ist-27;201;0
 c-s-ist-27;202;0
 c-s-ist-27;203;0
-c-s-juri-01;1;0
+c-s-juri-01;1 ;0
 c-s-juri-01;2;0
 c-s-juri-01;3;0
 c-s-juri-01;4;0
@@ -60290,7 +60290,7 @@ c-s-juri-01;200;3,5
 c-s-juri-01;201;0
 c-s-juri-01;202;0
 c-s-juri-01;203;2
-c-s-juri-02;1;0
+c-s-juri-02;1 ;0
 c-s-juri-02;2;0
 c-s-juri-02;3;0
 c-s-juri-02;4;0
@@ -60493,7 +60493,7 @@ c-s-juri-02;200;2
 c-s-juri-02;201;0
 c-s-juri-02;202;0
 c-s-juri-02;203;3
-c-s-juri-03;1;0
+c-s-juri-03;1 ;0
 c-s-juri-03;2;0
 c-s-juri-03;3;0
 c-s-juri-03;4;0
@@ -60696,7 +60696,7 @@ c-s-juri-03;200;3
 c-s-juri-03;201;0
 c-s-juri-03;202;0
 c-s-juri-03;203;2
-c-s-lang-01;1;2
+c-s-lang-01;1 ;2
 c-s-lang-01;2;1
 c-s-lang-01;3;2
 c-s-lang-01;4;2
@@ -60899,7 +60899,7 @@ c-s-lang-01;200;2
 c-s-lang-01;201;2,5
 c-s-lang-01;202;0
 c-s-lang-01;203;2
-c-s-lang-02;1;0
+c-s-lang-02;1 ;0
 c-s-lang-02;2;0
 c-s-lang-02;3;0
 c-s-lang-02;4;0
@@ -61102,7 +61102,7 @@ c-s-lang-02;200;0
 c-s-lang-02;201;0
 c-s-lang-02;202;0
 c-s-lang-02;203;0
-c-s-lang-03;1;0
+c-s-lang-03;1 ;0
 c-s-lang-03;2;0
 c-s-lang-03;3;0
 c-s-lang-03;4;0
@@ -61305,7 +61305,7 @@ c-s-lang-03;200;0
 c-s-lang-03;201;3,5
 c-s-lang-03;202;3,5
 c-s-lang-03;203;0
-c-s-logi-01;1;0
+c-s-logi-01;1 ;0
 c-s-logi-01;2;0
 c-s-logi-01;3;0
 c-s-logi-01;4;0
@@ -61508,7 +61508,7 @@ c-s-logi-01;200;0
 c-s-logi-01;201;3,5
 c-s-logi-01;202;0
 c-s-logi-01;203;0
-c-s-logi-02;1;0
+c-s-logi-02;1 ;0
 c-s-logi-02;2;0
 c-s-logi-02;3;0
 c-s-logi-02;4;0
@@ -61711,7 +61711,7 @@ c-s-logi-02;200;0
 c-s-logi-02;201;0
 c-s-logi-02;202;0
 c-s-logi-02;203;0
-c-s-logi-03;1;0
+c-s-logi-03;1 ;0
 c-s-logi-03;2;0
 c-s-logi-03;3;0
 c-s-logi-03;4;0
@@ -61914,7 +61914,7 @@ c-s-logi-03;200;0
 c-s-logi-03;201;2,5
 c-s-logi-03;202;3
 c-s-logi-03;203;0
-c-s-logi-04;1;0
+c-s-logi-04;1 ;0
 c-s-logi-04;2;0
 c-s-logi-04;3;0
 c-s-logi-04;4;0
@@ -62117,7 +62117,7 @@ c-s-logi-04;200;0
 c-s-logi-04;201;3
 c-s-logi-04;202;0
 c-s-logi-04;203;0
-c-s-logi-05;1;0
+c-s-logi-05;1 ;0
 c-s-logi-05;2;0
 c-s-logi-05;3;0
 c-s-logi-05;4;0
@@ -62320,7 +62320,7 @@ c-s-logi-05;200;0
 c-s-logi-05;201;3
 c-s-logi-05;202;0
 c-s-logi-05;203;0
-c-s-logi-06;1;0
+c-s-logi-06;1 ;0
 c-s-logi-06;2;0
 c-s-logi-06;3;0
 c-s-logi-06;4;0
@@ -62523,7 +62523,7 @@ c-s-logi-06;200;0
 c-s-logi-06;201;2,5
 c-s-logi-06;202;0
 c-s-logi-06;203;0
-c-s-logi-07;1;0
+c-s-logi-07;1 ;0
 c-s-logi-07;2;0
 c-s-logi-07;3;0
 c-s-logi-07;4;0
@@ -62726,7 +62726,7 @@ c-s-logi-07;200;0
 c-s-logi-07;201;3
 c-s-logi-07;202;3
 c-s-logi-07;203;0
-c-s-logi-08;1;0
+c-s-logi-08;1 ;0
 c-s-logi-08;2;0
 c-s-logi-08;3;0
 c-s-logi-08;4;0
@@ -62929,7 +62929,7 @@ c-s-logi-08;200;0
 c-s-logi-08;201;2
 c-s-logi-08;202;2
 c-s-logi-08;203;0
-c-s-logi-09;1;0
+c-s-logi-09;1 ;0
 c-s-logi-09;2;0
 c-s-logi-09;3;0
 c-s-logi-09;4;0
@@ -63132,7 +63132,7 @@ c-s-logi-09;200;0
 c-s-logi-09;201;2,5
 c-s-logi-09;202;0
 c-s-logi-09;203;0
-c-s-logi-10;1;0
+c-s-logi-10;1 ;0
 c-s-logi-10;2;0
 c-s-logi-10;3;0
 c-s-logi-10;4;0
@@ -63335,7 +63335,7 @@ c-s-logi-10;200;0
 c-s-logi-10;201;3,5
 c-s-logi-10;202;0
 c-s-logi-10;203;0
-c-s-mana-01;1;2
+c-s-mana-01;1 ;2
 c-s-mana-01;2;2
 c-s-mana-01;3;3
 c-s-mana-01;4;3
@@ -63538,7 +63538,7 @@ c-s-mana-01;200;0
 c-s-mana-01;201;0
 c-s-mana-01;202;0
 c-s-mana-01;203;3,5
-c-s-rh-01;1;0
+c-s-rh-01;1 ;0
 c-s-rh-01;2;0
 c-s-rh-01;3;0
 c-s-rh-01;4;0
@@ -63741,7 +63741,7 @@ c-s-rh-01;200;0
 c-s-rh-01;201;0
 c-s-rh-01;202;0
 c-s-rh-01;203;0
-c-s-trad-01;1;0
+c-s-trad-01;1 ;0
 c-s-trad-01;2;0
 c-s-trad-01;3;0
 c-s-trad-01;4;0
@@ -63944,7 +63944,7 @@ c-s-trad-01;200;0
 c-s-trad-01;201;0
 c-s-trad-01;202;0
 c-s-trad-01;203;0
-c-s-trad-02;1;0
+c-s-trad-02;1 ;0
 c-s-trad-02;2;0
 c-s-trad-02;3;0
 c-s-trad-02;4;0
@@ -64147,7 +64147,7 @@ c-s-trad-02;200;0
 c-s-trad-02;201;0
 c-s-trad-02;202;0
 c-s-trad-02;203;0
-c-s-web-01;1;0
+c-s-web-01;1 ;0
 c-s-web-01;2;0
 c-s-web-01;3;0
 c-s-web-01;4;0
@@ -64350,7 +64350,7 @@ c-s-web-01;200;0
 c-s-web-01;201;0
 c-s-web-01;202;0
 c-s-web-01;203;0
-c-s-web-02;1;0
+c-s-web-02;1 ;0
 c-s-web-02;2;0
 c-s-web-02;3;0
 c-s-web-02;4;3,5
@@ -64553,7 +64553,7 @@ c-s-web-02;200;2
 c-s-web-02;201;0
 c-s-web-02;202;0
 c-s-web-02;203;2,5
-c-s-web-03;1;0
+c-s-web-03;1 ;0
 c-s-web-03;2;0
 c-s-web-03;3;0
 c-s-web-03;4;3,5
@@ -64756,7 +64756,7 @@ c-s-web-03;200;0
 c-s-web-03;201;0
 c-s-web-03;202;0
 c-s-web-03;203;0
-c-s-web-04;1;0
+c-s-web-04;1 ;0
 c-s-web-04;2;0
 c-s-web-04;3;0
 c-s-web-04;4;3,5

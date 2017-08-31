@@ -135,7 +135,7 @@ CREATE VIEW view_nb_agents_without_family AS
 select count(agent_id) from view_agents_without_family;
 
 CREATE VIEW view_age_agents_family AS
-select family_id,date_part('year', avg(AGE(agent_birthdate))) as moyenne_age
+select family_id, avg(AGE(agent_birthdate)) as moyenne_age,median(age(agent_birthdate)) AS median_age
  from agents a , view_agents_family vaf
  where 	a.agent_id= vaf.agent_id
     group by family_id
@@ -148,6 +148,7 @@ CREATE VIEW view_retirement_65 AS
  and 	date_part('year', (AGE(agent_birthdate)))+5 >65
     group by family_id
     order by family_id ;
+
 
 CREATE VIEW view_distribution_corps AS
 select vaf.family_id,sum(CASE WHEN agent_contrat = 'CDD' THEN 1 ELSE 0 END) as nb_CDD,
@@ -167,6 +168,99 @@ CREATE VIEW view_family_without_agents AS
 select distinct family_id from family
  where family_id not in(select distinct family_id from view_agents_family)
   ORDER BY family_id;
+
+
+-- Vue globale
+ CREATE VIEW view_global AS
+select vaf.family_id, a.agent_id,a.agent_birthdate, agent_contrat, a.agent_corps, orga_code,serv_code , discriminante,skill_shortname, ac_level
+from view_agents_family vaf, agents_skills ac,family_skills fc, skills c,agents a
+LEFT JOIN  agents_organigramme ag ON ag.agent_id = a.agent_id
+LEFT JOIN  agents_services ags ON ags.agent_id = a.agent_id
+where ac.skill_code=fc.skill_code and c.skill_code = fc.skill_code and vaf.family_id=fc.family_id
+and a.agent_id = ac.agent_id and a.agent_id=vaf.agent_id
+group by vaf.family_id, a.agent_id,a.agent_birthdate, a.agent_contrat, a.agent_corps, orga_code,serv_code , discriminante,skill_shortname, ac_level
+order by vaf.family_id ;
+
+
+CREATE VIEW view_distribution_service AS
+select   vaf.family_id,
+sum(CASE WHEN serv_code = 'APIL' THEN 1 ELSE 0 END) as APIL,
+	sum(CASE WHEN serv_code = 'Communication' THEN 1 ELSE 0 END) as Communication,
+    sum(CASE WHEN serv_code = 'Coordination' THEN 1 ELSE 0 END) as Coordination,
+     sum(CASE WHEN serv_code = 'Direction' THEN 1 ELSE 0 END) as Direction,
+    sum(CASE WHEN serv_code = 'DORE' THEN 1 ELSE 0 END) as DORE,
+	sum(CASE WHEN serv_code = 'Edition numerique' THEN 1 ELSE 0 END) as Edition_numerique,
+    sum(CASE WHEN serv_code = 'FDD' THEN 1 ELSE 0 END) as FDD,
+     sum(CASE WHEN serv_code = 'Formation' THEN 1 ELSE 0 END) as Formation,
+    sum(CASE WHEN serv_code = 'I Dev' THEN 1 ELSE 0 END) as I_DEV,
+     sum(CASE WHEN serv_code = 'I Prod' THEN 1 ELSE 0 END) as I_PROD,
+    sum(CASE WHEN serv_code like 'N%go' THEN 1 ELSE 0 END) as Nego,
+	sum(CASE WHEN serv_code = 'Portails' THEN 1 ELSE 0 END) as Portails,
+    sum(CASE WHEN serv_code = 'Publier' THEN 1 ELSE 0 END) as Publier,
+     sum(CASE WHEN serv_code = 'R et D' THEN 1 ELSE 0 END) as R_et_D,
+    sum(CASE WHEN serv_code = 'SFJ' THEN 1 ELSE 0 END) as SFJ,
+    sum(CASE WHEN serv_code = 'SIB' THEN 1 ELSE 0 END) as SIB,
+    sum(CASE WHEN serv_code = 'SPP' THEN 1 ELSE 0 END) as SPP,
+     sum(CASE WHEN serv_code = 'SRH' THEN 1 ELSE 0 END) as SRH,
+    sum(CASE WHEN serv_code = 'STL' THEN 1 ELSE 0 END) as STL,
+	sum(CASE WHEN serv_code = 'Termino' THEN 1 ELSE 0 END) as Termino,
+    sum(CASE WHEN serv_code = 'Traduction' THEN 1 ELSE 0 END) as Traduction,
+     sum(CASE WHEN serv_code = 'VBDD' THEN 1 ELSE 0 END) as VBDD,
+    sum(CASE WHEN serv_code = 'Web' THEN 1 ELSE 0 END) as Web
+    from view_agents_family vaf,agents ag, agents_services ase
+where ag.agent_id = vaf.agent_id and ase.agent_id = ag.agent_id
+group by vaf.family_id;
+
+
+CREATE VIEW view_distribution_organigramme AS
+select vaf.family_id,sum(CASE WHEN orga_code = 'DDO' THEN 1 ELSE 0 END) as DDO,
+sum(CASE WHEN orga_code = 'DSI' THEN 1 ELSE 0 END) as DSI,
+	sum(CASE WHEN orga_code = 'SGAL' THEN 1 ELSE 0 END) as SGAL,
+    sum(CASE WHEN orga_code = 'DPI' THEN 1 ELSE 0 END) as DPI,
+     sum(CASE WHEN orga_code = 'DOS' THEN 1 ELSE 0 END) as DOS,
+    sum(CASE WHEN orga_code = 'Direction' THEN 1 ELSE 0 END) as Direction
+    from view_agents_family vaf,agents ag, agents_organigramme ao
+where ag.agent_id = vaf.agent_id and ao.agent_id = ag.agent_id
+group by vaf.family_id;
+
+
+
+CREATE VIEW view_distribution_skills_corps AS
+select vaf.family_id, skill_shortname,
+	sum(CASE WHEN agent_corps = 'IR' THEN 1 ELSE 0 END) as nb_IR,
+    sum(CASE WHEN agent_corps = 'IE' THEN 1 ELSE 0 END) as nb_IE,
+     sum(CASE WHEN agent_corps = 'AI' THEN 1 ELSE 0 END) as nb_AI,
+    sum(CASE WHEN agent_corps = 'T' THEN 1 ELSE 0 END) as nb_T,
+         sum(CASE WHEN agent_corps = 'ATR' THEN 1 ELSE 0 END) as nb_ATR
+    from view_agents_family vaf,agents ag,family_skills fs,skills s
+where ag.agent_id = vaf.agent_id and fs.skill_code=s.skill_code and fs.family_id=vaf.family_id
+group by vaf.family_id,skill_shortname;
+
+
+CREATE VIEW view_distribution_skills_organigramme AS
+select vaf.family_id, skill_shortname,
+	sum(CASE WHEN orga_code = 'DDO' THEN 1 ELSE 0 END) as DDO,
+sum(CASE WHEN orga_code = 'DSI' THEN 1 ELSE 0 END) as DSI,
+	sum(CASE WHEN orga_code = 'SGAL' THEN 1 ELSE 0 END) as SGAL,
+    sum(CASE WHEN orga_code = 'DPI' THEN 1 ELSE 0 END) as DPI,
+     sum(CASE WHEN orga_code = 'DOS' THEN 1 ELSE 0 END) as DOS,
+    sum(CASE WHEN orga_code = 'Direction' THEN 1 ELSE 0 END) as Direction
+    from view_agents_family vaf,agents ag,family_skills fs,skills s,agents_organigramme ao
+where ag.agent_id = vaf.agent_id and fs.skill_code=s.skill_code and fs.family_id=vaf.family_id and ao.agent_id = ag.agent_id
+group by vaf.family_id,skill_shortname;
+
+CREATE VIEW view_distribution_skills_levels AS
+select vaf.family_id, skill_shortname,
+	sum(CASE WHEN ac_level in ( 1, 1.5 ) THEN 1 ELSE 0 END) as nb1,
+sum(CASE WHEN ac_level in ( 2, 2.5 ) THEN 1 ELSE 0 END) as nb2,
+	sum(CASE WHEN ac_level in ( 3, 3.5 ) THEN 1 ELSE 0 END) as nb3,
+    sum(CASE WHEN ac_level in ( 4, 4.5 )THEN 1 ELSE 0 END) as nb4
+    from view_agents_family vaf,agents ag,family_skills fs,skills s,agents_skills ags
+where ag.agent_id = vaf.agent_id and fs.skill_code=s.skill_code and fs.family_id=vaf.family_id
+and ags.agent_id = ag.agent_id and ags.skill_code = s.skill_code
+group by vaf.family_id,skill_shortname;
+
+
 
 --test entitee
 
