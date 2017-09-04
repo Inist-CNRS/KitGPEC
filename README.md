@@ -14,8 +14,6 @@ Base de données permettant le traitements de compétences individuelles dans un
 
 
 
-
-
 - Déposer le fichier **KitGPEC.xlsm** à la racine
 
   - Ouvrir le fichier **KitGPEC.xlsm** et extraire l'onglet  **Matrice_Agent_Comp** pour en générer un fichier CSV avec des **séparateurs de type points virgules**. Et déposer le fichier  **Matrice_Agent_Comp.csv** dans le répertoire ``script/``
@@ -94,35 +92,37 @@ Base de données permettant le traitements de compétences individuelles dans un
 
 ------------------------------------------
 
-  ##Visualisation et Interaction dans PgAdmin4 
+  ## Visualisation et Interaction dans PgAdmin4 
  Afin de pouvoir visualiser les données enregistrées et calculées, il nous suffit de naviguer dans l'arborescence de notre BDD pour trouver les Tables et les Vues.
 
   #### Arborescence de la BDD dans PgAdmin4
-.
-+-- Servers
-|   +-- kitGPEC-demo
-| 	|	+-- Databases
-|	|	|	+-- kitgpec
-|	|	|	|	+-- Casts
-|	|	|	|	+-- Catalogs
-|	|	|	|	+-- .
-|	|	|	|	+-- .
-|	|	|	|	+-- .
-|	|	|	|	+-- Schemas
-|	|	|	|	|	+-- public
-|	|	|	|	|		+-- Collations
-|	|	|	|	|		+-- Domains
-|	|	|	|	|		+-- .
-|	|	|	|	|		+-- .
-|	|	|	|	|		+-- .
-|	|	|	|	|		+-- **Tables**
-|	|	|	|	|		+-- Trigger Functions
-|	|	|	|	|		+-- Types
-|	|	|	|	|		+-- **Views**
-|	|	|	|
-|	|	|
-|	|
-|
+.  
++-- Servers  
+|   +-- kitGPEC-demo  
+| 	|	+-- Databases  
+|	|	|	+-- kitgpec  
+|	|	|	|	+-- Casts  
+|	|	|	|	+-- Catalogs  
+|	|	|	|	+-- .  
+|	|	|	|	+-- .  
+|	|	|	|	+-- .  
+|	|	|	|	+-- Schemas  
+|	|	|	|	|	+-- public  
+|	|	|	|	|		+-- Collations  
+|	|	|	|	|		+-- Domains  
+|	|	|	|	|		+-- .  
+|	|	|	|	|		+-- .  
+|	|	|	|	|		+-- .  
+|	|	|	|	|		+-- **Tables**  
+|	|	|	|	|		+-- Trigger Functions  
+|	|	|	|	|		+-- Types  
+|	|	|	|	|		+-- **Views**  
+|	|	|	|   
+|	|	|   
+|	|  
+|  
+
+
 
   #### Visualiser les donnees
   Une fois choisi, il nous suffit de la sélectionner puis via un **clique-droit**  de choisir **View/Edit Data** > **All Rows** . La requête et le résultat s'affichera alors à droite. 
@@ -152,3 +152,20 @@ Pour cela, allez dans l'onglet **Tools> Query Tool**
   ![PgAdmin Form](./img/pgadmin_exec.png)
 
 
+
+-----------------------------------
+
+  ## FAQ
+
+  ####  Lorsque je veux utiliser la macro dans Excel celle-ci n'apparait-pas à l'intérieur du fichier.
+	Les macros peuvent se récupérer dans le dossier ``macro/`` où se trouve deux fichiers correspondant à une version Excel et une pour OpenOffice. Ouvrez celle-convenue avec votre éditeur de Macro correspondant. 
+
+ ####  Lors de la génération de la transposé de la matrice via le script java; j'obtiens diverses erreurs. 
+	Le script java a été conçu spécifiquement pour rececevoir des fichiers bien définis. Si jamais vous avez des erreurs lors de l'éxécution , vérifiez ces points : 
+-le fichier .CSV d'entrée est bien au format CSV avec des ';'comme séparateur.
+-il n'y a pas de données situées hors champs 
+-les cases correspondantes au niveau est rempli avec un chiffre
+
+ ####  Je souhaite exporter les données générés dans pgAdmin4. 
+ 	PgAdmin4 porpose une exportation des résultats des requêtes au format CSV. Pour celà, une fois votre requête exécutée, cliquez sur le bouton suivant ou sur la touche F8 de votre clavier : 
+  ![PgAdmin CSV](./img/pgadmin_export.png)
