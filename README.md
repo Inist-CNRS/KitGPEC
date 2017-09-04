@@ -77,7 +77,8 @@ Base de données permettant le traitements de compétences individuelles dans un
   Un formulaire apparait, dans le premier onglet nous renseignons le nom que portera notre BDD (ici nous l'appelons KitGPEC-demo)
   ![PgAdmin name](./img/pgadmin_create.png)
 ​	
-  Dans le deuxième onglet ("Connection"), on remplit les champs suivants comme suit : 
+  Dans le deuxième onglet ("Connection"), on remplit les champs suivants comme suit :  
+  
 	| Champs           | Valeur par Défault | Variable dans docker-compose.debug.yml   |
 	| ---------------- | ------------------ | ---------------------------------------- |
 	| Host name/adress | kitgpec-db         | nom de notre conteneur postgresql dans le fichier |
@@ -157,15 +158,17 @@ Pour cela, allez dans l'onglet **Tools> Query Tool**
 
   ## FAQ
 
-  ####  Lorsque je veux utiliser la macro dans Excel celle-ci n'apparait-pas à l'intérieur du fichier.
+  ####  Lorsque je veux utiliser la macro dans Excel celle-ci n'apparait-pas à l'intérieur du fichier
 	Les macros peuvent se récupérer dans le dossier ``macro/`` où se trouve deux fichiers correspondant à une version Excel et une pour OpenOffice. Ouvrez celle-convenue avec votre éditeur de Macro correspondant. 
 
- ####  Lors de la génération de la transposé de la matrice via le script java; j'obtiens diverses erreurs. 
+ ####  Lors de la génération de la transposé de la matrice via le script java; j'obtiens diverses erreurs 
 	Le script java a été conçu spécifiquement pour rececevoir des fichiers bien définis. Si jamais vous avez des erreurs lors de l'éxécution , vérifiez ces points : 
 -le fichier .CSV d'entrée est bien au format CSV avec des ';'comme séparateur.
 -il n'y a pas de données situées hors champs 
 -les cases correspondantes au niveau est rempli avec un chiffre
 
- ####  Je souhaite exporter les données générés dans pgAdmin4. 
+ ####  Je souhaite exporter les données générés dans pgAdmin4 
  	PgAdmin4 porpose une exportation des résultats des requêtes au format CSV. Pour celà, une fois votre requête exécutée, cliquez sur le bouton suivant ou sur la touche F8 de votre clavier : 
   ![PgAdmin CSV](./img/pgadmin_export.png)
+
+
