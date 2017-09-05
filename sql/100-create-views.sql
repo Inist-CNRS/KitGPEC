@@ -135,11 +135,18 @@ CREATE VIEW view_nb_agents_without_family AS
 select count(agent_id) from view_agents_without_family;
 
 CREATE VIEW view_age_agents_family AS
-select family_id, avg(AGE(agent_birthdate)) as moyenne_age,median(age(agent_birthdate)) AS median_age
- from agents a , view_agents_family vaf
- where 	a.agent_id= vaf.agent_id
-    group by family_id
+select vaf.family_id, avg(AGE(agent_birthdate)) as moyenne_age,median(age(agent_birthdate)) AS median_age,moyenne_hors_CDD,median_hors_CDD
+ from agents a , view_agents_family vaf left  join
+                                           (select  family_id, avg(AGE(agent_birthdate)) as moyenne_hors_CDD,median(age(agent_birthdate)) AS median_hors_CDD
+                                           from agents a , view_agents_family vaf
+										   where 	a.agent_id= vaf.agent_id and agent_contrat not in ('CDD')  group by family_id
+										   ) hors_CDD
+										   on hors_CDD.family_id=vaf.family_id
+
+  where 	a.agent_id= vaf.agent_id
+  group by vaf.family_id,moyenne_hors_CDD,median_hors_CDD
     order by family_id ;
+
 
 CREATE VIEW view_retirement_65 AS
  select family_id,count(date_part('year', (AGE(agent_birthdate)))+5) as nb_depart

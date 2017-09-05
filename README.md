@@ -20,7 +20,7 @@ Base de données permettant le traitements de compétences individuelles dans un
 
 - Lancer le script script/transpose.jar sur le fichier **Matrice_Agent_Comp.csv**
 
-  ```shell
+  ``` shell
   cd script/
   java -jar transpose.jar ./Matrice_Agent_Comp.csv
   ```
@@ -46,13 +46,13 @@ Base de données permettant le traitements de compétences individuelles dans un
 
   ### Création de la BDD et de PgADmin4 
   Pour créer les deux images nécessaires au projet, nous devons exécuter la commande suivante en se situant à la racine du projet : 
-	  ```shell
-	    make run
-	  ```
+```shell
+    make run
+```
   Afin de vérifier que tout s'est déroulé correctement, nous pouvons éxécuter la commande suivante : 
-	  ​```shell
-	 docker logs kitgpec-db
-		​```
+```shell
+ docker logs kitgpec-db
+```
   Si la création a été un succés nous devons obtenir un affichage de ce type :![Docker Success](./img/docker.png)
 
 ------------------------------------------
@@ -78,7 +78,7 @@ Base de données permettant le traitements de compétences individuelles dans un
   ![PgAdmin name](./img/pgadmin_create.png)
 ​	
   Dans le deuxième onglet ("Connection"), on remplit les champs suivants comme suit :  
-  
+
 	| Champs           | Valeur par Défault | Variable dans docker-compose.debug.yml   |
 	| ---------------- | ------------------ | ---------------------------------------- |
 	| Host name/adress | kitgpec-db         | nom de notre conteneur postgresql dans le fichier |
@@ -134,7 +134,7 @@ Base de données permettant le traitements de compétences individuelles dans un
   Lors de la création de la BDD, un certain nombre de vue se sont crées afin de faciliter la lecture et l'interaction entre les données. Voici une liste non exhaustive des plus importantes : 
 
 - *view_agents_family* :  La liste des familles et leurs agents qui leurs sont ratachés. 
-- *view_age_agents_family* : La liste des familles et l'age moyen et médiane des agents la composant
+- *view_age_agents_family* : La liste des familles et l'age moyen et médiane des agents la composant ainsi qu'hors CDD
 - *view_agents_without_family* : 'La liste des agents se retrouvant dans **aucune** famille
 - *view_distribution_corps* : 'La liste des familles et la répartition des contrats et du corps des agents la composant
 - *view_distribution_organigramme* : 'La liste des familles et la répartition du département des agents la composant
@@ -164,11 +164,21 @@ Pour cela, allez dans l'onglet **Tools> Query Tool**
  ####  Lors de la génération de la transposé de la matrice via le script java; j'obtiens diverses erreurs 
 	Le script java a été conçu spécifiquement pour rececevoir des fichiers bien définis. Si jamais vous avez des erreurs lors de l'éxécution , vérifiez ces points : 
 -le fichier .CSV d'entrée est bien au format CSV avec des ';'comme séparateur.
--il n'y a pas de données situées hors champs 
--les cases correspondantes au niveau est rempli avec un chiffre
+-il n'y a pas de données situées hors champs de la matrice 
+-les cases correspondantes au niveau sont remplies avec un chiffre
 
  ####  Je souhaite exporter les données générés dans pgAdmin4 
  	PgAdmin4 porpose une exportation des résultats des requêtes au format CSV. Pour celà, une fois votre requête exécutée, cliquez sur le bouton suivant ou sur la touche F8 de votre clavier : 
   ![PgAdmin CSV](./img/pgadmin_export.png)
 
 
+
+ ####  Je souhaite regénerer la BDD  suite à des modifications de fichiers 
+
+	Si vous avez modifié des données dans le fichier Excel, alors regénerez à la main les fichier CSV comme indiqué au début puis lancer la commande docker suivante; à la racine du projet;  qui effacera votre BDD actuelle et la regénera avec les nouveaux fichiers sans besoin de reconfigurer pgAdmin4. 
+
+```shell
+	    make recreate
+```
+
+​	 **/!\ Attention !!**  Toutes vos modifications effectués sur la BDD actuelle seront définitivement effacées, il est conseillé de sauvegarder dans un dossier annexe le contenu du répertoire **/data/**.
