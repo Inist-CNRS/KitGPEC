@@ -7,16 +7,36 @@ Base de données permettant le traitements de compétences individuelles dans un
 
 ## Installation et Configuration 
 
-### Installation préambule
+### Prérequis
 - Installer Docker ( via le site officiel :	https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/ )
+
+### Préparation et mise à jour du fichier  **KitGPEC.xlsm**
+
+- Ouvrir le fichier  **KitGPEC.xlsm** et mettre à jour les onglets suivants :
+
+  - Agents : contient  la liste des agents dont les informations attendues sont détaillées ci-dessous. Penser à la compéter sur des agents partent ou arrivent dans l'organisation. Penser également à la compléter si des agents changent de corps et/ou de familles de compétence représentative.
+    - Colonne A : contient un identifiant incrémentale et unique permettant d'identifier un agent qui est pseudonymisé dans cette table. C'est cet id qui permet aux équipes RH de faire le lien avec les données confidentielles (nommées et non anonymes).
+    - Colonne B : contient la date de naissance de l'agent au format JJ/MM/AAAA
+    - Colonne C : contient le type de contrat (CDD ou CDI)
+    - Colonne D : contient le corps de l'agent (IR, IE, AI, T ou ATR)
+    - Colonne E : contient l'identifiant court de la famille de compétence dont on retrouve le développé dans l'onglet **Familles**. C'est la famille de compétences représentative attendue pour l'agent en question. A noter qu'elle ne correspond pas au résultat de l'analyse des compétences individuelles de l'agent. Elle permet de vérifier la cohérence des règles d'association des compétences/familles et aussi de détecter des potentielles erreurs dans les compétences individuelles de l'agent.
+  - Agents_Departements : TODO
+  - Agents_Services : TODO
+  - Agents_Comp : ne pas toucher, ni mettre à jour cet onglet car il sera automatiquement généré par la macro (voir plus bas)
+  - Matrice_Agent_Comp : contient l'ensemble des compétences individuelles des agents avec leurs modulations. Cette matrice possède sur chaque lignes le code d'une compétences (colonne A) et sur chaque colonnes la modulation de la compétence en question pour chaque agent (colonnes B, C,D, ...). A noter que les modulations non entières (ex: 2,5) correspondent au fait que l'agent a indiqué lors de la saisie de son Kit GPEC (cf EAA) une modulation supérieur à celle attendue par son profil de poste. Cet onglet doit être mis à jour avec le résultat du traitement réalisé par la macro permettant de consolider l'ensembles des kits individuels en une matrice unique.
+  - Competences : TODO
+  - Departements : TODO
+  - Famille_Comp: TODO
+  - Familles : TODO
+  - Services : TODO
+
+  ​
 
 ### Importation des données depuis le fichier  **KitGPEC.xlsm**
 
+* Déposer le fichier **KitGPEC.xlsm** à la racine
 
-
-- Déposer le fichier **KitGPEC.xlsm** à la racine
-
-  - Ouvrir le fichier **KitGPEC.xlsm** et extraire l'onglet  **Matrice_Agent_Comp** pour en générer un fichier CSV avec des **séparateurs de type points virgules**. Et déposer le fichier  **Matrice_Agent_Comp.csv** dans le répertoire ``script/``
+- Ouvrir le fichier **KitGPEC.xlsm** et extraire l'onglet  **Matrice_Agent_Comp** pour en générer un fichier CSV avec des **séparateurs de type points virgules**. Et déposer le fichier  **Matrice_Agent_Comp.csv** dans le répertoire ``script/``
 
 - Lancer le script script/transpose.jar sur le fichier **Matrice_Agent_Comp.csv**
 
@@ -25,7 +45,7 @@ Base de données permettant le traitements de compétences individuelles dans un
   java -jar transpose.jar ./Matrice_Agent_Comp.csv
   ```
 
-  Cela aura pour effet de générer un fichier 	**Matrice_Agent_Comp_final.csv** qui contiendra les même données mais transposées pour permettre aux scripts SQL de fonctionner.
+  Cela aura pour effet de générer un fichier **Matrice_Agent_Comp_final.csv** qui contiendra les même données mais transposées pour permettre aux scripts SQL de fonctionner.
 
 - Ouvrir **Matrice_Agent_Comp_final.csv** et copier le contenu du premier (et unique) onglet et le coller dans l'onglet **Agents_Comp** du fichier **KitGPEC.xlsm** (normalement on se retrouve alors avec 3 colonnes et de très nombreuses lignes dans cet onglet)
 
@@ -44,40 +64,49 @@ Base de données permettant le traitements de compétences individuelles dans un
 
 ----------------------------------------
 
-  ### Création de la BDD et de PgADmin4 
-  Pour créer les deux images nécessaires au projet, nous devons exécuter la commande suivante en se situant à la racine du projet : 
+  ### Création de la BDD 
+Pour créer les deux applications (base de données postgresql & interface d'administration pgadmin4) nécessaires au projet, nous devons exécuter la commande suivante en se situant à la racine du projet : 
 ```shell
-    make run
+make run
 ```
-  Afin de vérifier que tout s'est déroulé correctement, nous pouvons éxécuter la commande suivante : 
+Cette commande aura comme effet de créer une base de données et d'y charger automatiquement l'ensemble des fichiers CSV précédement générés (ex: Services.csv, Competences.csv ...)
+
+Afin de vérifier que tout s'est déroulé correctement, nous pouvons éxécuter la commande suivante : 
+
 ```shell
- docker logs kitgpec-db
+docker logs kitgpec-db
 ```
-  Si la création a été un succés nous devons obtenir un affichage de ce type :![Docker Success](./img/docker.png)
+Si la création a été un succés nous devons obtenir un affichage de ce type :
+![Docker Success](./img/docker.png)
+
+
+Notez le message **"PostgreSQL init process complete"** sans aucun message d'erreur au dessus.
 
 ------------------------------------------
 
   ### Configuration de PgAdmin4
 
-  Pour interagir avec les données de facon plus intuitif, pgAdmin4 doit être configuré manuellement.
+Pour interagir avec les données de facon plus intuitif, pgAdmin4 doit être préalablement configuré manuellement.
   #### Accès à PgAdmin4
-  - Accéder à PgAdmin4 via cette adresse (par défault) : [PgAdmin]	(http://http://localhost:5050/browser/)
+  - Accéder à PgAdmin4 via cette adresse (par défault) : [PgAdmin](http://localhost:5050/browser/)
+  - Entrer le nom d'utilisateur et le mot de passe dans les champs requis.
+    Par Défault : **email = gpec@inist.fr** and **password = gpecsecret** 
+    (si vous souhaitez modifier ces identifiants, modifiez les préalablement dans le fichier [docker-compose.yml](../docker-compose.yml) avant de lancer ``make run``)
 
-  Entrer le nom d'utilisateur et le mot de passe dans les champs requis.(The values are in the file [docker-compose.yml](../docker-compose.yml))
-​	
-  Par Défault : **email = gpec@inist.fr** and **password = gpecsecret** 
   ![PgAdmin connection](./img/pgadmin_login.png)
 
 -------------------------------------------------
 
   #### Création du lien de connection à notre BDD
-  Maintenant pour relier notre Base De Donnée à PgAdmin4, nous faisons 	un clique-droit sur l'icone serveur à gauche et sélectionnons : 	**Create >  Server..**
+Maintenant pour relier notre Base De Donnée à PgAdmin4, nous faisons un clique-droit sur l'icone serveur à gauche et sélectionnons : **Create >  Server..**
   ![PgAdmin creation](./img/pgadmin_serv.png)
 ​	
-  Un formulaire apparait, dans le premier onglet nous renseignons le nom que portera notre BDD (ici nous l'appelons KitGPEC-demo)
+Un formulaire apparait, dans le premier onglet indiquez le nom de votre base de données : indiquez **KitGPEC**
+(notez que dans la copie d'écran ci-dessous nous l'avons nommé **KitGPEC-demo**)
+
   ![PgAdmin name](./img/pgadmin_create.png)
 ​	
-  Dans le deuxième onglet ("Connection"), on remplit les champs suivants comme suit :  
+Dans le deuxième onglet ("Connection"), on remplit les champs suivants comme suit :  
 
 	| Champs           | Valeur par Défault | Variable dans docker-compose.debug.yml   |
 	| ---------------- | ------------------ | ---------------------------------------- |
@@ -87,14 +116,13 @@ Base de données permettant le traitements de compétences individuelles dans un
 
   ![PgAdmin Form](./img/pgadmin_form.png)
 ​	
-  Une fois validé via le bouton "Save", notre BDD est connectée et nous pouvons la parcourir en dévelopant les noeuds de l'arborescence.
-​	
+Une fois validé via le bouton "Save", notre BDD est connectée et nous pouvons la parcourir en dévelopant les noeuds de l'arborescence.
   ![PgAdmin Form](./img/pgadmin_success.png)
 
 ------------------------------------------
 
   ## Visualisation et Interaction dans PgAdmin4 
- Afin de pouvoir visualiser les données enregistrées et calculées, il nous suffit de naviguer dans l'arborescence de notre BDD pour trouver les Tables et les Vues.
+Afin de pouvoir visualiser les données enregistrées et calculées, il nous suffit de naviguer dans l'arborescence de notre BDD pour trouver les Tables et les Vues qui permettront de récupérer les analyses qualitatives des compétences des agents.
 
   #### Arborescence de la BDD dans PgAdmin4
 .  
@@ -123,18 +151,16 @@ Base de données permettant le traitements de compétences individuelles dans un
 |	|  
 |  
 
-
-
-  #### Visualiser les donnees
-  Une fois choisi, il nous suffit de la sélectionner puis via un **clique-droit**  de choisir **View/Edit Data** > **All Rows** . La requête et le résultat s'affichera alors à droite. 
-  ![PgAdmin Form](./img/pgadmin_request.png)
-
-
 #### Explications des Vues
-  Lors de la création de la BDD, un certain nombre de vue se sont crées afin de faciliter la lecture et l'interaction entre les données. Voici une liste non exhaustive des plus importantes : 
+Lors de la création de la BDD, un certain nombre de vue sont crées qui permettent de visualiser le résultat de l'analyse qualitative sur les compétences des agents. Elles peuvent être exportées au format tabulaire (CSV) pour pouvoir les manipuler dans un tableeur (ex: Excel) puis par exemple les intégrer dans des rapports GPEC consolidés par une analyse  verbale de ces chiffres. 
 
-- *view_agents_family* :  La liste des familles et leurs agents qui leurs sont ratachés. 
+- *view_agents_family* :  La liste des familles et leurs agents qui leurs sont ratachés. Nous aurons plusieurs lignes possédant la même famille (colonne *family_id*) dans le cas où cette famille est associée à plusieurs agents (colonne *agent_id*). A noter également que nous retrouverons plusieurs agents sur plusieurs lignes dans le cas où ces agents possèdent plusieurs familles. Les *agent_id* correspondent aux identifiants que l'on retrouve dans l'onglet/table *Agents*.
 - *view_age_agents_family* : La liste des familles et l'age moyen et médiane des agents la composant ainsi qu'hors CDD
+  - Colonne *family_id* : indique le nom court de la famille de compétences dont on calcule la moyenne d'age
+  - Colonne *moyenne_age* : indique la moyenne d'age des agents associés à la famille en question
+  - Colonne *median_age* : indique la médianne des ages des agents associés à la famille en question
+  - Colonne *moyenne_hors_cdd* : indique la moyenne d'age des agents (hors CDD) associés à la famille en question
+  - Colonne *median_hors_cdd* : indique la médianne des ages des agents (hors CDD) associés à la famille en question
 - *view_agents_without_family* : 'La liste des agents se retrouvant dans **aucune** famille
 - *view_distribution_corps* : 'La liste des familles et la répartition des contrats et du corps des agents la composant
 - *view_distribution_organigramme* : 'La liste des familles et la répartition du département des agents la composant
@@ -143,13 +169,19 @@ Base de données permettant le traitements de compétences individuelles dans un
 - *view_nb_agents_family* : Le nombre d'agents dans chaque famille
 - *view_retirement_65* : Le nombre de départ à la retraite (65 ans) dans **5 ans** pour chaque famille
 
-#### Executer une requête SQL
+#### Visualiser les donnees
+
+Une fois la vue choisie, il vous suffit de la sélectionner puis via un **clique-droit**  de choisir **View/Edit Data** > **All Rows** . La requête et le résultat s'affichera alors à droite. 
+  ![PgAdmin Form](./img/pgadmin_request.png)
+
+
+#### Executer une requête SQL (a passer dans la FAQ et préciser que c'est pour informaticien qui connait SQL)
 PgAdmin4 permet d'exécuter des requêtes via son outil incorporé. 
 Pour cela, allez dans l'onglet **Tools> Query Tool** 
   ![PgAdmin Form](./img/pgadmin_query.png)
 
 
-  Entrez votre requête SQL dans le champ prévu à cet effet, puis exécuter celle-ci via le bouton adéquat.
+Entrez votre requête SQL dans le champ prévu à cet effet, puis exécuter celle-ci via le bouton adéquat.
   ![PgAdmin Form](./img/pgadmin_exec.png)
 
 
@@ -178,7 +210,7 @@ Pour cela, allez dans l'onglet **Tools> Query Tool**
   Si vous avez modifié des données dans le fichier Excel, alors regénerez à la main les fichier CSV comme indiqué au début puis lancer la commande docker suivante; à la racine du projet;  qui effacera votre BDD actuelle et la regénera avec les nouveaux fichiers sans besoin de reconfigurer pgAdmin4. 
 
 ```shell
-	    make recreate
+make recreate
 ```
 
   **/!\ Attention !!**  Toutes vos modifications effectués sur la BDD actuelle seront définitivement effacées, il est conseillé de sauvegarder dans un dossier annexe le contenu du répertoire **/data/**.
