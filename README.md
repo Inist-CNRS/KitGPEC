@@ -14,21 +14,43 @@ Base de données permettant le traitements de compétences individuelles dans un
 
 - Ouvrir le fichier  **KitGPEC.xlsm** et mettre à jour les onglets suivants :
 
-  - Agents : contient  la liste des agents dont les informations attendues sont détaillées ci-dessous. Penser à la compéter sur des agents partent ou arrivent dans l'organisation. Penser également à la compléter si des agents changent de corps et/ou de familles de compétence représentative.
+  - Agents : contient la liste des agents dont les informations attendues sont détaillées ci-dessous. Penser à la compéter sur des agents partent ou arrivent dans l'organisation. Penser également à la compléter si des agents changent de corps et/ou de familles de compétence représentative.
     - Colonne A : contient un identifiant incrémentale et unique permettant d'identifier un agent qui est pseudonymisé dans cette table. C'est cet id qui permet aux équipes RH de faire le lien avec les données confidentielles (nommées et non anonymes).
     - Colonne B : contient la date de naissance de l'agent au format JJ/MM/AAAA
     - Colonne C : contient le type de contrat (CDD ou CDI)
     - Colonne D : contient le corps de l'agent (IR, IE, AI, T ou ATR)
     - Colonne E : contient l'identifiant court de la famille de compétence dont on retrouve le développé dans l'onglet **Familles**. C'est la famille de compétences représentative attendue pour l'agent en question. A noter qu'elle ne correspond pas au résultat de l'analyse des compétences individuelles de l'agent. Elle permet de vérifier la cohérence des règles d'association des compétences/familles et aussi de détecter des potentielles erreurs dans les compétences individuelles de l'agent.
-  - Agents_Departements : TODO
-  - Agents_Services : TODO
+  - Agents_Departements : contient la correspondance de l'agent à son département
+    - Colonne A : contient l'identifiant de l'agent 
+    - Colonne B : contient l'identifiant court du département
+  - Agents_Services : contient la correspondance de l'agent à son service
+    - Colonne A : contient l'identifiant de l'agent 
+    - Colonne B : contient l'identifiant court du service
   - Agents_Comp : ne pas toucher, ni mettre à jour cet onglet car il sera automatiquement généré par la macro (voir plus bas)
   - Matrice_Agent_Comp : contient l'ensemble des compétences individuelles des agents avec leurs modulations. Cette matrice possède sur chaque lignes le code d'une compétences (colonne A) et sur chaque colonnes la modulation de la compétence en question pour chaque agent (colonnes B, C,D, ...). A noter que les modulations non entières (ex: 2,5) correspondent au fait que l'agent a indiqué lors de la saisie de son Kit GPEC (cf EAA) une modulation supérieur à celle attendue par son profil de poste. Cet onglet doit être mis à jour avec le résultat du traitement réalisé par la macro permettant de consolider l'ensembles des kits individuels en une matrice unique.
-  - Competences : TODO
-  - Departements : TODO
-  - Famille_Comp: TODO
-  - Familles : TODO
-  - Services : TODO
+  - Competences : contient la liste de toutes les compétences référencés de notre EAA. 
+    - Colonne A : contient le code unique de la compétence (composé suivant son type et son domaine ) 
+    - Colonne B : contient le type de la compétence ( savoir, savoir être, savoir faire)
+    - Colonne C : contient le domaine de la compétence (Communication, Général,Informatique ...)
+    - Colonne D : contient le nom complet de la compétence 
+    - Colonne E : contient l'id RéFérens nationnal du dictionnaire de compétence [](http://www.enseignementsup-recherche.gouv.fr/cid106062/referens-le-referentiel-2016-des-emplois-types-de-la-recherche-et-de-l-enseignement-superieur.html)(Extrait 2016)
+  - Departements : contient l'ensemble des départements au sein de l'organisation
+    - Colonne A : contient l'identifiant court du département 
+    - Colonne B : contient la description détaillé du département
+  - Famille_Comp: contient le code des compétences rattaché à chaque famille. De plus chaque compétence indiqué peut être discriminante ou non.  
+    - Colonne A : contient l'identifiant court de la famille 
+    - Colonne B : contient le code de la compétence
+    - Colonne C : contient l'indication si la compétence est discriminante ou Non (Valeur : OUI ou NON)
+  - Familles : contient la liste des familles de compétences de notre organisation ainsi que la régle que l'on veut appliquer dessus. Par défaut, pour rejoindre une famille, notre agent doit posséder au minimum un niveau 2 sur les compétences discriminantes de notre famille mais des régles peuvent être fixés suivant notre besoin (voir la colonne C pour plus de détail ).
+    - Colonne A : contient l'identifiant court de la famille 
+    - Colonne B : contient le nom complet de la famille
+    - Colonne C : contient la régle de tri pour la famille si elle existe. Trois régles existent actuellement, notés 4X2 ou 3X3 ou case vide. 
+      - 4X2 : signifie que les agents doivent posséder au minimum un niveau 2 minimum sur 4 compétences de la famille en incluant **obligatoirement** les discriminantes.
+      - 3X3 : signifie que les agents doivent posséder au minimum un niveau 3 minimum sur 3 compétences de la famille en incluant **obligatoirement** les discriminantes.
+      - case vide :  signifie que les agents doivent posséder au minimum un niveau 2  sur chaque compétence discriminante de la famille.
+  - Services : contient l'ensemble des services au sein de l'organisation
+    - Colonne A : contient l'identifiant court du service 
+    - Colonne B : contient la description détaillé du service
 
   ​
 
