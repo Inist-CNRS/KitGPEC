@@ -8,7 +8,8 @@ Base de données permettant le traitements de compétences individuelles dans un
 ## Installation et Configuration 
 
 ### Prérequis
-- Installer Docker ( via le site officiel :	https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/ )
+- Installer Docker
+  (ex sous Ubuntu : https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 
 ### Préparation et mise à jour du fichier  **KitGPEC.xlsm**
 
@@ -59,6 +60,7 @@ Base de données permettant le traitements de compétences individuelles dans un
 * Déposer le fichier **KitGPEC.xlsm** à la racine
 
 - Ouvrir le fichier **KitGPEC.xlsm** et extraire l'onglet  **Matrice_Agent_Comp** pour en générer un fichier CSV avec des **séparateurs de type points virgules**. Et déposer le fichier  **Matrice_Agent_Comp.csv** dans le répertoire ``script/``
+  Pour générer le CSV depuis Excel, sélectionner l'onglet ``Matrice_Agent_Comp``, puis dans le menu ``Fichier -> Enregistrer sous ...`` et enfin choisir ``Type : CSV``
 
 - Lancer le script script/transpose.jar sur le fichier **Matrice_Agent_Comp.csv**
 
