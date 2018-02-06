@@ -203,7 +203,6 @@ sum(CASE WHEN serv_code = 'APIL' THEN 1 ELSE 0 END) as APIL,
      sum(CASE WHEN serv_code = 'I Prod' THEN 1 ELSE 0 END) as I_PROD,
     sum(CASE WHEN serv_code like 'N%go' THEN 1 ELSE 0 END) as Nego,
 	sum(CASE WHEN serv_code = 'Portails' THEN 1 ELSE 0 END) as Portails,
-    sum(CASE WHEN serv_code = 'Publier' THEN 1 ELSE 0 END) as Publier,
      sum(CASE WHEN serv_code = 'R et D' THEN 1 ELSE 0 END) as R_et_D,
     sum(CASE WHEN serv_code = 'SFJ' THEN 1 ELSE 0 END) as SFJ,
     sum(CASE WHEN serv_code = 'SIB' THEN 1 ELSE 0 END) as SIB,
@@ -404,7 +403,7 @@ order by finalvue.family_id;
 
 
 CREATE VIEW view_agents_family_level_1  AS
-select fs.family_id, ac.agent_id, ac.skill_code,ac_level,discriminante
+select fs.family_id, ac.agent_id
 from family_skills fs, agents_skills ac inner join (
 select fc.family_id,agent_id, count(skill_code) as nb_comp_neccessaire, table2.nb_comp
 from family f, family_skills fc
@@ -418,10 +417,9 @@ where discriminante='OUI' and fc.family_id=f.family_id and family_rule is null
     group by fc.family_id ,agent_id ,table2.nb_comp
    Having  table2.nb_comp>=count(skill_code)
     order by fc.family_id
-
  )table_level on ac.agent_id=table_level.agent_id
  where fs.skill_code = ac.skill_code and fs.family_id = table_level.family_id
- group by fs.family_id, ac.agent_id, ac.skill_code,ac_level,discriminante
+ group by fs.family_id, ac.agent_id
 ;
 
 CREATE VIEW view_nb_agents_family_level_1  AS
@@ -429,6 +427,48 @@ select family_id, count (DISTINCT agent_id) as nb_agent
 from view_agents_family_level_1
 group by family_id
 order by family_id;
+
+CREATE VIEW view_agent_proche_level_1  AS
+select family_id,agent_id,'level_1' as proch from(
+select vafl.family_id,vafl.agent_id from view_agents_family_level_1 vafl group by vafl.family_id,vafl.agent_id
+EXCEPT
+select vaf.family_id,vaf.agent_id from view_agents_family vaf
+group by vaf.family_id,vaf.agent_id
+) table_extrait
+group by family_id,agent_id,proch
+ order by family_id,agent_id ;
+
+CREATE VIEW view_agent_proche_discri_1  AS
+select family_id,agent_id,'discri_1' as proch from(
+select vafl.family_id,vafl.agent_id from view_agents_family_discri_1 vafl group by vafl.family_id,vafl.agent_id
+EXCEPT
+select vaf.family_id,vaf.agent_id from view_agents_family vaf
+group by vaf.family_id,vaf.agent_id
+) table_extrait
+group by family_id,agent_id,proch
+ order by family_id,agent_id ;
+
+
+CREATE VIEW view_agent_proche AS
+select distinct vafd.family_id,vafd.agent_id,(CASE WHEN vafl.proch is null THEN 'discri_1' ELSE 'level_1' END) as proche
+from view_agent_proche_discri_1 vafd
+LEFT JOIN view_agent_proche_level_1 vafl on (vafd.family_id = vafl.family_id and vafd.agent_id=vafl.agent_id)
+group by  vafd.family_id,vafd.agent_id,vafd.proch,proche ;
+
+ CREATE VIEW view_global_proche AS
+select * from (
+select vaf.family_id, a.agent_id,a.agent_birthdate, agent_contrat, a.agent_corps, orga_code,serv_code , discriminante,skill_shortname, ac_level,vaf.proche
+from view_agent_proche vaf, agents_skills ac,family_skills fc, skills c,agents a
+LEFT JOIN  agents_organigramme ag ON ag.agent_id = a.agent_id
+LEFT JOIN  agents_services ags ON ags.agent_id = a.agent_id
+where ac.skill_code=fc.skill_code and c.skill_code = fc.skill_code and vaf.family_id=fc.family_id
+and a.agent_id = ac.agent_id and a.agent_id=vaf.agent_id
+group by vaf.family_id, a.agent_id,a.agent_birthdate, a.agent_contrat, a.agent_corps, orga_code,serv_code , discriminante,skill_shortname, ac_level,vaf.proche
+Union
+select family_id, agent_id,agent_birthdate, agent_contrat, agent_corps, orga_code,serv_code , discriminante,skill_shortname, ac_level,'NON' as proche from view_global
+group by family_id, agent_id,agent_birthdate,agent_contrat, agent_corps, orga_code,serv_code , discriminante,skill_shortname, ac_level,proche
+) table_final
+order by family_id, agent_id,discriminante,skill_shortname;
 
 
 

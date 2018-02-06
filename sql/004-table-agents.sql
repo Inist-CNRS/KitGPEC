@@ -1,4 +1,4 @@
-ALTER DATABASE "kitgpec" SET DateStyle =iso, dmy;
+ALTER DATABASE "gpecanalyseur" SET DateStyle =iso, dmy;
 
 DROP TABLE IF EXISTS agents CASCADE ;
 CREATE TABLE agents (

@@ -16,10 +16,10 @@ ifneq "$(SUPPORTS_MAKE_ARGS)" ""
 endif
 
 
-run: ## run kitgpec 
+run: ## run gpecanalyseur
 	@docker-compose -f ./docker-compose.yml up -d
 
 recreate: ## recreate the database  
 	@sudo rm -f -R data/
-	@docker rm -f kitgpec-db
+	@docker rm -f gpecanalyseur-db
 	@docker-compose -f ./docker-compose.yml up -d

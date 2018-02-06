@@ -2,22 +2,22 @@ version: '2'
 
 services:
 
-  kitgpec-db:
-    container_name: kitgpec-db
+  gpecanalyseur-db:
+    container_name: gpecanalyseur-db
     image: postgres:9.6.3
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
       - ./sql:/docker-entrypoint-initdb.d/ # to generate automatically table and insert after docker's initialization
     environment:
-      POSTGRES_DB: "kitgpec"
-      POSTGRES_USER: "kitgpec"
+      POSTGRES_DB: "gpecanalyseur"
+      POSTGRES_USER: "gpecanalyseur"
       POSTGRES_PASSWORD: "gpecsecret"
       PGDATA: "/var/lib/postgresql/data"
     ports:
       - 5432:5432
 
-  kitgpec-db-admin:
-    container_name: kitgpec-db-admin
+  gpecanalyseur-db-admin:
+    container_name: gpecanalyseur-db-admin
     image: fenglc/pgadmin4:1.6
     environment:
       DEFAULT_USER: "gpec@inist.fr"
@@ -25,5 +25,5 @@ services:
     ports:
       - 5050:5050
     links:
-      - kitgpec-db
+      - gpecanalyseur-db
 

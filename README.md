@@ -1,4 +1,4 @@
-# KitGPEC
+# GpecAnalyseur
 Base de données permettant le traitements de compétences individuelles dans une démarche GPEC à partir d'un fichier Excel formalisé.
 
 *Il est conseillé de regarder la documentation technique de la conception de la Base de donnée situé dans le dossier [/doc](../doc/) afin de comprendre son interaction entres les entités et sa normalisation.*
@@ -10,7 +10,7 @@ Base de données permettant le traitements de compétences individuelles dans un
 ### Prérequis
 - Installer Docker ( via le site officiel :	https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/ )
 
-### Préparation et mise à jour du fichier  **KitGPEC.xlsm**
+### Préparation et mise à jour du fichier  **GpecAnalyseur.xlsm**
 
 - Ouvrir le fichier  **KitGPEC.xlsm** et mettre à jour les onglets suivants :
 
@@ -96,7 +96,7 @@ Cette commande aura comme effet de créer une base de données et d'y charger au
 Afin de vérifier que tout s'est déroulé correctement, nous pouvons éxécuter la commande suivante : 
 
 ```shell
-docker logs kitgpec-db
+docker logs gpecanalyseur-db
 ```
 Si la création a été un succés nous devons obtenir un affichage de ce type :
 ![Docker Success](./img/docker.png)
@@ -123,7 +123,7 @@ Pour interagir avec les données de facon plus intuitif, pgAdmin4 doit être pr�
 Maintenant pour relier notre Base De Donnée à PgAdmin4, nous faisons un clique-droit sur l'icone serveur à gauche et sélectionnons : **Create >  Server..**
   ![PgAdmin creation](./img/pgadmin_serv.png)
 ​	
-Un formulaire apparait, dans le premier onglet indiquez le nom de votre base de données : indiquez **KitGPEC**
+Un formulaire apparait, dans le premier onglet indiquez le nom de votre base de données : indiquez **gpecanalyseur**
 (notez que dans la copie d'écran ci-dessous nous l'avons nommé **KitGPEC-demo**)
 
   ![PgAdmin name](./img/pgadmin_create.png)
@@ -132,8 +132,8 @@ Dans le deuxième onglet ("Connection"), on remplit les champs suivants comme su
 
 	| Champs           | Valeur par Défault | Variable dans docker-compose.debug.yml   |
 	| ---------------- | ------------------ | ---------------------------------------- |
-	| Host name/adress | kitgpec-db         | nom de notre conteneur postgresql dans le fichier |
-	| Username         | kitgpec            | POSTGRES_USER                            |
+	| Host name/adress | gpecanalyseur-db         | nom de notre conteneur postgresql dans le fichier |
+	| Username         | gpecanalyseur            | POSTGRES_USER                            |
 	| Password         | gpecsecret         | POSTGRES_PASSWORD                        |
 
   ![PgAdmin Form](./img/pgadmin_form.png)
@@ -149,10 +149,10 @@ Afin de pouvoir visualiser les données enregistrées et calculées, il nous suf
   #### Arborescence de la BDD dans PgAdmin4
 .  
 +-- Servers  
-|   +-- kitGPEC-demo  
+|   +-- gpecanalyseur-demo
 | 	|	+-- Databases  
-|	|	|	+-- kitgpec  
-|	|	|	|	+-- Casts  
+|	|	|	+-- gpecanalyseur
+|	|	|	|	+-- Casts
 |	|	|	|	+-- Catalogs  
 |	|	|	|	+-- .  
 |	|	|	|	+-- .  
