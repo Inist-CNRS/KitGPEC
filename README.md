@@ -8,7 +8,8 @@ Base de données permettant le traitements de compétences individuelles dans un
 ## Installation et Configuration 
 
 ### Prérequis
-- Installer Docker ( via le site officiel :	https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/ )
+- Installer Docker
+  (ex sous Ubuntu : https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 
 ### Préparation et mise à jour du fichier  **GpecAnalyseur.xlsm**
 
@@ -59,6 +60,7 @@ Base de données permettant le traitements de compétences individuelles dans un
 * Déposer le fichier **KitGPEC.xlsm** à la racine
 
 - Ouvrir le fichier **KitGPEC.xlsm** et extraire l'onglet  **Matrice_Agent_Comp** pour en générer un fichier CSV avec des **séparateurs de type points virgules**. Et déposer le fichier  **Matrice_Agent_Comp.csv** dans le répertoire ``script/``
+  Pour générer le CSV depuis Excel, sélectionner l'onglet ``Matrice_Agent_Comp``, puis dans le menu ``Fichier -> Enregistrer sous ...`` et enfin choisir ``Type : CSV``
 
 - Lancer le script script/transpose.jar sur le fichier **Matrice_Agent_Comp.csv**
 
@@ -69,9 +71,11 @@ Base de données permettant le traitements de compétences individuelles dans un
 
   Cela aura pour effet de générer un fichier **Matrice_Agent_Comp_final.csv** qui contiendra les même données mais transposées pour permettre aux scripts SQL de fonctionner.
 
-- Ouvrir **Matrice_Agent_Comp_final.csv** et copier le contenu du premier (et unique) onglet et le coller dans l'onglet **Agents_Comp** du fichier **KitGPEC.xlsm** (normalement on se retrouve alors avec 3 colonnes et de très nombreuses lignes dans cet onglet)
+- Ouvrir **Matrice_Agent_Comp_final.csv** et copier le contenu du premier (et unique) onglet et le coller dans l'onglet **Agents_Comp** du fichier **KitGPEC.xlsm** en écrasant son éventuel contenu. Nous nous retronvons alors avec 3 colonnes et de très nombreuses lignes dans cet onglet.
 
-- Lancer la macro **Export_CSV_Excel** contenue dans le fichier KitGPEC.xlsm ce qui aura pour effet de générer les fichiers CSV suivant à la racine qui correspondent aux N onglets du fichier KitGPEC.xlsm :
+- Lancer la macro **Export_CSV_Excel** contenue dans le fichier KitGPEC.xlsm ce qui aura pour effet de générer les fichiers CSV suivant à la racine qui correspondent aux N onglets du fichier KitGPEC.xlsm
+  La macro peut être lancée sous LibreOffice de cette façon : menu ``Tools -> Macros -> Run macros ...``   puis ``Kit_GPEC.xlsm -> VBAProject -> Module1`` puis sur la droite ``Export_CSV_Openoffice`` puis ``Run``
+
   - Agents.csv
   - Agents_Comp.csv
   - Agents_Departements.csv
